@@ -1,0 +1,36 @@
+##
+## Build with CircleCI
+##
+## https://circleci.com/gh/optimizationBenchmarking/utils-graphics
+#
+# We set the environment variable JAVA_OPTS to reduce
+# the memory footprint in order to prevent unexpected
+# test termination.
+machine:
+  environment:
+    JAVA_OPTS: -Xms1536m -Xmx1536m
+    MAVEN_OPTS: -Xms1536m -Xmx1536m
+    _JAVA_OPTIONS: -Xms1536m -Xmx1536m
+    
+    
+# We download the latest version of the main project,
+# build it, and install it.
+dependencies:
+  override:  
+    - chmod 755 "buildDependencies.sh"
+    - "./buildDependencies.sh" 
+    - mvn dependency:resolve
+    
+# We set a high timeout to prevent the test from being
+# terminated unexpectedly.
+test:
+  override:
+    - mvn test compile package install --fail-at-end:
+        timeout: 10000
+        
+# The branches to be ignored
+general:
+  branches:
+    ignore:
+      - gh-pages
+      - documentation
