@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorPalette xmlns="http://www.optimizationBenchmarking.org/formats/graphics/color/colorPalette.1.0.xsd">
+<color name="red" rgb="ff0000"/> 
+<color name="blue" rgb="0000ff"/> 
+<color name="green" rgb="00ff00"/> 
+<color name="maroon" rgb="650021"/> 
+<color name="cyan" rgb="00ffff"/> 
+<color name="magenta" rgb="ff00ff"/> 
+<color name="amber" rgb="feb308"/> 
+<color name="Navy" rgb="000080"/> 
+<color name="mud green" rgb="606602"/> 
+<color name="Chinese peach" rgb="feb4b1"/> 
+<color name="dark blue green" rgb="005249"/> 
+<color name="pacific blue" rgb="1ca9c9"/> 
+<color name="icterine" rgb="fcf75e"/> 
+<color name="light nightclub" rgb="b10097"/> 
+<color name="eggshell blue" rgb="c4fff7"/> 
+<color name="paars" rgb="aa00ff"/> 
+<color name="bright yellow green" rgb="9dff00"/> 
+<color name="sky" rgb="82cafc"/> 
+<color name="dark pastel green" rgb="03c03c"/> 
+<color name="lemon" rgb="fff700"/> 
+<color name="dark green" rgb="013220"/> 
+<color name="blood red" rgb="980002"/> 
+<color name="bisque" rgb="ffe4c4"/> 
+<color name="vivid sky blue" rgb="00ccff"/> 
+<color name="Islamic green" rgb="009000"/> 
+<color name="seafoam green" rgb="7af9ab"/> 
+<color name="fulvous" rgb="e48400"/> 
+<color name="green brown" rgb="544e03"/> 
+<color name="light peach puff" rgb="fff0e0"/> 
+<color name="minty green" rgb="0bf77d"/> 
+<color name="olivine" rgb="9ab973"/> 
+<color name="fuchsia pink" rgb="ff77ff"/> 
+<color name="rose" rgb="ff007f"/> 
+<color name="Brandeis blue" rgb="0070ff"/> 
+<color name="electric blue" rgb="7df9ff"/> 
+<color name="dark green (x11)" rgb="006400"/> 
+<color name="green yellow" rgb="c9ff27"/> 
+<color name="sapphire blue" rgb="0067a5"/> 
+<color name="light lilac" rgb="edc8ff"/> 
+<color name="slime green" rgb="99cc04"/> 
+<color name="westminster" rgb="5f00ff"/> 
+<color name="dark cream" rgb="fff39a"/> 
+<color name="Utah crimson" rgb="d3003f"/> 
+<color name="banana yellow" rgb="ffe135"/> 
+<color name="brown" rgb="964b00"/> 
+<color name="light orange" rgb="fdaa48"/> 
+<color name="vibrant green" rgb="0add08"/> 
+<color name="light mint" rgb="b6ffbb"/> 
+<color name="light seance" rgb="b96cca"/> 
+<color name="bright teal" rgb="01f9c6"/> 
+<color name="orange peel" rgb="ff9f00"/> 
+<color name="vivid yellow" rgb="ffe302"/> 
+<color name="rifle green" rgb="444c38"/> 
+<color name="lime pulp" rgb="d1e189"/> 
+<color name="kermit green" rgb="5cb200"/> 
+<color name="platinum" rgb="e5e4e2"/> 
+<color name="boston university red" rgb="cc0000"/> 
+<color name="ultra red" rgb="fc6c85"/> 
+<color name="light yellow green" rgb="ccfd7f"/> 
+<color name="navy green" rgb="35530a"/> 
+<color name="lemon lime" rgb="e3ff00"/> 
+<color name="purple red" rgb="990147"/> 
+<color name="antique white" rgb="faebd7"/> 
+<color name="old silver" rgb="848482"/> 
+<color name="coral red" rgb="ff4040"/> 
+<color name="bright cyan" rgb="41fdfe"/> 
+<color name="lime" rgb="bfff00"/> 
+<color name="vibrant blue" rgb="0339f8"/> 
+<color name="light edgewater" rgb="e7f3eb"/> 
+<color name="La Salle green" rgb="087830"/> 
+<color name="orange brown" rgb="be6400"/> 
+<color name="kiwi" rgb="9cef43"/> 
+<color name="papaya whip" rgb="ffefd5"/> 
+<color name="forest" rgb="0b5509"/> 
+<color name="dark taupe" rgb="7f684e"/> 
+<color name="blond" rgb="faf0be"/> 
+<color name="erin" rgb="00ff3f"/> 
+<color name="chocolate (traditional)" rgb="7b3f00"/> 
+<color name="aureolin" rgb="fdee00"/> 
+<color name="dark violet" rgb="9400d3"/> 
+<color name="Caribbean green" rgb="00cc99"/> 
+<color name="go bunny go" rgb="c2e20d"/> 
+<color name="pastel gray" rgb="cfcfc4"/> 
+<color name="dodger blue" rgb="1e90ff"/> 
+<color name="off yellow" rgb="f1f33f"/> 
+<color name="purple/pink" rgb="d725de"/> 
+<color name="topaz" rgb="ffc87c"/> 
+<color name="dark olive green" rgb="3c4d03"/> 
+<color name="yellow (Crayola)" rgb="fce883"/> 
+<color name="Pullman brown" rgb="644117"/> 
+<color name="light bright green" rgb="53fe5c"/> 
+<color name="cyan (process)" rgb="00b7eb"/> 
+<color name="cadmium yellow" rgb="fff600"/> 
+<color name="psychedelic purple" rgb="df00ff"/> 
+<color name="peach cream" rgb="fad6a5"/> 
+<color name="dark grass green" rgb="388004"/> 
+<color name="harlequin" rgb="3fff00"/> 
+<color name="ruber" rgb="ce4676"/> 
+<color name="pink light" rgb="ffe4e9"/> 
+<color name="pink red" rgb="f5054f"/> 
+<color name="puke" rgb="a5a502"/> 
+<color name="peridot" rgb="e6e200"/> 
+<color name="heart gold " rgb="808000"/> 
+<color name="bone" rgb="e3dac9"/> 
+<color name="emerald" rgb="01a049"/> 
+<color name="eggshell" rgb="f0ead6"/> 
+<color name="army green" rgb="4b5320"/> 
+<color name="neon yellow" rgb="cfff04"/> 
+<color name="pale blue-green" rgb="00dddd"/> 
+<color name="light tan" rgb="fbeeac"/> 
+<color name="ugly yellow" rgb="d0c101"/> 
+<color name="electric violet" rgb="8f00ff"/> 
+<color name="blanched almond" rgb="ffebcd"/> 
+<color name="KU crimson" rgb="e8000d"/> 
+<color name="seance" rgb="731e8f"/> 
+<color name="yellow rose" rgb="fff000"/> 
+<color name="true blue" rgb="0073cf"/> 
+<color name="red orange" rgb="fd3c06"/> 
+<color name="ecru" rgb="cdb891"/> 
+<color name="pear sorbet" rgb="f4eed7"/> 
+<color name="office green" rgb="008000"/> 
+<color name="dark seafoam green" rgb="3eaf76"/> 
+<color name="lemon yellow" rgb="fff44f"/> 
+<color name="lime cream" rgb="ddecc0"/> 
+<color name="olive brown" rgb="645403"/> 
+<color name="supernova light" rgb="ffe816"/> 
+<color name="Cornell red" rgb="b31b1b"/> 
+<color name="bright aqua" rgb="0bf9ea"/> 
+<color name="rich blue" rgb="021bf9"/> 
+<color name="malachite" rgb="0bda51"/> 
+<color name="very light green" rgb="d1ffbd"/> 
+<color name="Lincoln green" rgb="195905"/> 
+<color name="light citrus" rgb="d4e646"/> 
+<color name="poop brown" rgb="7a5901"/> 
+<color name="sand yellow" rgb="fce166"/> 
+<color name="australian mint" rgb="eff7aa"/> 
+<color name="ruddy" rgb="ff0028"/> 
+<color name="irish green" rgb="019529"/> 
+<color name="bright light blue" rgb="26f7fd"/> 
+<color name="light navy" rgb="155084"/> 
+<color name="dark orange" rgb="ff8c00"/> 
+<color name="champagne" rgb="f7e7ce"/> 
+<color name="very light blue" rgb="6666ff"/> 
+<color name="sunglow" rgb="ffcc33"/> 
+<color name="deep green" rgb="056608"/> 
+<color name="celeste" rgb="b2ffff"/> 
+<color name="neon blue" rgb="04d9ff"/> 
+<color name="supernova" rgb="ffc901"/> 
+<color name="purple pizzazz" rgb="fe4eda"/> 
+<color name="ultra blue" rgb="a3e3ed"/> 
+<color name="amazon" rgb="3b7a57"/> 
+<color name="turquoise blue" rgb="00ffef"/> 
+<color name="mordant red 19" rgb="ae0c00"/> 
+<color name="gold (web)" rgb="ffd700"/> 
+<color name="antique ruby" rgb="841b2d"/> 
+<color name="linen" rgb="faf0e6"/> 
+<color name="deep harlequin" rgb="33cc00"/> 
+<color name="light royal blue" rgb="3a2efe"/> 
+<color name="mindaro" rgb="e3f988"/> 
+<color name="flirt light" rgb="d500b6"/> 
+<color name="vivid green" rgb="2fef10"/> 
+<color name="red wine" rgb="8c0034"/> 
+<color name="sandy yellow" rgb="fdee73"/> 
+<color name="shocking pink" rgb="fc0fc0"/> 
+<color name="Pakistan green" rgb="006600"/> 
+<color name="cupid" rgb="fbbeda"/> 
+<color name="yellow (process)" rgb="ffef00"/> 
+<color name="fresh green" rgb="69d84f"/> 
+<color name="electric ultramarine" rgb="3f00ff"/> 
+<color name="aztec gold" rgb="c39953"/> 
+<color name="green-yellow" rgb="adff2f"/> 
+<color name="vanda" rgb="9842e3"/> 
+<color name="corn" rgb="fbec5d"/> 
+<color name="mud brown" rgb="60460f"/> 
+<color name="peach" rgb="ffe5b4"/> 
+<color name="weird green" rgb="3ae57f"/> 
+<color name="carmine" rgb="960018"/> 
+<color name="capri" rgb="00bfff"/> 
+<color name="dutch white" rgb="efdfbb"/> 
+<color name="dirty green" rgb="667e2c"/> 
+<color name="chartreuse (traditional)" rgb="dfff00"/> 
+<color name="sepia" rgb="704214"/> 
+<color name="bright lime" rgb="87fd05"/> 
+<color name="goldenrod" rgb="daa520"/> 
+<color name="raindrop" rgb="33ffcc"/> 
+<color name="pine" rgb="2b5d34"/> 
+<color name="argentinian azure" rgb="74acdf"/> 
+<color name="blue (Munsell)" rgb="0093af"/> 
+<color name="lemon meringue" rgb="f6eabe"/> 
+<color name="gamboge orange" rgb="996600"/> 
+<color name="titanium yellow" rgb="eee600"/> 
+<color name="avocado" rgb="568203"/> 
+<color name="pale lime yellow" rgb="eaeda6"/> 
+<color name="donkey brown" rgb="664c28"/> 
+<color name="rosebloom" rgb="e38fb7"/> 
+<color name="dark lime green" rgb="7ebd01"/> 
+<color name="light lime green" rgb="b9ff66"/> 
+<color name="camo green" rgb="526525"/> 
+<color name="Navajo white" rgb="ffdead"/> 
+<color name="hot purple" rgb="cb00f5"/> 
+<color name="sun yellow" rgb="ffdf22"/> 
+<color name="easter purple" rgb="c071fe"/> 
+<color name="sangria" rgb="92000a"/> 
+<color name="golden yellow" rgb="ffdf00"/> 
+<color name="blue blue" rgb="2242c7"/> 
+<color name="electric green" rgb="21fc0d"/> 
+<color name="lipstick red" rgb="c0022f"/> 
+<color name="piggy pink" rgb="fddde6"/> 
+<color name="dark hot pink" rgb="d90166"/> 
+<color name="pale mauve" rgb="fed0fc"/> 
+<color name="dark candy apple red" rgb="a40000"/> 
+<color name="fluorescent lime" rgb="c7ff00"/> 
+<color name="light gossamer" rgb="39d1c2"/> 
+<color name="tan brown" rgb="ab7e4c"/> 
+<color name="deep lemon yellow" rgb="fee600"/> 
+<color name="brown red" rgb="922b05"/> 
+<color name="isabelline" rgb="f4f0ec"/> 
+<color name="bronze yellow" rgb="737000"/> 
+<color name="fluorescent yellow" rgb="ccff00"/> 
+<color name="mauve" rgb="e0b0ff"/> 
+<color name="tomato red" rgb="ec2d01"/> 
+<color name="rich maroon" rgb="b03060"/> 
+<color name="yellowgreen" rgb="bbf90f"/> 
+<color name="violet (RYB)" rgb="8601af"/> 
+<color name="diamond" rgb="b9f2ff"/> 
+<color name="pine green" rgb="01796f"/> 
+<color name="citrine" rgb="e4d00a"/> 
+<color name="Robin Egg blue" rgb="00cccc"/> 
+<color name="light aqua" rgb="8cffdb"/> 
+<color name="bluebonnet" rgb="1c1cf0"/> 
+<color name="lime yellow" rgb="d0fe1d"/> 
+<color name="India green" rgb="138808"/> 
+<color name="buff" rgb="f0dc82"/> 
+<color name="dark bronze" rgb="52503c"/> 
+<color name="French fuchsia" rgb="fd3f92"/> 
+<color name="lemon green" rgb="adf802"/> 
+<color name="vivid violet" rgb="9f00ff"/> 
+<color name="pale spring bud" rgb="ecebbd"/> 
+<color name="lava" rgb="cf1020"/> 
+<color name="pearl" rgb="eae0c8"/> 
+<color name="dark mustard" rgb="a88905"/> 
+<color name="rosewood light" rgb="b00049"/> 
+<color name="misty rose" rgb="ffe4e1"/> 
+<color name="scarlet" rgb="ff2400"/> 
+<color name="pale italian apricot" rgb="ffe6e6"/> 
+<color name="vivid blue" rgb="152eff"/> 
+<color name="candlelight" rgb="fcd917"/> 
+<color name="mahogany" rgb="c04000"/> 
+<color name="drab green" rgb="749551"/> 
+<color name="greenish yellow" rgb="cdfd02"/> 
+<color name="dark moss green" rgb="4a5d23"/> 
+<color name="light candlelight" rgb="feef61"/> 
+<color name="reddish brown" rgb="7f2b0a"/> 
+<color name="pale pink" rgb="fadadd"/> 
+<color name="orange (Crayola)" rgb="ff7538"/> 
+<color name="neon purple" rgb="bc13fe"/> 
+<color name="light las palmas" rgb="e6f554"/> 
+<color name="cosmic" rgb="763950"/> 
+<color name="vivid orange" rgb="ff5f00"/> 
+<color name="spring green" rgb="00ff7f"/> 
+<color name="crimson red" rgb="990000"/> 
+<color name="pale peach" rgb="ffe5ad"/> 
+<color name="vivid red" rgb="f70d1a"/> 
+<color name="bright magenta" rgb="ff08e8"/> 
+<color name="darkish red" rgb="a90308"/> 
+<color name="vanilla" rgb="f3e5ab"/> 
+<color name="greeny yellow" rgb="c6f808"/> 
+<color name="booger" rgb="9bb53c"/> 
+<color name="timberwolf" rgb="dbd7d2"/> 
+<color name="Alabama crimson" rgb="af002a"/> 
+<color name="yellow/green" rgb="c8fd3d"/> 
+<color name="bright red" rgb="ff000d"/> 
+<color name="yaffle green" rgb="cecf72"/> 
+<color name="Spanish red" rgb="e60026"/> 
+<color name="violet pink" rgb="fb5ffc"/> 
+<color name="veronica" rgb="a020f0"/> 
+<color name="fluorescent orange" rgb="ffbf00"/> 
+<color name="watusi" rgb="ffddcf"/> 
+<color name="ruby red" rgb="9b111e"/> 
+<color name="electric lime" rgb="a8ff04"/> 
+<color name="vibrant purple" rgb="ad03de"/> 
+<color name="lavender" rgb="c79fef"/> 
+<color name="jasper" rgb="d73b3e"/> 
+<color name="yellowy green" rgb="bff128"/> 
+<color name="azul" rgb="1d5dec"/> 
+<color name="pink lace" rgb="ffddf4"/> 
+<color name="rust red" rgb="aa2704"/> 
+<color name="light salmon pink" rgb="ff9999"/> 
+<color name="wine" rgb="722f37"/> 
+<color name="bubblegum" rgb="ff6cb5"/> 
+<color name="fluro green" rgb="0aff02"/> 
+<color name="yellow-ish green" rgb="c0fb2d"/> 
+<color name="blue (RYB)" rgb="0247fe"/> 
+<color name="pink raspberry" rgb="980036"/> 
+<color name="robin's egg" rgb="6dedfd"/> 
+<color name="Harvard crimson" rgb="c90016"/> 
+<color name="bright light green" rgb="2dfe54"/> 
+<color name="electric purple" rgb="bf00ff"/> 
+<color name="mint green" rgb="98ff98"/> 
+<color name="safety yellow" rgb="eed202"/> 
+<color name="light peru" rgb="eac592"/> 
+<color name="rosso corsa" rgb="d40000"/> 
+<color name="sunny lime" rgb="e2ee83"/> 
+<color name="grizzly" rgb="885818"/> 
+<color name="hot green" rgb="25ff29"/> 
+<color name="ugly green" rgb="7a9703"/> 
+<color name="moccasin" rgb="ffe4b5"/> 
+<color name="carnation pink" rgb="ffa6c9"/> 
+<color name="poo brown" rgb="885f01"/> 
+<color name="dull pallid rose light" rgb="f5e2de"/> 
+<color name="vivid orchid" rgb="cc00ff"/> 
+<color name="sunflower yellow" rgb="ffda03"/> 
+<color name="lumber" rgb="ffe4cd"/> 
+<color name="grassy green" rgb="419c03"/> 
+<color name="purple/blue" rgb="5d21d0"/> 
+<color name="cyber yellow" rgb="ffd300"/> 
+<color name="fuchsia" rgb="ed0dd9"/> 
+<color name="yellowish" rgb="faee66"/> 
+<color name="vivid purple" rgb="9900fa"/> 
+<color name="dandelion" rgb="f0e130"/> 
+<color name="greyish" rgb="a8a495"/> 
+<color name="medium brown" rgb="7f5112"/> 
+<color name="dull yellow" rgb="eedc5b"/> 
+<color name="mud" rgb="735c12"/> 
+<color name="banana mania" rgb="fae7b5"/> 
+<color name="lime punch" rgb="bfd833"/> 
+<color name="lust" rgb="e62020"/> 
+<color name="light khaki" rgb="f0e68c"/> 
+<color name="greeny brown" rgb="696006"/> 
+<color name="leaf" rgb="71aa34"/> 
+<color name="mauve morn" rgb="ebdbdb"/> 
+<color name="burnt red" rgb="9f2305"/> 
+<color name="chantilly light" rgb="fce5f2"/> 
+<color name="rose pearl" rgb="f03865"/> 
+<color name="aqua blue" rgb="02d8e9"/> 
+<color name="red (Munsell)" rgb="f2003c"/> 
+<color name="bright sea green" rgb="05ffa6"/> 
+<color name="pontiff" rgb="af00ff"/> 
+<color name="starship" rgb="ecf245"/> 
+<color name="red brown" rgb="8b2e16"/> 
+<color name="rich apricot" rgb="fab5f7"/> 
+<color name="old pink" rgb="c77986"/> 
+<color name="spring bud" rgb="a7fc00"/> 
+<color name="medium tyrian purple" rgb="990024"/> 
+<color name="aqua" rgb="13eac9"/> 
+<color name="yellow (Pantone)" rgb="fedf00"/> 
+<color name="field drab" rgb="6c541e"/> 
+<color name="aero blue" rgb="c9ffe5"/> 
+<color name="candy apple red" rgb="ff0800"/> 
+<color name="light rose" rgb="ffc5cb"/> 
+<color name="neon red" rgb="ff073a"/> 
+<color name="yellow ochre" rgb="cb9d06"/> 
+<color name="pansy" rgb="7700ff"/> 
+<color name="light green" rgb="76ff7b"/> 
+<color name="sunflower" rgb="ffc512"/> 
+<color name="blue violet" rgb="5d06e9"/> 
+<color name="pale aqua" rgb="b8ffeb"/> 
+<color name="petrol" rgb="005f6a"/> 
+<color name="tealish green" rgb="0cdc73"/> 
+<color name="USAFA blue" rgb="004f98"/> 
+<color name="orange yellow" rgb="ffad01"/> 
+<color name="awesome" rgb="ff2052"/> 
+<color name="flavescent" rgb="f7e98e"/> 
+<color name="true green" rgb="089404"/> 
+<color name="padua" rgb="ade6c4"/> 
+<color name="bright green" rgb="66ff00"/> 
+<color name="bulgarian rose light" rgb="9a393d"/> 
+<color name="fluorescent green" rgb="08ff08"/> 
+<color name="mango" rgb="ffa62b"/> 
+<color name="emerald green" rgb="028f1e"/> 
+<color name="light light-ish green" rgb="c8ffb0"/> 
+<color name="algae green" rgb="21c36f"/> 
+<color name="folly" rgb="ff004f"/> 
+<color name="mustard" rgb="ffdb58"/> 
+<color name="brown green" rgb="706c11"/> 
+<color name="yellow tan" rgb="ffe36e"/> 
+<color name="Windsor tan" rgb="a75502"/> 
+<color name="wheat" rgb="f5deb3"/> 
+<color name="earth yellow" rgb="e1a95f"/> 
+<color name="light green blue" rgb="56fca2"/> 
+<color name="shamrock" rgb="01b44c"/> 
+<color name="light seafoam" rgb="a0febf"/> 
+<color name="rufous" rgb="a81c07"/> 
+<color name="green/yellow" rgb="b5ce08"/> 
+<color name="bright violet" rgb="ad0afd"/> 
+<color name="French lime" rgb="9efd38"/> 
+<color name="rouge" rgb="ab1239"/> 
+<color name="azureish white" rgb="dbe9f4"/> 
+<color name="olive green" rgb="677a04"/> 
+<color name="vivid cerulean" rgb="00aaee"/> 
+<color name="dirty orange" rgb="c87606"/> 
+<color name="pale sky blue" rgb="bdf6fe"/> 
+<color name="cool blue" rgb="4984b8"/> 
+<color name="bright turquoise" rgb="08e8de"/> 
+<color name="robin's egg blue" rgb="98eff9"/> 
+<color name="darkish green" rgb="287c37"/> 
+<color name="cherry red" rgb="f7022a"/> 
+<color name="sickly yellow" rgb="d0e429"/> 
+<color name="purpleish blue" rgb="6140ef"/> 
+<color name="orange" rgb="ffa500"/> 
+<color name="light lima" rgb="bbe261"/> 
+<color name="purple" rgb="800080"/> 
+<color name="olive yellow" rgb="c2b709"/> 
+<color name="duck egg blue" rgb="c3fbf4"/> 
+<color name="shit" rgb="7f5f00"/> 
+<color name="light italian apricot" rgb="ffd9b2"/> 
+<color name="cranberry" rgb="9e003a"/> 
+<color name="chartreuse" rgb="c1f80a"/> 
+<color name="vivid malachite" rgb="00cc33"/> 
+<color name="han purple" rgb="5218fa"/> 
+<color name="saffron" rgb="f4c430"/> 
+<color name="wintergreen" rgb="20f986"/> 
+<color name="rubine red" rgb="d10056"/> 
+<color name="peach schnapps" rgb="ffdcd6"/> 
+<color name="dark cyan" rgb="008b8b"/> 
+<color name="light melanie" rgb="f4e5ed"/> 
+<color name="blue-violet" rgb="8a2be2"/> 
+<color name="dizzy lizzy" rgb="80ca2b"/> 
+<color name="spanish fuchsia" rgb="e30052"/> 
+<color name="light pea green" rgb="c4fe82"/> 
+<color name="tangerine yellow" rgb="ffcc00"/> 
+<color name="tree green" rgb="2a7e19"/> 
+<color name="almost mauve" rgb="ebe1df"/> 
+<color name="lime green" rgb="32cd32"/> 
+<color name="deep electric blue" rgb="2c75ff"/> 
+<color name="carrot orange" rgb="ed9121"/> 
+<color name="school bus yellow" rgb="ffd800"/> 
+<color name="charm light" rgb="edbacd"/> 
+<color name="cardinal" rgb="c41e3a"/> 
+<color name="deep orange" rgb="dc4d01"/> 
+<color name="barney" rgb="ac1db8"/> 
+<color name="pale lime" rgb="befd73"/> 
+<color name="cognac" rgb="9f381d"/> 
+<color name="amour" rgb="f9eaf3"/> 
+<color name="berry" rgb="990f4b"/> 
+<color name="pale goldenrod" rgb="eee8aa"/> 
+<color name="auburn" rgb="9a3001"/> 
+<color name="queen pink" rgb="e8ccd7"/> 
+<color name="crimson" rgb="dc143c"/> 
+<color name="yellowish green" rgb="b0dd16"/> 
+<color name="rust brown" rgb="8b3103"/> 
+<color name="baby pink" rgb="ffb7ce"/> 
+<color name="vivid raspberry" rgb="ff006c"/> 
+<color name="vivid crimson" rgb="cc0033"/> 
+<color name="peach-yellow" rgb="fadfad"/> 
+<color name="purple brown" rgb="673a3f"/> 
+<color name="wenge" rgb="645452"/> 
+<color name="carnation" rgb="f95a61"/> 
+<color name="rich harlequin" rgb="3ae500"/> 
+<color name="azure" rgb="007fff"/> 
+<color name="tangerine" rgb="f28500"/> 
+<color name="waterspout" rgb="a4f4f9"/> 
+<color name="palatinate blue" rgb="273be2"/> 
+<color name="highlighter green" rgb="1bfc06"/> 
+<color name="UA red" rgb="d9004c"/> 
+<color name="heliotrope" rgb="df73ff"/> 
+<color name="shiraz" rgb="b20931"/> 
+<color name="light bitter lemon" rgb="e8f24e"/> 
+<color name="pink/purple" rgb="ef1de7"/> 
+<color name="bright blue" rgb="0165fc"/> 
+<color name="selective yellow" rgb="ffba00"/> 
+<color name="bright pale rose" rgb="ffccff"/> 
+<color name="light lavender magenta" rgb="0f8c3f"/> 
+<color name="earls green" rgb="c9b93b"/> 
+<color name="orangey yellow" rgb="fdb915"/> 
+<color name="greenish brown" rgb="696112"/> 
+<color name="jasmine" rgb="f8de7e"/> 
+<color name="yellowish brown" rgb="9b7a01"/> 
+<color name="green blue" rgb="06b48b"/> 
+<color name="light pale plum" rgb="f1d4f1"/> 
+<color name="Spanish orange" rgb="e86100"/> 
+<color name="bright sky blue" rgb="02ccfe"/> 
+<color name="foobar" rgb="f00ba4"/> 
+<color name="shampoo" rgb="ffcff1"/> 
+<color name="flirt" rgb="a2006d"/> 
+<color name="rich spring green" rgb="00e39a"/> 
+<color name="yellow (Munsell)" rgb="efcc00"/> 
+<color name="bright purple" rgb="be03fd"/> 
+<color name="Spartan crimson" rgb="9e1316"/> 
+<color name="pink champagne" rgb="f1ddcf"/> 
+<color name="yellow brown" rgb="b79400"/> 
+<color name="neon green" rgb="39ff14"/> 
+<color name="rabbit eye" rgb="ff0033"/> 
+<color name="straw" rgb="e4d96f"/> 
+<color name="vomit green" rgb="89a203"/> 
+<color name="Venetian red" rgb="c80815"/> 
+<color name="unbleached silk" rgb="ffddca"/> 
+<color name="bole" rgb="79443b"/> 
+<color name="red (RYB)" rgb="fe2712"/> 
+<color name="very light purple" rgb="f6cefc"/> 
+<color name="lobelia" rgb="6700ff"/> 
+<color name="blue atoll" rgb="00b6d9"/> 
+<color name="squash" rgb="f2ab15"/> 
+<color name="very pale green" rgb="cffdbc"/> 
+<color name="kelley green" rgb="009337"/> 
+<color name="washed out green" rgb="bcf5a6"/> 
+<color name="Napier green" rgb="2a8000"/> 
+<color name="spiro disco ball" rgb="0fc0fc"/> 
+<color name="light buddha gold" rgb="e4d430"/> 
+<color name="Bangladesh green" rgb="006a4e"/> 
+<color name="spruce" rgb="0a5f38"/> 
+<color name="orange (RYB)" rgb="fb9902"/> 
+<color name="carissma light" rgb="f6c6d8"/> 
+<color name="imperial red" rgb="ed2939"/> 
+<color name="cadmium red" rgb="e30022"/> 
+<color name="dark mauve" rgb="874c62"/> 
+<color name="gold" rgb="dbb40c"/> 
+<color name="otter brown" rgb="654321"/> 
+<color name="lavender pink" rgb="fbaed2"/> 
+<color name="pictorial carmine" rgb="c30b4e"/> 
+<color name="leaf green" rgb="5ca904"/> 
+<color name="medium lemon" rgb="f5e25c"/> 
+<color name="pea" rgb="a4bf20"/> 
+<color name="spearmint" rgb="1ef876"/> 
+<color name="light brilliant red" rgb="fe2e2e"/> 
+<color name="indigo" rgb="6f00ff"/> 
+<color name="turquoise green" rgb="a0d6b4"/> 
+<color name="radioactive green" rgb="2cfa1f"/> 
+<color name="Spanish blue" rgb="0070b8"/> 
+<color name="fresh air" rgb="a6e7ff"/> 
+<color name="rich electric blue" rgb="0892d0"/> 
+<color name="orangey brown" rgb="b16002"/> 
+<color name="dark tangerine" rgb="ffa812"/> 
+<color name="quite light green" rgb="90ee90"/> 
+<color name="deep yellow-green" rgb="57d200"/> 
+<color name="picton blue" rgb="45b1e8"/> 
+<color name="glitter" rgb="e6e8fa"/> 
+<color name="medium green" rgb="39ad48"/> 
+<color name="deep pink" rgb="cb0162"/> 
+<color name="piss yellow" rgb="ddd618"/> 
+<color name="peru tan" rgb="7f3a02"/> 
+<color name="dark vanilla" rgb="d1bea8"/> 
+<color name="antique bronze" rgb="665d1e"/> 
+<color name="mikado yellow" rgb="ffc40c"/> 
+<color name="light earls green" rgb="e8e08e"/> 
+<color name="dark yellow green" rgb="728f02"/> 
+<color name="international orange (engineering)" rgb="ba160c"/> 
+<color name="sandstorm" rgb="ecd540"/> 
+<color name="hazel" rgb="8e7618"/> 
+<color name="apricot" rgb="fbceb1"/> 
+<color name="French violet" rgb="8806ce"/> 
+<color name="rich orange" rgb="ff681f"/> 
+<color name="light lavendar" rgb="efc0fe"/> 
+<color name="copper canyon" rgb="7e3a15"/> 
+<color name="cupid light" rgb="fde3f0"/> 
+<color name="vivid strawberry" rgb="f70077"/> 
+<color name="vivid auburn" rgb="922724"/> 
+<color name="magenta (Crayola)" rgb="ff55a3"/> 
+<color name="pink" rgb="ffc0cb"/> 
+<color name="orangish red" rgb="f43605"/> 
+<color name="peach puff" rgb="ffdab9"/> 
+<color name="dove cherry" rgb="b11355"/> 
+<color name="orange red" rgb="fd411e"/> 
+<color name="amaranth pink" rgb="f19cbb"/> 
+<color name="shit brown" rgb="7b5804"/> 
+<color name="jonquil" rgb="f4ca16"/> 
+<color name="carmine red" rgb="ff0038"/> 
+<color name="shadow lime" rgb="d4e29b"/> 
+<color name="vivid burgundy" rgb="9f1d35"/> 
+<color name="Paris green" rgb="50c878"/> 
+<color name="medium goldenrod" rgb="fcd667"/> 
+<color name="deep magenta" rgb="cc00cc"/> 
+<color name="very light tangelo" rgb="ffb077"/> 
+<color name="red (NCS)" rgb="c40233"/> 
+<color name="pale green-yellow" rgb="f1e788"/> 
+<color name="poo" rgb="8f7303"/> 
+<color name="french chartreuse" rgb="c2f732"/> 
+<color name="aquamarine blue" rgb="71d9e2"/> 
+<color name="vivid mulberry" rgb="b80ce3"/> 
+<color name="marigold" rgb="fcc006"/> 
+<color name="poop green" rgb="6f7c00"/> 
+<color name="bright olive" rgb="9cbb04"/> 
+<color name="rosy brown light" rgb="e2caca"/> 
+<color name="razzmatazz" rgb="e3256b"/> 
+<color name="kobe" rgb="882d17"/> 
+<color name="royal yellow" rgb="fada5e"/> 
+<color name="green (Pantone)" rgb="00ad43"/> 
+<color name="Spanish pink" rgb="f7bfbe"/> 
+<color name="brownish green" rgb="6a6e09"/> 
+<color name="light seafoam green" rgb="a7ffb5"/> 
+<color name="ucla gold" rgb="ffb300"/> 
+<color name="icky green" rgb="8fae22"/> 
+<color name="amaranth red" rgb="d3212d"/> 
+<color name="peach gray" rgb="ecd5c5"/> 
+<color name="catawba" rgb="703642"/> 
+<color name="blood orange" rgb="fe4b03"/> 
+<color name="pink flamingo" rgb="ff66ff"/> 
+<color name="rosebud cherry" rgb="892d52"/> 
+<color name="pale light green" rgb="b1fc99"/> 
+<color name="turquoise" rgb="40e0d0"/> 
+<color name="rich carmine red" rgb="eb003c"/> 
+<color name="celery" rgb="c1fd95"/> 
+<color name="cobalt blue" rgb="0047ab"/> 
+<color name="purply blue" rgb="661aee"/> 
+<color name="golden poppy" rgb="fcc200"/> 
+<color name="light grass green" rgb="9af764"/> 
+<color name="rich mauve" rgb="e285ff"/> 
+<color name="ruby" rgb="e0115f"/> 
+<color name="deep tuscan red" rgb="66424d"/> 
+<color name="classic rose" rgb="fbcce7"/> 
+<color name="red-brown" rgb="a52a2a"/> 
+<color name="light pink" rgb="ffb6c1"/> 
+<color name="blueberry" rgb="4f86f7"/> 
+<color name="las palmas" rgb="c6e610"/> 
+<color name="kermes" rgb="c3103a"/> 
+<color name="light california gold" rgb="ffd230"/> 
+<color name="russet" rgb="80461b"/> 
+<color name="dark pink" rgb="e75480"/> 
+<color name="foam green" rgb="90fda9"/> 
+<color name="jelly bean" rgb="da614e"/> 
+<color name="cotton candy" rgb="ffbcd9"/> 
+<color name="flame" rgb="e25822"/> 
+<color name="rich tyrian purple" rgb="9e0e40"/> 
+<color name="pinkish red" rgb="f10c45"/> 
+<color name="greenish cyan" rgb="2afeb7"/> 
+<color name="grape" rgb="6f2da8"/> 
+<color name="dark pastel red" rgb="c23b22"/> 
+<color name="pinky" rgb="fc86aa"/> 
+<color name="Ferrari red" rgb="ff2800"/> 
+<color name="light apricot" rgb="fdd5b1"/> 
+<color name="flattery" rgb="6b4423"/> 
+<color name="mauve chalk" rgb="e4d3d2"/> 
+<color name="internet purple" rgb="7d26cd"/> 
+<color name="peach red" rgb="f99379"/> 
+<color name="tractor red" rgb="fd0e35"/> 
+<color name="powder pink" rgb="ffb2d0"/> 
+<color name="olive" rgb="6e750e"/> 
+<color name="sheen green" rgb="8fd400"/> 
+<color name="deep azure" rgb="0066ff"/> 
+<color name="dull pink" rgb="d5869d"/> 
+<color name="upsdell red" rgb="ae2029"/> 
+<color name="pale blush" rgb="f4bbcf"/> 
+<color name="burnt umber" rgb="8a3324"/> 
+<color name="light gold" rgb="fddc5c"/> 
+<color name="ugly brown" rgb="7d7103"/> 
+<color name="light puce" rgb="ffafc8"/> 
+<color name="medium cerise" rgb="9f1f4c"/> 
+<color name="rose neyron" rgb="ff0057"/> 
+<color name="light kobi" rgb="f5d3e6"/> 
+<color name="saddle brown" rgb="8b4513"/> 
+<color name="sienna" rgb="a0522d"/> 
+<color name="gold-ish rod" rgb="f9bc08"/> 
+<color name="pink purple" rgb="db4bda"/> 
+<color name="solid pink" rgb="893843"/> 
+<color name="light perfume" rgb="ebe3fc"/> 
+<color name="orangeish" rgb="fd8d49"/> 
+<color name="ultramarine blue" rgb="4166f5"/> 
+<color name="purply pink" rgb="f075e6"/> 
+<color name="vermilion" rgb="d9381e"/> 
+<color name="medium spring green" rgb="00fa9a"/> 
+<color name="crimson glory" rgb="be0032"/> 
+<color name="brilliant lavender" rgb="f4bbff"/> 
+<color name="electric crimson" rgb="ff003f"/> 
+<color name="ultra pink" rgb="ff6fff"/> 
+<color name="greenish turquoise" rgb="00fbb0"/> 
+<color name="mu gold" rgb="f1b82d"/> 
+<color name="sapphire" rgb="0f52ba"/> 
+<color name="tea green" rgb="d0f0c0"/> 
+<color name="radical red" rgb="ff355e"/> 
+<color name="pale turquoise" rgb="afeeee"/> 
+<color name="deep spring bud" rgb="556b2f"/> 
+<color name="green apple" rgb="5edc1f"/> 
+<color name="purplish blue" rgb="601ef9"/> 
+<color name="very light malachite green" rgb="64e986"/> 
+<color name="purplish red" rgb="b0054b"/> 
+<color name="very pale orange" rgb="ffdfbf"/> 
+<color name="lipstick" rgb="d5174e"/> 
+<color name="inchworm" rgb="b2ec5d"/> 
+<color name="purpley pink" rgb="c83cb9"/> 
+<color name="deep mauve pink" rgb="e4beeb"/> 
+<color name="vietnamese mauve" rgb="993366"/> 
+<color name="desert sand" rgb="edc9af"/> 
+<color name="liver" rgb="674c47"/> 
+<color name="safety orange" rgb="ff7800"/> 
+<color name="deep sky blue" rgb="0d75f8"/> 
+<color name="rich periwinkle" rgb="9999ff"/> 
+<color name="lawn green" rgb="7cfc00"/> 
+<color name="coquelicot" rgb="ff3800"/> 
+<color name="crystal rose" rgb="f9c8cb"/> 
+<color name="bright tyrian purple" rgb="b80049"/> 
+<color name="rust" rgb="b7410e"/> 
+<color name="deep peach" rgb="ffcba4"/> 
+<color name="blue/purple" rgb="5a06ef"/> 
+<color name="portland orange" rgb="ff5a36"/> 
+<color name="vivid lime green" rgb="a6d608"/> 
+<color name="lavender rose" rgb="fba0e3"/> 
+<color name="razzle dazzle rose" rgb="ff33cc"/> 
+<color name="sinopia" rgb="cb410b"/> 
+<color name="pale rose" rgb="fdc1c5"/> 
+<color name="coffee" rgb="6f4e37"/> 
+<color name="light ce soir" rgb="cfb8de"/> 
+<color name="Persian blue" rgb="1c39bb"/> 
+<color name="heliotrope magenta" rgb="aa00bb"/> 
+<color name="energy yellow" rgb="f8dd5c"/> 
+<color name="deep puce" rgb="a95c68"/> 
+<color name="lavender blue" rgb="ccccff"/> 
+<color name="vivid electric blue" rgb="00a5d2"/> 
+<color name="poison green" rgb="40fd14"/> 
+<color name="red (pigment)" rgb="ed1c24"/> 
+<color name="deep teal" rgb="00555a"/> 
+<color name="pale salmon" rgb="ffb19a"/> 
+<color name="violet eggplant" rgb="991199"/> 
+<color name="light aquamarine" rgb="7bfdc7"/> 
+<color name="bright pink" rgb="fe01b1"/> 
+<color name="deep lavender" rgb="8d5eb7"/> 
+<color name="light fuchsia pink" rgb="f984ef"/> 
+<color name="pale purple" rgb="b790d4"/> 
+<color name="light la rioja" rgb="dde454"/> 
+<color name="rose red" rgb="c21e56"/> 
+<color name="rich brilliant lavender" rgb="f1a7fe"/> 
+<color name="crimson cherry" rgb="713036"/> 
+<color name="brilliant harlequin" rgb="7fff55"/> 
+<color name="forest green (web)" rgb="228b22"/> 
+<color name="can can light" rgb="ebcbd6"/> 
+<color name="bronze" rgb="cd7f32"/> 
+<color name="French wine" rgb="ac1e44"/> 
+<color name="light bahia" rgb="d6e94b"/> 
+<color name="warm brown" rgb="964e02"/> 
+<color name="Tiffany blue" rgb="0abab5"/> 
+<color name="neon pink" rgb="fe019a"/> 
+<color name="yellow-green" rgb="9acd32"/> 
+<color name="sandy" rgb="f1da7a"/> 
+<color name="gamboge" rgb="e49b0f"/> 
+<color name="muddy brown" rgb="886806"/> 
+<color name="light jungle mist" rgb="deebec"/> 
+<color name="ultra green" rgb="66ff66"/> 
+<color name="medium candy apple red" rgb="e2062c"/> 
+<color name="swamp green" rgb="748500"/> 
+<color name="light mustard" rgb="f7d560"/> 
+<color name="dusty red" rgb="b9484e"/> 
+<color name="light froly" rgb="fbbbc4"/> 
+<color name="warm pink" rgb="fb5581"/> 
+<color name="dark orchid" rgb="9932cc"/> 
+<color name="bubblegum-ish" rgb="ffc1cc"/> 
+<color name="roast coffee" rgb="704241"/> 
+<color name="burnt orange" rgb="cc5500"/> 
+<color name="orchid mist" rgb="c3a6b1"/> 
+<color name="firebrick" rgb="b22222"/> 
+<color name="light blue green" rgb="7efbb3"/> 
+<color name="Spanish crimson" rgb="e51a4c"/> 
+<color name="light prelude" rgb="ebe4f4"/> 
+<color name="French sky blue" rgb="77b5fe"/> 
+<color name="violet (color wheel)" rgb="7f00ff"/> 
+<color name="candy pink" rgb="ff63e9"/> 
+<color name="Castleton green" rgb="00563f"/> 
+<color name="bile" rgb="b5c306"/> 
+<color name="dark magenta" rgb="8b008b"/> 
+<color name="pale electric hollywood cerise" rgb="ffc1e8"/> 
+<color name="debian red" rgb="d70a53"/> 
+<color name="orange-red" rgb="ff4500"/> 
+<color name="pale amaranth pink" rgb="ddbec3"/> 
+<color name="purplish brown" rgb="6b4247"/> 
+<color name="melon" rgb="fdbcb4"/> 
+<color name="American rose" rgb="ff033e"/> 
+<color name="Spanish carmine" rgb="d10047"/> 
+<color name="light medium apricot" rgb="f7cdb9"/> 
+<color name="deep periwinkle" rgb="8080ff"/> 
+<color name="rich carmine" rgb="d70040"/> 
+<color name="orange red-ish" rgb="fe420f"/> 
+<color name="lavender mist" rgb="e6e6fa"/> 
+<color name="brilliant azure" rgb="3399ff"/> 
+<color name="poop" rgb="7f5e00"/> 
+<color name="light harlequin" rgb="9fff7f"/> 
+<color name="chrome yellow" rgb="ffa700"/> 
+<color name="deep sea blue" rgb="015482"/> 
+<color name="bitter lemon" rgb="cae00d"/> 
+<color name="blue (Crayola)" rgb="1f75fe"/> 
+<color name="burnt yellow" rgb="d5ab09"/> 
+<color name="vivid plum" rgb="9400a5"/> 
+<color name="pumpkin" rgb="ff7518"/> 
+<color name="medium bitter lemon" rgb="e5de43"/> 
+<color name="lima" rgb="76bd17"/> 
+<color name="blush pink" rgb="fe828c"/> 
+<color name="purple (Munsell)" rgb="9f00c5"/> 
+<color name="Chinese red" rgb="aa381e"/> 
+<color name="orchid" rgb="da70d6"/> 
+<color name="jade lime" rgb="a5ca77"/> 
+<color name="english rose" rgb="f5c5c2"/> 
+<color name="disco" rgb="871550"/> 
+<color name="hot magenta" rgb="ff1dce"/> 
+<color name="vermillion" rgb="f4320c"/> 
+<color name="dark slate blue" rgb="483d8b"/> 
+<color name="classic rose light" rgb="fde9f5"/> 
+<color name="tangelo" rgb="f94d00"/> 
+<color name="mossy green" rgb="638b27"/> 
+<color name="cerise pink" rgb="ec3b83"/> 
+<color name="pear" rgb="d1e231"/> 
+<color name="galaxy" rgb="755258"/> 
+<color name="Nadeshiko pink" rgb="f6adc6"/> 
+<color name="willpower orange" rgb="fd5800"/> 
+<color name="deep ruby" rgb="843f5b"/> 
+<color name="orchid pink" rgb="f2bdcd"/> 
+<color name="soft pink" rgb="fdb0c0"/> 
+<color name="tuscan red" rgb="7c4848"/> 
+<color name="blaze orange" rgb="ff6700"/> 
+<color name="dust storm" rgb="e5ccc9"/> 
+<color name="warm blue" rgb="4b57db"/> 
+<color name="sunny orange" rgb="fc5110"/> 
+<color name="light veronica" rgb="d46ff9"/> 
+<color name="umber" rgb="635147"/> 
+<color name="light hot pink" rgb="ffb3de"/> 
+<color name="orange pink" rgb="ff6f52"/> 
+<color name="pale lavender" rgb="dcd0ff"/> 
+<color name="violet red" rgb="a50055"/> 
+<color name="dark lavender" rgb="734f96"/> 
+<color name="light melrose" rgb="e7e4ef"/> 
+<color name="light brown" rgb="b5651d"/> 
+<color name="French pink" rgb="fd6c9e"/> 
+<color name="Japanese carmine" rgb="9d2933"/> 
+<color name="schauss pink" rgb="ff91af"/> 
+<color name="electric vermilion" rgb="ff3f00"/> 
+<color name="bazaar light" rgb="cfbcbe"/> 
+<color name="giants orange" rgb="fe5a1d"/> 
+<color name="pale plum" rgb="dda0dd"/> 
+<color name="browny green" rgb="6f6c0a"/> 
+<color name="apple green" rgb="8db600"/> 
+<color name="aquamarine" rgb="7fffd4"/> 
+<color name="purple magic" rgb="693b71"/> 
+<color name="orchid ice" rgb="dfd2df"/> 
+<color name="violine" rgb="a10684"/> 
+<color name="violet" rgb="ee82ee"/> 
+<color name="jade" rgb="00a86b"/> 
+<color name="blue (NCS)" rgb="0087bd"/> 
+<color name="bright red-violet" rgb="d02090"/> 
+<color name="chartreuse (web)" rgb="7fff00"/> 
+<color name="quartz" rgb="51484f"/> 
+<color name="tea rose" rgb="f4c2c2"/> 
+<color name="pinky red" rgb="fc2647"/> 
+<color name="dark peach" rgb="de7e5d"/> 
+<color name="bright lime green" rgb="65fe08"/> 
+<color name="red (Crayola)" rgb="ee204d"/> 
+<color name="burnt siena" rgb="b75203"/> 
+<color name="cameo pink" rgb="efbbcc"/> 
+<color name="hawaiian tan" rgb="9d5616"/> 
+<color name="light mint green" rgb="a6fbb2"/> 
+<color name="deep lemon" rgb="f5c71a"/> 
+<color name="green (pigment)" rgb="00a550"/> 
+<color name="rose ebony" rgb="674846"/> 
+<color name="brandy rose light" rgb="e1c7c3"/> 
+<color name="cherry blossom pink" rgb="ffb7c5"/> 
+<color name="muddy green" rgb="657432"/> 
+<color name="brick orange" rgb="c14a09"/> 
+<color name="light urple" rgb="b36ff6"/> 
+<color name="goddess" rgb="ffaa8d"/> 
+<color name="light maroon" rgb="a24857"/> 
+<color name="pastel pink" rgb="dea5a4"/> 
+<color name="rose madder" rgb="e32636"/> 
+<color name="clear blue" rgb="247afd"/> 
+<color name="french peach" rgb="fdbfb7"/> 
+<color name="big dip o'ruby" rgb="9c2542"/> 
+<color name="bubblegum pink" rgb="fe83cc"/> 
+<color name="milk chocolate" rgb="7f4e1e"/> 
+<color name="chantilly" rgb="f8c3df"/> 
+<color name="cinnabar" rgb="e34234"/> 
+<color name="bright orange" rgb="ff5b00"/> 
+<color name="baby green" rgb="8cff9e"/> 
+<color name="raspberry" rgb="e30b5d"/> 
+<color name="light gray green" rgb="b7e1a1"/> 
+<color name="North Texas green" rgb="059033"/> 
+<color name="CG blue" rgb="007aa5"/> 
+<color name="light citron" rgb="d3d86e"/> 
+<color name="vivid gamboge" rgb="ff9900"/> 
+<color name="brick" rgb="a03623"/> 
+<color name="flax" rgb="eedc82"/> 
+<color name="vomit yellow" rgb="c7c10c"/> 
+<color name="cerise" rgb="de0c62"/> 
+<color name="shit green" rgb="758000"/> 
+<color name="pastel orange" rgb="ffb347"/> 
+<color name="badass" rgb="bada55"/> 
+<color name="Persian red" rgb="cc3333"/> 
+<color name="languid lavender" rgb="d6cadd"/> 
+<color name="persimmon" rgb="ec5800"/> 
+<color name="brownish purple" rgb="76424e"/> 
+<color name="light salmon" rgb="ffa07a"/> 
+<color name="mexican pink" rgb="e4007c"/> 
+<color name="light yellowish green" rgb="c2ff89"/> 
+<color name="lightish blue" rgb="3d7afd"/> 
+<color name="light gulf blue" rgb="3560a6"/> 
+<color name="light gray blue" rgb="9dbcd4"/> 
+<color name="yellowish orange" rgb="ffab0f"/> 
+<color name="mughal green" rgb="306030"/> 
+<color name="light pastel green" rgb="b2fba5"/> 
+<color name="easter green" rgb="8cfd7e"/> 
+<color name="purple blue" rgb="632de9"/> 
+<color name="red pink" rgb="fa2a55"/> 
+<color name="light lime" rgb="aefd6c"/> 
+<color name="cadmium green" rgb="006b3c"/> 
+<color name="light grayish" rgb="d8dcd6"/> 
+<color name="drab" rgb="828344"/> 
+<color name="muddy yellow" rgb="bfac05"/> 
+<color name="chestnut" rgb="954535"/> 
+<color name="light red" rgb="ff474c"/> 
+<color name="light pale red-violet" rgb="f0b7cd"/> 
+<color name="deep saffron" rgb="ff9933"/> 
+<color name="lightish purple" rgb="a552e6"/> 
+<color name="medium carmine" rgb="af4035"/> 
+<color name="zinnwaldite" rgb="ebc2af"/> 
+<color name="pumpkin orange" rgb="fb7d07"/> 
+<color name="salmon" rgb="fa8072"/> 
+<color name="light neon green" rgb="4efd54"/> 
+<color name="deep cherry red" rgb="da2647"/> 
+<color name="almond" rgb="efdecd"/> 
+<color name="deep carmine" rgb="a9203e"/> 
+<color name="french apricot" rgb="e67e30"/> 
+<color name="light magenta" rgb="fa5ff7"/> 
+<color name="Yale blue" rgb="0f4d92"/> 
+<color name="dogwood rose" rgb="d71868"/> 
+<color name="barf green" rgb="94ac02"/> 
+<color name="cinnamon" rgb="ac4f06"/> 
+<color name="light bluish green" rgb="76fda8"/> 
+<color name="toupe" rgb="c7ac7d"/> 
+<color name="fire engine red" rgb="ce2029"/> 
+<color name="pale olive" rgb="b9cc81"/> 
+<color name="earth" rgb="a2653e"/> 
+<color name="dirty yellow" rgb="cdc50a"/> 
+<color name="dark turquoise" rgb="00ced1"/> 
+<color name="deep raspberry" rgb="ba067a"/> 
+<color name="rust orange" rgb="c45508"/> 
+<color name="pink-orange" rgb="ff9966"/> 
+<color name="murky green" rgb="6c7a0e"/> 
+<color name="light limerick" rgb="d2e543"/> 
+<color name="French raspberry" rgb="c72c48"/> 
+<color name="aquamarine like" rgb="2ee8bb"/> 
+<color name="eminence" rgb="6c3082"/> 
+<color name="meat brown" rgb="e5b73b"/> 
+<color name="bahia" rgb="a5cb0c"/> 
+<color name="golden brown" rgb="996515"/> 
+<color name="rajah" rgb="fbab60"/> 
+<color name="Bleu De France" rgb="318ce7"/> 
+<color name="pale lilac" rgb="e4cbff"/> 
+<color name="melrose" rgb="c7c1ff"/> 
+<color name="bluish" rgb="2976bb"/> 
+<color name="dark green blue" rgb="1f6357"/> 
+<color name="pale cyan" rgb="87d3f8"/> 
+<color name="teal deer" rgb="99e6b3"/> 
+<color name="amaranth purple" rgb="ab274f"/> 
+<color name="orange (Pantone)" rgb="ff5800"/> 
+<color name="magic mint" rgb="aaf0d1"/> 
+<color name="Kelly green" rgb="4cbb17"/> 
+<color name="sea green" rgb="2e8b57"/> 
+<color name="denim" rgb="1560bd"/> 
+<color name="orange (color wheel)" rgb="ff7f00"/> 
+<color name="light lavender" rgb="dfc5fe"/> 
+<color name="violet-blue" rgb="324ab2"/> 
+<color name="bright lilac" rgb="d891ef"/> 
+<color name="tomato" rgb="ff6347"/> 
+<color name="pale lime green" rgb="b1ff65"/> 
+<color name="raspberry red" rgb="c51d34"/> 
+<color name="peach sand" rgb="c1b6b3"/> 
+<color name="mardi gras" rgb="880085"/> 
+<color name="light logan" rgb="d9d8ea"/> 
+<color name="caramel" rgb="af6f09"/> 
+<color name="China pink" rgb="de6fa1"/> 
+<color name="snot green" rgb="9dc100"/> 
+<color name="sea blue" rgb="006994"/> 
+<color name="dirt brown" rgb="836539"/> 
+<color name="snot" rgb="acbb0d"/> 
+<color name="raspberry pink" rgb="e25098"/> 
+<color name="carmine pink" rgb="eb4c42"/> 
+<color name="cordovan" rgb="893f45"/> 
+<color name="dark yellow" rgb="9b870c"/> 
+<color name="light sage" rgb="bcecac"/> 
+<color name="deep moss green" rgb="355e3b"/> 
+<color name="maya blue" rgb="73c2fb"/> 
+<color name="swedish azure" rgb="005b99"/> 
+<color name="vivid orange peel" rgb="ffa000"/> 
+<color name="Hansa yellow" rgb="e9d66b"/> 
+<color name="harlequin green" rgb="46cb18"/> 
+<color name="lightish red" rgb="fe2f4a"/> 
+<color name="twilight mauve" rgb="896f73"/> 
+<color name="bright maroon" rgb="c32148"/> 
+<color name="yellow orange" rgb="ffae42"/> 
+<color name="ugly purple" rgb="a442a0"/> 
+<color name="thistle" rgb="d8bfd8"/> 
+<color name="tango pink" rgb="e4717a"/> 
+<color name="brownish red" rgb="9e3623"/> 
+<color name="amaranth" rgb="e52b50"/> 
+<color name="pale green" rgb="98fb98"/> 
+<color name="Carolina blue" rgb="56a0d3"/> 
+<color name="urobilin" rgb="e1ad21"/> 
+<color name="citrus" rgb="a1c50a"/> 
+<color name="desire" rgb="ea3c53"/> 
+<color name="violet-red" rgb="f75394"/> 
+<color name="harvest gold" rgb="da9100"/> 
+<color name="magic potion" rgb="ff4466"/> 
+<color name="lighter green" rgb="75fd63"/> 
+<color name="light blue-violet" rgb="c77df3"/> 
+<color name="mustard yellow" rgb="d2bd0a"/> 
+<color name="dull red" rgb="bb3f3f"/> 
+<color name="seafoam" rgb="80f9ad"/> 
+<color name="baby shit green" rgb="889717"/> 
+<color name="pale gold" rgb="e6be8a"/> 
+<color name="browny orange" rgb="ca6b02"/> 
+<color name="dark slate gray" rgb="2f4f4f"/> 
+<color name="blizzard blue" rgb="ace5ee"/> 
+<color name="khazakstani azure" rgb="00afca"/> 
+<color name="gray-asparagus" rgb="465945"/> 
+<color name="beau blue" rgb="bcd4e6"/> 
+<color name="new car" rgb="214fc6"/> 
+<color name="Princeton orange" rgb="f58025"/> 
+<color name="blurple" rgb="5539cc"/> 
+<color name="olivetone" rgb="716e10"/> 
+<color name="medium spring bud" rgb="c9dc87"/> 
+<color name="pale chestnut" rgb="ddadaf"/> 
+<color name="international orange (aerospace)" rgb="ff4f00"/> 
+<color name="brick red" rgb="cb4154"/> 
+<color name="bright Navy blue" rgb="1974d2"/> 
+<color name="cobalt" rgb="1e488f"/> 
+<color name="dull pallid rose" rgb="e7bcb4"/> 
+<color name="deep carrot orange" rgb="e9692c"/> 
+<color name="deep crimson" rgb="ad1c42"/> 
+<color name="melanie" rgb="e4c2d5"/> 
+<color name="reddish purple" rgb="910951"/> 
+<color name="reddish orange" rgb="f8481c"/> 
+<color name="mauvelous" rgb="ef98aa"/> 
+<color name="mauve wine" rgb="5d3b4c"/> 
+<color name="copper rust" rgb="944747"/> 
+<color name="coral" rgb="ff7f50"/> 
+<color name="japanese plum" rgb="8f4155"/> 
+<color name="rich raspberry" rgb="d72d5c"/> 
+<color name="dark lime" rgb="84b701"/> 
+<color name="water blue" rgb="0e87cc"/> 
+<color name="light olivetone" rgb="b8b654"/> 
+<color name="soap" rgb="cec8ef"/> 
+<color name="red violet" rgb="9e0168"/> 
+<color name="rose pink" rgb="ff66cc"/> 
+<color name="deep taupe" rgb="7e5e60"/> 
+<color name="light peach" rgb="ffd8b1"/> 
+<color name="dark cherry" rgb="a23b3c"/> 
+<color name="orangey red" rgb="fa4224"/> 
+<color name="wild lime" rgb="cbd862"/> 
+<color name="military green" rgb="667c3e"/> 
+<color name="baby blue eyes" rgb="a1caf1"/> 
+<color name="hibiscus" rgb="b6316c"/> 
+<color name="artichoke" rgb="8f9779"/> 
+<color name="pea soup" rgb="929901"/> 
+<color name="key lime" rgb="aeff6e"/> 
+<color name="teal" rgb="008080"/> 
+<color name="light silver sand" rgb="e3e4e5"/> 
+<color name="kiwi green" rgb="8ee53f"/> 
+<color name="orioles orange" rgb="fb4f14"/> 
+<color name="pale orange" rgb="ffa756"/> 
+<color name="carminorubaceous" rgb="bc2350"/> 
+<color name="steel pink" rgb="cc33cc"/> 
+<color name="light orchid" rgb="e6a8d7"/> 
+<color name="alloy orange" rgb="c46210"/> 
+<color name="Persian rose" rgb="fe28a2"/> 
+<color name="verdigris" rgb="43b3ae"/> 
+<color name="barney purple" rgb="a00498"/> 
+<color name="bright california gold" rgb="fe9d04"/> 
+<color name="mustard green" rgb="a8b504"/> 
+<color name="coconut" rgb="965a3e"/> 
+<color name="cornflower blue" rgb="6495ed"/> 
+<color name="rusty orange" rgb="cd5909"/> 
+<color name="Eton blue" rgb="96c8a2"/> 
+<color name="light greenish blue" rgb="63f7b4"/> 
+<color name="han blue" rgb="446ccf"/> 
+<color name="pale light french lavender" rgb="d8d0f5"/> 
+<color name="dark fuchsia" rgb="9d0759"/> 
+<color name="ocean boat blue" rgb="0077be"/> 
+<color name="light keppel" rgb="8ddcd3"/> 
+<color name="blue sapphire" rgb="126180"/> 
+<color name="medium sky blue" rgb="80daeb"/> 
+<color name="liliac" rgb="c48efd"/> 
+<color name="ocean blue" rgb="03719c"/> 
+<color name="light turquoise" rgb="7ef4cc"/> 
+<color name="cornflower" rgb="6a79f7"/> 
+<color name="amaranth magenta" rgb="ed3cca"/> 
+<color name="pale magenta" rgb="f984e5"/> 
+<color name="Honolulu blue" rgb="006db0"/> 
+<color name="dark spring green" rgb="177245"/> 
+<color name="puke yellow" rgb="c2be0e"/> 
+<color name="baby purple" rgb="ca9bf7"/> 
+<color name="copper" rgb="b87333"/> 
+<color name="burnt sienna" rgb="b04e0f"/> 
+<color name="brownish yellow" rgb="c9b003"/> 
+<color name="Persian green" rgb="00a693"/> 
+<color name="pea green" rgb="8eab12"/> 
+<color name="reddish pink" rgb="fe2c54"/> 
+<color name="aqua green" rgb="12e193"/> 
+<color name="ocher" rgb="bf9b0c"/> 
+<color name="smoky topaz" rgb="933d41"/> 
+<color name="carissma" rgb="ea88a8"/> 
+<color name="acid green" rgb="b0bf1a"/> 
+<color name="pastel magenta" rgb="f49ac2"/> 
+<color name="purple heart" rgb="69359c"/> 
+<color name="light shiraz" rgb="dd4384"/> 
+<color name="pixie green" rgb="c0d8b6"/> 
+<color name="salmon pink" rgb="ff91a4"/> 
+<color name="puke brown" rgb="947706"/> 
+<color name="rose gold" rgb="b76e79"/> 
+<color name="tumbleweed" rgb="deaa88"/> 
+<color name="light purple" rgb="bf77f6"/> 
+<color name="dark aqua" rgb="05696b"/> 
+<color name="raw sienna" rgb="9a6200"/> 
+<color name="ocean" rgb="017b92"/> 
+<color name="brown orange" rgb="b96902"/> 
+<color name="cadillac light" rgb="dc9db3"/> 
+<color name="red-orange" rgb="ff5349"/> 
+<color name="pale brown" rgb="987654"/> 
+<color name="mustard brown" rgb="ac7e04"/> 
+<color name="pastel green" rgb="77dd77"/> 
+<color name="telemagenta" rgb="cf3476"/> 
+<color name="cool green" rgb="33b864"/> 
+<color name="powder blue" rgb="b0e0e6"/> 
+<color name="Spanish green" rgb="009150"/> 
+<color name="deep apricot" rgb="e09214"/> 
+<color name="jordy blue" rgb="8ab9f1"/> 
+<color name="orange tan" rgb="faa76c"/> 
+<color name="strong pink" rgb="ff0789"/> 
+<color name="sky blue" rgb="87ceeb"/> 
+<color name="ufo green" rgb="3cd070"/> 
+<color name="CG red" rgb="e03c31"/> 
+<color name="warm purple" rgb="952e8f"/> 
+<color name="bright lavender" rgb="bf94e4"/> 
+<color name="tenné" rgb="cd5700"/> 
+<color name="pale silver" rgb="c9c0bb"/> 
+<color name="light red devil" rgb="c51c56"/> 
+<color name="peachy pink" rgb="ff9a8a"/> 
+<color name="pale taupe" rgb="bc987e"/> 
+<color name="amber (sae/ece)" rgb="ff7e00"/> 
+<color name="fashion fuchsia" rgb="f400a1"/> 
+<color name="halayà úbe" rgb="663854"/> 
+<color name="lightish green" rgb="61e160"/> 
+<color name="medium orchid" rgb="ba55d3"/> 
+<color name="italian apricot" rgb="ffb280"/> 
+<color name="watermelon" rgb="fd4659"/> 
+<color name="rouge red" rgb="e44165"/> 
+<color name="Dartmouth green" rgb="00703c"/> 
+<color name="sandy brown" rgb="f4a460"/> 
+<color name="dark beige" rgb="ac9362"/> 
+<color name="viridian green" rgb="009698"/> 
+<color name="japanese crimson" rgb="c327b2"/> 
+<color name="teal blue" rgb="367588"/> 
+<color name="pastel red" rgb="ff6961"/> 
+<color name="cha cha" rgb="8b3f43"/> 
+<color name="non-photo blue" rgb="a4dded"/> 
+<color name="green-cyan" rgb="009966"/> 
+<color name="purpley blue" rgb="5f34e7"/> 
+<color name="medium electric blue" rgb="035096"/> 
+<color name="medium aquamarine-ish" rgb="66ddaa"/> 
+<color name="screamin' green" rgb="76ff7a"/> 
+<color name="blue indigo" rgb="485470"/> 
+<color name="light sky blue" rgb="87cefa"/> 
+<color name="cyan cobalt blue" rgb="28589c"/> 
+<color name="fiery rose" rgb="ff5470"/> 
+<color name="la rioja" rgb="b3c110"/> 
+<color name="light periwinkle" rgb="c1c6fc"/> 
+<color name="grussrel" rgb="b06500"/> 
+<color name="strawberry" rgb="fc5a8d"/> 
+<color name="leafy green" rgb="51b73b"/> 
+<color name="light violet" rgb="d6b4fc"/> 
+<color name="blue purple" rgb="5729ce"/> 
+<color name="Spanish viridian" rgb="007f5c"/> 
+<color name="flamingo pink" rgb="fc8eac"/> 
+<color name="cherry" rgb="de3163"/> 
+<color name="magenta rose" rgb="ff00af"/> 
+<color name="royal blue 2" rgb="4169e1"/> 
+<color name="perfume" rgb="d0bef8"/> 
+<color name="may green" rgb="4c9141"/> 
+<color name="neon carrot" rgb="ffa343"/> 
+<color name="blue-green" rgb="0d98ba"/> 
+<color name="limerick" rgb="9dc209"/> 
+<color name="khaki green" rgb="728639"/> 
+<color name="green/blue" rgb="01c08d"/> 
+<color name="SAP green" rgb="507d2a"/> 
+<color name="light acapulco" rgb="bfdcd4"/> 
+<color name="satin sheen gold" rgb="cba135"/> 
+<color name="feldgrau" rgb="4d5d53"/> 
+<color name="lightblue" rgb="7bc8f6"/> 
+<color name="dark goldenrod" rgb="b8860b"/> 
+<color name="nice blue" rgb="107ab0"/> 
+<color name="Spanish bistre" rgb="807532"/> 
+<color name="booger green" rgb="96b403"/> 
+<color name="celadon" rgb="ace1af"/> 
+<color name="fluorescent pink" rgb="ff1493"/> 
+<color name="bright cerulean" rgb="1dacd6"/> 
+<color name="Columbia blue" rgb="c4d8e2"/> 
+<color name="French blue" rgb="0072bb"/> 
+<color name="frog green" rgb="58bc08"/> 
+<color name="quite light blue" rgb="add8e6"/> 
+<color name="green-blue" rgb="1164b4"/> 
+<color name="area 51" rgb="3c8043"/> 
+<color name="light blue gray" rgb="b7c9e2"/> 
+<color name="light deep sea" rgb="1cc3b4"/> 
+<color name="baby poop" rgb="937c00"/> 
+<color name="muted lime" rgb="d6ce7b"/> 
+<color name="burple" rgb="6832e3"/> 
+<color name="deep carmine pink" rgb="ef3038"/> 
+<color name="puke green" rgb="9aae07"/> 
+<color name="University of Tennessee orange" rgb="f77f00"/> 
+<color name="cerulean blue" rgb="2a52be"/> 
+<color name="purply" rgb="983fb2"/> 
+<color name="dusty orange" rgb="f0833a"/> 
+<color name="burlywood" rgb="deb887"/> 
+<color name="light indigo" rgb="6d5acf"/> 
+<color name="red-violet eggplant" rgb="990066"/> 
+<color name="bright ube" rgb="d19fe8"/> 
+<color name="electric pink" rgb="ff0490"/> 
+<color name="cedar chest" rgb="c95a49"/> 
+<color name="peach blossom pink" rgb="ea9399"/> 
+<color name="vivid tangelo" rgb="f07427"/> 
+<color name="bluish purple" rgb="703be7"/> 
+<color name="sunset orange" rgb="fd5e53"/> 
+<color name="pink lavender" rgb="d8b2d1"/> 
+<color name="rusty red" rgb="da2c43"/> 
+<color name="heather" rgb="a484ac"/> 
+<color name="purple pink" rgb="e03fd8"/> 
+<color name="green chartreuse liqueur" rgb="bfbf6c"/> 
+<color name="gossamer" rgb="069b81"/> 
+<color name="sand brown" rgb="cba560"/> 
+<color name="lemon curry" rgb="cca01d"/> 
+<color name="butterscotch" rgb="fdb147"/> 
+<color name="light sea green" rgb="20b2aa"/> 
+<color name="chocolate (web)" rgb="d2691e"/> 
+<color name="dusk blue" rgb="26538d"/> 
+<color name="mid blue" rgb="276ab3"/> 
+<color name="bubblegum pink-ish" rgb="ff69af"/> 
+<color name="beaver" rgb="9f8170"/> 
+<color name="quinacridone magenta" rgb="8e3a59"/> 
+<color name="vomit" rgb="a2a415"/> 
+<color name="diarrhea" rgb="9f8303"/> 
+<color name="light crimson" rgb="f56991"/> 
+<color name="go go go" rgb="98df62"/> 
+<color name="redwood" rgb="a45a52"/> 
+<color name="peach-orange" rgb="ffcc99"/> 
+<color name="sick green" rgb="9db92c"/> 
+<color name="deep blush" rgb="b44668"/> 
+<color name="light electric hollywood cerise" rgb="ff9eda"/> 
+<color name="eggplant" rgb="614051"/> 
+<color name="light medium violet" rgb="caabd0"/> 
+<color name="ultra orange" rgb="ff6037"/> 
+<color name="jazzberry jam" rgb="a50b5e"/> 
+<color name="fawn" rgb="e5aa70"/> 
+<color name="sea" rgb="3c9992"/> 
+<color name="sabria pink" rgb="fc0585"/> 
+<color name="eucalyptus" rgb="44d7a8"/> 
+<color name="French rose" rgb="f64a8a"/> 
+<color name="baby puke green" rgb="b6c406"/> 
+<color name="rosa" rgb="fe86a4"/> 
+<color name="cocoa" rgb="875f42"/> 
+<color name="sage" rgb="bcb88a"/> 
+<color name="swamp" rgb="698339"/> 
+<color name="light teal blue" rgb="18a7b5"/> 
+<color name="moody blue" rgb="7f76d3"/> 
+<color name="reddish" rgb="c44240"/> 
+<color name="cabaret light" rgb="ef9bb9"/> 
+<color name="seaweed" rgb="18d17b"/> 
+<color name="iris" rgb="5a4fcf"/> 
+<color name="raspberry wine" rgb="b63157"/> 
+<color name="macaroni and cheese" rgb="efb435"/> 
+<color name="gross green" rgb="a0bf16"/> 
+<color name="wisteria" rgb="c9a0dc"/> 
+<color name="mango tango" rgb="ff8243"/> 
+<color name="medium slate blue" rgb="7b68ee"/> 
+<color name="moss green" rgb="8a9a5b"/> 
+<color name="selago" rgb="f0eefd"/> 
+<color name="pink sherbet" rgb="f78fa7"/> 
+<color name="star command blue" rgb="007bb8"/> 
+<color name="medium ruby" rgb="aa4069"/> 
+<color name="Persian pink" rgb="f77fbe"/> 
+<color name="ocre" rgb="c69c04"/> 
+<color name="rose taupe" rgb="905d5d"/> 
+<color name="pink pearl" rgb="e7accf"/> 
+<color name="baby poo" rgb="ab9004"/> 
+<color name="night shadz" rgb="aa375a"/> 
+<color name="light chetwode blue" rgb="c5c2ef"/> 
+<color name="Barbie pink" rgb="e0218a"/> 
+<color name="lavender (floral)" rgb="b57edc"/> 
+<color name="bruise" rgb="7e4071"/> 
+<color name="android green" rgb="a4c639"/> 
+<color name="Skobeloff" rgb="007474"/> 
+<color name="brink pink" rgb="fb607f"/> 
+<color name="ochre" rgb="cc7722"/> 
+<color name="light coral" rgb="f08080"/> 
+<color name="pale olive green" rgb="b1d27b"/> 
+<color name="faded red" rgb="d3494e"/> 
+<color name="grass green" rgb="3f9b0b"/> 
+<color name="mauve shadows" rgb="b89ca9"/> 
+<color name="cadmium orange" rgb="ed872d"/> 
+<color name="pinkish tan" rgb="d99b82"/> 
+<color name="light deep pink" rgb="ff5ccd"/> 
+<color name="peacock blue" rgb="016795"/> 
+<color name="brass" rgb="b5a642"/> 
+<color name="Bondi blue" rgb="0095b6"/> 
+<color name="tropical rain forest" rgb="00755e"/> 
+<color name="majorelle blue" rgb="6050dc"/> 
+<color name="baby blue" rgb="89cff0"/> 
+<color name="blue green" rgb="137e6d"/> 
+<color name="tan green" rgb="a9be70"/> 
+<color name="cabaret" rgb="d94972"/> 
+<color name="bud green" rgb="7bb661"/> 
+<color name="medium rich magenta" rgb="c32350"/> 
+<color name="radiant orchid" rgb="b163a3"/> 
+<color name="pastel violet" rgb="cb99c9"/> 
+<color name="june bud" rgb="bdda57"/> 
+<color name="orangish brown" rgb="b25f03"/> 
+<color name="vivid tangerine" rgb="ffa089"/> 
+<color name="dark raspberry" rgb="872657"/> 
+<color name="pinkish gray" rgb="c8aca9"/> 
+<color name="carmine ruby" rgb="f03d6f"/> 
+<color name="electric hollywood cerise" rgb="ff009f"/> 
+<color name="vintage indigo" rgb="664d64"/> 
+<color name="medium lime green" rgb="a1c42c"/> 
+<color name="khaki" rgb="aaa662"/> 
+<color name="pale red" rgb="d9544d"/> 
+<color name="pale cerulean" rgb="9bc4e2"/> 
+<color name="medium violet-red" rgb="c71585"/> 
+<color name="deep pink-orange" rgb="ff7077"/> 
+<color name="tulip" rgb="ff878d"/> 
+<color name="plum" rgb="8e4585"/> 
+<color name="blue-ish green" rgb="017a79"/> 
+<color name="faded orange" rgb="f0944d"/> 
+<color name="perrywinkle" rgb="8f8ce7"/> 
+<color name="tickle me pink" rgb="fc89ac"/> 
+<color name="magenta (process)" rgb="ff0090"/> 
+<color name="toxic green" rgb="61de2a"/> 
+<color name="very light azure" rgb="74bbfb"/> 
+<color name="deep sea" rgb="01826b"/> 
+<color name="fandango" rgb="b53389"/> 
+<color name="light medium purple" rgb="cdb7f0"/> 
+<color name="dusky orchid" rgb="9c7687"/> 
+<color name="deep carmine ruby" rgb="be3262"/> 
+<color name="avocado green" rgb="87a922"/> 
+<color name="dark gold" rgb="b59410"/> 
+<color name="charm pink" rgb="e68fac"/> 
+<color name="dingy dungeon" rgb="c53151"/> 
+<color name="hospital green" rgb="9be5aa"/> 
+<color name="Chinese apricot" rgb="e69966"/> 
+<color name="English red" rgb="ab4b52"/> 
+<color name="vivid amber" rgb="cc9900"/> 
+<color name="popstar" rgb="be4f62"/> 
+<color name="can can" rgb="d591a4"/> 
+<color name="fuzzy wuzzy" rgb="cc6666"/> 
+<color name="prelude" rgb="d0c0e5"/> 
+<color name="purpley" rgb="8756e4"/> 
+<color name="medium mauve" rgb="d399e6"/> 
+<color name="clay" rgb="b66a50"/> 
+<color name="purpleish pink" rgb="df4ec8"/> 
+<color name="edgewater" rgb="cbe3d7"/> 
+<color name="sickly green" rgb="94b21c"/> 
+<color name="boysenberry" rgb="873260"/> 
+<color name="light red ochre" rgb="e97451"/> 
+<color name="ruddy pink" rgb="e18e96"/> 
+<color name="vivid vermilion" rgb="e56024"/> 
+<color name="deep magenta rose" rgb="c120a2"/> 
+<color name="greenish beige" rgb="c9d179"/> 
+<color name="greenish" rgb="40a368"/> 
+<color name="brilliant red-violet" rgb="eb6fcb"/> 
+<color name="pinkish" rgb="d46a7e"/> 
+<color name="dark salmon" rgb="e9967a"/> 
+<color name="ruddy brown" rgb="bb6528"/> 
+<color name="light peach schnapps" rgb="fff0ee"/> 
+<color name="coyote brown" rgb="81613e"/> 
+<color name="light burgundy" rgb="a8415b"/> 
+<color name="heather violet" rgb="de4c8a"/> 
+<color name="olive drab (#3)" rgb="6b8e23"/> 
+<color name="deauville mauve" rgb="ad9194"/> 
+<color name="scuba blue" rgb="d0b2ca"/> 
+<color name="medium violet" rgb="8f5e99"/> 
+<color name="soft blue" rgb="6488ea"/> 
+<color name="dull orange" rgb="d8863b"/> 
+<color name="outrageous orange" rgb="ff6e4a"/> 
+<color name="Persian orange" rgb="d99058"/> 
+<color name="neon fuchsia" rgb="fe4164"/> 
+<color name="periwinkle" rgb="8e82fe"/> 
+<color name="mode beige" rgb="967117"/> 
+<color name="gold (metallic)" rgb="d4af37"/> 
+<color name="metallic sunburst" rgb="9c7c38"/> 
+<color name="pale persian lilac" rgb="d597ae"/> 
+<color name="light olive green" rgb="a4be5c"/> 
+<color name="spicy mix" rgb="8b5f4d"/> 
+<color name="atomic carmine pink" rgb="fa4f7b"/> 
+<color name="gray pink" rgb="c3909b"/> 
+<color name="light peru tan" rgb="c18d25"/> 
+<color name="gray brown" rgb="7f7053"/> 
+<color name="light teal" rgb="90e4c1"/> 
+<color name="baby poop green" rgb="8f9805"/> 
+<color name="panama blue" rgb="b3bce2"/> 
+<color name="grapefruit" rgb="fd5956"/> 
+<color name="medium turquoise" rgb="48d1cc"/> 
+<color name="aero" rgb="7cb9e8"/> 
+<color name="cyan cornflower blue" rgb="188bc2"/> 
+<color name="yellowy brown" rgb="ae8b0c"/> 
+<color name="green (Crayola)" rgb="1cac78"/> 
+<color name="light amethyst smoke" rgb="d5cfde"/> 
+<color name="fern green" rgb="4f7942"/> 
+<color name="denim blue" rgb="3b5b92"/> 
+<color name="orangish" rgb="fc824a"/> 
+<color name="deep carmine pink-orange" rgb="e53d43"/> 
+<color name="international orange (golden gate bridge)" rgb="c0362c"/> 
+<color name="froly" rgb="f57584"/> 
+<color name="pale magenta-pink" rgb="ff99cc"/> 
+<color name="dark chestnut" rgb="986960"/> 
+<color name="deep carmine red" rgb="bc3f4a"/> 
+<color name="rich pink-orange" rgb="ed999c"/> 
+<color name="warm gray" rgb="978a84"/> 
+<color name="blush light" rgb="de98b2"/> 
+<color name="pinkish orange" rgb="ff724c"/> 
+<color name="vanilla ice" rgb="f38fa9"/> 
+<color name="tiger's eye" rgb="e08d3c"/> 
+<color name="mellow mauve" rgb="99637b"/> 
+<color name="kobi" rgb="e79fc4"/> 
+<color name="charm" rgb="d47494"/> 
+<color name="buddha gold" rgb="c1a004"/> 
+<color name="lighter purple" rgb="a55af4"/> 
+<color name="red-purple" rgb="e40078"/> 
+<color name="Celadon blue" rgb="007ba7"/> 
+<color name="greenblue-ish" rgb="23c48b"/> 
+<color name="outer space" rgb="414a4c"/> 
+<color name="blue yonder" rgb="5072a7"/> 
+<color name="light moody blue" rgb="c1bbec"/> 
+<color name="bright blush" rgb="e47698"/> 
+<color name="wild strawberry" rgb="ff43a4"/> 
+<color name="dark aquamarine" rgb="017371"/> 
+<color name="bluey purple" rgb="6241c7"/> 
+<color name="light navy blue" rgb="2e5a88"/> 
+<color name="green teal" rgb="0cb577"/> 
+<color name="ball blue" rgb="21abcd"/> 
+<color name="new silver" rgb="bfb8a5"/> 
+<color name="new york pink" rgb="d7837f"/> 
+<color name="blue-magenta violet" rgb="553592"/> 
+<color name="citron" rgb="9fa91f"/> 
+<color name="terracota" rgb="cb6843"/> 
+<color name="faded pink" rgb="de9dac"/> 
+<color name="indian red" rgb="cd5c5c"/> 
+<color name="rich lavender" rgb="a76bcf"/> 
+<color name="raspberry radiance" rgb="82305a"/> 
+<color name="pinkish purple" rgb="d648d7"/> 
+<color name="bittersweet" rgb="fe6f5e"/> 
+<color name="old moss green" rgb="867e36"/> 
+<color name="pig pink" rgb="e78ea5"/> 
+<color name="dark rose" rgb="b5485d"/> 
+<color name="patina light" rgb="afd0ca"/> 
+<color name="very light brown" rgb="d3b683"/> 
+<color name="light cornflower blue" rgb="93ccea"/> 
+<color name="medium vermilion" rgb="d9603b"/> 
+<color name="Granny Smith apple" rgb="a8e4a0"/> 
+<color name="Byzantine" rgb="bd33a4"/> 
+<color name="peru" rgb="cd853f"/> 
+<color name="purplish pink" rgb="ce5dae"/> 
+<color name="raspberry glace" rgb="915f6d"/> 
+<color name="green (NCS)" rgb="009f6b"/> 
+<color name="purple wine" rgb="8e3975"/> 
+<color name="groovy" rgb="5ca345"/> 
+<color name="deep aqua" rgb="08787f"/> 
+<color name="brownish gray" rgb="86775f"/> 
+<color name="ukrainian azure" rgb="42adde"/> 
+<color name="light carmine pink" rgb="e66771"/> 
+<color name="coral pink" rgb="f88379"/> 
+<color name="deer" rgb="ba8759"/> 
+<color name="light lilac bush" rgb="cfbaec"/> 
+<color name="ce soir" rgb="9771b5"/> 
+<color name="lavender gray" rgb="c4c3d0"/> 
+<color name="pea soup green" rgb="94a617"/> 
+<color name="China rose" rgb="a8516e"/> 
+<color name="tea" rgb="65ab7c"/> 
+<color name="generic viridian" rgb="007f66"/> 
+<color name="liberty" rgb="545aa7"/> 
+<color name="raw umber" rgb="826644"/> 
+<color name="purple reign" rgb="54446c"/> 
+<color name="periwinkle blue" rgb="8f99fb"/> 
+<color name="light zydeco" rgb="25937e"/> 
+<color name="light moss green" rgb="addfad"/> 
+<color name="b'dazzled blue" rgb="2e5894"/> 
+<color name="twilight" rgb="4e518b"/> 
+<color name="sunray" rgb="e3ab57"/> 
+<color name="shamrock green" rgb="009e60"/> 
+<color name="lavender affair" rgb="714693"/> 
+<color name="pale robin egg blue" rgb="96ded1"/> 
+<color name="bright indigo" rgb="5d76cb"/> 
+<color name="paradise pink" rgb="e63e62"/> 
+<color name="tealish" rgb="24bca8"/> 
+<color name="dark sage" rgb="598556"/> 
+<color name="studio" rgb="714ab2"/> 
+<color name="pearl aqua" rgb="88d8c0"/> 
+<color name="rose violet" rgb="c24c92"/> 
+<color name="viridian" rgb="1e9167"/> 
+<color name="ceil" rgb="92a1cf"/> 
+<color name="apple" rgb="6ecb3c"/> 
+<color name="vivid red-tangelo" rgb="df6124"/> 
+<color name="ebony" rgb="555d50"/> 
+<color name="fuchsia rose" rgb="c74375"/> 
+<color name="silver pink" rgb="c4aead"/> 
+<color name="british apricot" rgb="e18731"/> 
+<color name="cerise magenta" rgb="da3163"/> 
+<color name="light steel blue" rgb="b0c4de"/> 
+<color name="teal green" rgb="00827f"/> 
+<color name="Navy purple" rgb="9457eb"/> 
+<color name="green (Munsell)" rgb="00a877"/> 
+<color name="seafoam blue" rgb="78d1b6"/> 
+<color name="African violet" rgb="b284be"/> 
+<color name="dirty purple" rgb="734a65"/> 
+<color name="black rose light" rgb="b12b7f"/> 
+<color name="pinky purple" rgb="c94cbe"/> 
+<color name="tan" rgb="d2b48c"/> 
+<color name="pinkish brown" rgb="b17261"/> 
+<color name="darkish pink" rgb="da467d"/> 
+<color name="go green" rgb="00ab66"/> 
+<color name="cal poly pomona gold" rgb="c6930a"/> 
+<color name="brown gray" rgb="8d8468"/> 
+<color name="mauve glow" rgb="ad8884"/> 
+<color name="fuchsia purple" rgb="cc397b"/> 
+<color name="usumbara chameleon harlequin" rgb="50b708"/> 
+<color name="pastel brown" rgb="836953"/> 
+<color name="purpureus" rgb="9a4eae"/> 
+<color name="copper red" rgb="cb6d51"/> 
+<color name="blush" rgb="de5d83"/> 
+<color name="old gold" rgb="cfb53b"/> 
+<color name="greenish tan" rgb="bccb7a"/> 
+<color name="dark mint" rgb="48c072"/> 
+<color name="deep rose" rgb="c74767"/> 
+<color name="carmine rose" rgb="dd5a91"/> 
+<color name="pale copper" rgb="da8a67"/> 
+<color name="reddish gray" rgb="997570"/> 
+<color name="medium sapphire" rgb="2d5da1"/> 
+<color name="seaweed green" rgb="35ad6b"/> 
+<color name="baby shit brown" rgb="ad900d"/> 
+<color name="vivid carmine pink" rgb="ff5771"/> 
+<color name="metallic seaweed" rgb="0a7e8c"/> 
+<color name="vivid cerise" rgb="da1d81"/> 
+<color name="muted purple" rgb="805b87"/> 
+<color name="rosy pink" rgb="f6688e"/> 
+<color name="soft green" rgb="6fc276"/> 
+<color name="mystic pearl" rgb="d65282"/> 
+<color name="grass" rgb="5cac2d"/> 
+<color name="dark khaki" rgb="bdb76b"/> 
+<color name="Tufts blue" rgb="417dc1"/> 
+<color name="lilac" rgb="c8a2c8"/> 
+<color name="dark terracotta" rgb="cc4e5c"/> 
+<color name="celestial blue" rgb="4997d0"/> 
+<color name="copper rust light" rgb="cd9999"/> 
+<color name="little boy blue" rgb="6ca0dc"/> 
+<color name="clay brown" rgb="b2713d"/> 
+<color name="United Nations Blue" rgb="5b92e5"/> 
+<color name="terracotta-ish" rgb="e2725b"/> 
+<color name="fandango pink" rgb="de5285"/> 
+<color name="dull brown" rgb="876e4b"/> 
+<color name="wild orchid" rgb="d470a2"/> 
+<color name="bright opera mauve" rgb="cd81b8"/> 
+<color name="dark brown-tangelo" rgb="88654e"/> 
+<color name="dadt repeal lavender" rgb="9d9fe9"/> 
+<color name="medium chartreuse" rgb="b0bc4a"/> 
+<color name="lenurple" rgb="ba93d8"/> 
+<color name="rose dust" rgb="9e5e6f"/> 
+<color name="deep chestnut" rgb="b94e48"/> 
+<color name="light cobalt blue" rgb="88ace0"/> 
+<color name="rosy brown" rgb="bc8f8f"/> 
+<color name="magenta (Pantone)" rgb="d0417e"/> 
+<color name="desert" rgb="ccad60"/> 
+<color name="antique brass" rgb="cd9575"/> 
+<color name="liver (dogs)" rgb="b86d29"/> 
+<color name="light night shadz" rgb="d98aa8"/> 
+<color name="magenta (dye)" rgb="ca1f7b"/> 
+<color name="blue/green" rgb="0f9b8e"/> 
+<color name="tropical green" rgb="008b87"/> 
+<color name="slate green" rgb="658d6d"/> 
+<color name="putty" rgb="beae8a"/> 
+<color name="ugly blue" rgb="31668a"/> 
+<color name="rich lilac" rgb="b666d2"/> 
+<color name="windows blue" rgb="3778bf"/> 
+<color name="raspberry sorbet" rgb="cc3a71"/> 
+<color name="faded blue" rgb="658cbb"/> 
+<color name="queen blue" rgb="436b95"/> 
+<color name="cyber grape" rgb="58427c"/> 
+<color name="deep green-cyan turquoise" rgb="0e7c61"/> 
+<color name="light medium orchid" rgb="d39bcb"/> 
+<color name="cadillac" rgb="b04c6a"/> 
+<color name="adobe" rgb="bd6c48"/> 
+<color name="puce" rgb="cc8899"/> 
+<color name="bittersweet shimmer" rgb="bf4f51"/> 
+<color name="bright magenta rose" rgb="fc51af"/> 
+<color name="traffic purple" rgb="a03472"/> 
+<color name="kenyan copper light" rgb="bf6935"/> 
+<color name="mushroom" rgb="ba9e88"/> 
+<color name="tuscany" rgb="c09999"/> 
+<color name="greyish brown" rgb="7a6a4f"/> 
+<color name="rose bonbon" rgb="f9429e"/> 
+<color name="deep lilac" rgb="9955bb"/> 
+<color name="bland" rgb="afa88b"/> 
+<color name="bluish green" rgb="10a674"/> 
+<color name="grullo" rgb="a99a86"/> 
+<color name="dark liver" rgb="534b4f"/> 
+<color name="dusty pink" rgb="d58a94"/> 
+<color name="cloudy blue" rgb="acc2d9"/> 
+<color name="hyacinth violet" rgb="934d91"/> 
+<color name="Vegas gold" rgb="c5b358"/> 
+<color name="medium apricot" rgb="eb9373"/> 
+<color name="ash gray" rgb="b2beb5"/> 
+<color name="deep carmine rose" rgb="bb466f"/> 
+<color name="indian yellow" rgb="e3a857"/> 
+<color name="jungle mist" rgb="b4cfd3"/> 
+<color name="greenish blue" rgb="0b8b87"/> 
+<color name="light cherrywood" rgb="b0665c"/> 
+<color name="girlsenberry" rgb="cc5555"/> 
+<color name="pale violet" rgb="cc99ff"/> 
+<color name="wistful mauve" rgb="976f7b"/> 
+<color name="blue with a hint of purple" rgb="533cc6"/> 
+<color name="camo" rgb="7f8f4e"/> 
+<color name="magenta-pink" rgb="cc338b"/> 
+<color name="logan" rgb="aaa9cd"/> 
+<color name="cadet blue" rgb="5f9ea0"/> 
+<color name="japanese blue-green" rgb="3a6960"/> 
+<color name="mystic lilac" rgb="b695c0"/> 
+<color name="violet tulle" rgb="c693c7"/> 
+<color name="dark coral" rgb="cd5b45"/> 
+<color name="dust" rgb="b2996e"/> 
+<color name="brownish" rgb="9c6d57"/> 
+<color name="brilliant copper" rgb="b87b6b"/> 
+<color name="sand" rgb="c2b280"/> 
+<color name="online lime" rgb="4b8740"/> 
+<color name="mellow apricot" rgb="f8b878"/> 
+<color name="japanese atomic carmine pink" rgb="ec5486"/> 
+<color name="deep cerise" rgb="da3287"/> 
+<color name="light red-violet" rgb="e79ec5"/> 
+<color name="rose vale" rgb="ab4e52"/> 
+<color name="gray purple" rgb="826d8c"/> 
+<color name="sugar plum" rgb="914e75"/> 
+<color name="pale cornflower blue" rgb="abcdef"/> 
+<color name="maui blue" rgb="4ea4ba"/> 
+<color name="light olive" rgb="acbf69"/> 
+<color name="brilliant rose" rgb="f653a6"/> 
+<color name="purple orchid" rgb="ae4f93"/> 
+<color name="brownish orange" rgb="cb7723"/> 
+<color name="deep mauve" rgb="d473d4"/> 
+<color name="lavender frost" rgb="baa8c1"/> 
+<color name="celadon green" rgb="2f847c"/> 
+<color name="old lavender" rgb="796878"/> 
+<color name="bazaar" rgb="98777b"/> 
+<color name="Chinese purple" rgb="a757ab"/> 
+<color name="brandy rose" rgb="bb8983"/> 
+<color name="light taupe" rgb="b38b6d"/> 
+<color name="raspberry rose" rgb="b3446c"/> 
+<color name="English lavender" rgb="b48395"/> 
+<color name="algae" rgb="54ac68"/> 
+<color name="toolbox" rgb="746cc0"/> 
+<color name="Paolo Veronese green" rgb="009b7d"/> 
+<color name="myrtle green" rgb="317873"/> 
+<color name="dirty blue" rgb="3f829d"/> 
+<color name="lavender blue-gray" rgb="bdbbd7"/> 
+<color name="royal heath" rgb="ab3472"/> 
+<color name="dark sea green" rgb="8fbc8f"/> 
+<color name="royal fuchsia" rgb="ca2c92"/> 
+<color name="light lavender affair" rgb="b898cd"/> 
+<color name="brilliant electric hollywood cerise" rgb="ff64c5"/> 
+<color name="camel" rgb="c69f59"/> 
+<color name="fuzzy wuzzy brown" rgb="c45655"/> 
+<color name="pastel blue" rgb="aec6cf"/> 
+<color name="dusky blue" rgb="475f94"/> 
+<color name="dark sky blue" rgb="8cbed6"/> 
+<color name="leather" rgb="ac7434"/> 
+<color name="dark tan" rgb="918151"/> 
+<color name="amaranth deep purple" rgb="9f2b68"/> 
+<color name="sandstone" rgb="c9ae74"/> 
+<color name="cadet" rgb="536872"/> 
+<color name="medium azure" rgb="458ac6"/> 
+<color name="amaranth cerise" rgb="cd2682"/> 
+<color name="light hibiscus" rgb="df84b5"/> 
+<color name="keppel" rgb="3ab09e"/> 
+<color name="medium aquamarine-like" rgb="66cdaa"/> 
+<color name="Laurel green" rgb="a9ba9d"/> 
+<color name="cinereous" rgb="98817b"/> 
+<color name="light mauve" rgb="c292a1"/> 
+<color name="dark vivid violet" rgb="8f509d"/> 
+<color name="medium winter pear" rgb="b0b583"/> 
+<color name="chamoisee" rgb="a0785a"/> 
+<color name="dusty rose" rgb="c0737a"/> 
+<color name="deep medium red-violet" rgb="a65e7e"/> 
+<color name="jawad/chicken color" rgb="c3b091"/> 
+<color name="dusk" rgb="4e5481"/> 
+<color name="flat blue" rgb="3c73a8"/> 
+<color name="pale red-violet" rgb="db7093"/> 
+<color name="deep orchid" rgb="94417b"/> 
+<color name="rouge light" rgb="d58eb5"/> 
+<color name="lion" rgb="c19a6b"/> 
+<color name="light persian plum" rgb="b76969"/> 
+<color name="brownish pink" rgb="c27e79"/> 
+<color name="dark seafoam" rgb="1fb57a"/> 
+<color name="gold fusion" rgb="85754e"/> 
+<color name="cambridge blue" rgb="a3c1ad"/> 
+<color name="medium taupe gray" rgb="88786a"/> 
+<color name="dusky pink" rgb="cc7a8b"/> 
+<color name="deep fuchsia" rgb="c154c1"/> 
+<color name="University of California gold" rgb="b78727"/> 
+<color name="medium puce" rgb="8e616a"/> 
+<color name="greyish pink" rgb="c88d94"/> 
+<color name="chetwode blue" rgb="8581d9"/> 
+<color name="moonstone blue" rgb="73a9c2"/> 
+<color name="pharlap" rgb="a3807b"/> 
+<color name="dark periwinkle" rgb="665fd1"/> 
+<color name="french lavender" rgb="9683ec"/> 
+<color name="copper canyon light" rgb="c08d5e"/> 
+<color name="bright mallow pink" rgb="d498cb"/> 
+<color name="terracotta" rgb="ca6641"/> 
+<color name="pink (Pantone)" rgb="d74894"/> 
+<color name="fuchsia red" rgb="b33a7f"/> 
+<color name="light eggplant" rgb="894585"/> 
+<color name="rebecca purple" rgb="663399"/> 
+<color name="mocha" rgb="9d7651"/> 
+<color name="persian lilac" rgb="c17e91"/> 
+<color name="magenta haze" rgb="9f4576"/> 
+<color name="light disco" rgb="c65ea0"/> 
+<color name="taos taupe" rgb="bfaa80"/> 
+<color name="dark lilac" rgb="9c6da5"/> 
+<color name="smitten" rgb="c84186"/> 
+<color name="light forest green" rgb="4f9153"/> 
+<color name="bright mauve mist" rgb="c49fba"/> 
+<color name="medium purple" rgb="9370db"/> 
+<color name="independence" rgb="4c516d"/> 
+<color name="dusky rose" rgb="ba6873"/> 
+<color name="muted pink" rgb="d1768f"/> 
+<color name="mauvewood" rgb="ab5c6d"/> 
+<color name="mountain meadow" rgb="30ba8f"/> 
+<color name="vista blue" rgb="7c9ed9"/> 
+<color name="copper rose" rgb="996666"/> 
+<color name="dark blue-gray" rgb="666699"/> 
+<color name="deep bronze" rgb="8c7853"/> 
+<color name="light sirocco" rgb="b8c2c2"/> 
+<color name="mid green" rgb="50a747"/> 
+<color name="dark sand" rgb="a88f59"/> 
+<color name="jungle green" rgb="29ab87"/> 
+<color name="copper yellow" rgb="c9ae5d"/> 
+<color name="light hawaiian tan" rgb="d2a560"/> 
+<color name="dirty pink" rgb="ca7b80"/> 
+<color name="ugly pink" rgb="cd7584"/> 
+<color name="blast-off bronze" rgb="a57164"/> 
+<color name="boring green" rgb="63b365"/> 
+<color name="medium harlequin" rgb="44944a"/> 
+<color name="heliotrope gray" rgb="aa98a9"/> 
+<color name="medium girlsenberry" rgb="aa786d"/> 
+<color name="light grayish magenta" rgb="cc99cc"/> 
+<color name="rocket metallic" rgb="8a7f80"/> 
+<color name="green (RYB)" rgb="66b032"/> 
+<color name="mantis" rgb="74c365"/> 
+<color name="shimmering blush" rgb="d98695"/> 
+<color name="copper penny" rgb="ad6f69"/> 
+<color name="twilight lavender" rgb="8a496b"/> 
+<color name="bright mauve glow" rgb="d0868e"/> 
+<color name="slate blue" rgb="6a5acd"/> 
+<color name="bay leaf" rgb="7da98d"/> 
+<color name="violet purple" rgb="926eae"/> 
+<color name="dull mauve" rgb="a17e9a"/> 
+<color name="soft purple" rgb="a66fb5"/> 
+<color name="purple plum" rgb="9c5186"/> 
+<color name="pistachio" rgb="93c572"/> 
+<color name="light studio" rgb="b89bdd"/> 
+<color name="nasty green" rgb="70b23f"/> 
+<color name="Turkish rose" rgb="b57281"/> 
+<color name="French bistre" rgb="856d4d"/> 
+<color name="iceberg" rgb="71a6d2"/> 
+<color name="fern" rgb="63a950"/> 
+<color name="unicorn" rgb="9f91cf"/> 
+<color name="dirt" rgb="9b7653"/> 
+<color name="peach beige" rgb="c09396"/> 
+<color name="peach rust" rgb="c86d51"/> 
+<color name="dusky purple" rgb="895b7b"/> 
+<color name="light french lavender" rgb="a899e6"/> 
+<color name="dark mint green" rgb="20c073"/> 
+<color name="light cosmic" rgb="bb8caa"/> 
+<color name="faded purple" rgb="916e99"/> 
+<color name="medium sea green" rgb="3cb371"/> 
+<color name="razzmic berry" rgb="8d4e85"/> 
+<color name="signal violet" rgb="924e7d"/> 
+<color name="super pink" rgb="cf6ba9"/> 
+<color name="stone" rgb="ada587"/> 
+<color name="pastel purple" rgb="b39eb5"/> 
+<color name="French lilac" rgb="86608e"/> 
+<color name="old rose" rgb="c08081"/> 
+<color name="medium red-violet" rgb="bb3385"/> 
+<color name="blue bell" rgb="a2a2d0"/> 
+<color name="muted blue" rgb="3b719f"/> 
+<color name="warm taupe" rgb="b29784"/> 
+<color name="peach tan" rgb="b4745e"/> 
+<color name="shadow" rgb="8a795d"/> 
+<color name="French beige" rgb="a67b5b"/> 
+<color name="purple Navy" rgb="4e5180"/> 
+<color name="dark pastel blue" rgb="779ecb"/> 
+<color name="glaucous" rgb="6082b6"/> 
+<color name="UCLA blue" rgb="536895"/> 
+<color name="Hooker's green" rgb="49796b"/> 
+<color name="mauve taupe" rgb="af868e"/> 
+<color name="cement" rgb="a5a391"/> 
+<color name="blue gray" rgb="607c8e"/> 
+<color name="light amazon" rgb="aebea6"/> 
+<color name="purplish" rgb="94568c"/> 
+<color name="light royal heath" rgb="d987b9"/> 
+<color name="cyan-blue azure" rgb="4682bf"/> 
+<color name="dahlia mauve" rgb="a85387"/> 
+<color name="pale teal" rgb="82cbb2"/> 
+<color name="sage green" rgb="88b378"/> 
+<color name="greenish teal" rgb="32bf84"/> 
+<color name="light japanese violet" rgb="7058a3"/> 
+<color name="mystic maroon" rgb="ad4379"/> 
+<color name="bluey green" rgb="2bb179"/> 
+<color name="gunmetal" rgb="536267"/> 
+<color name="gray green" rgb="789b73"/> 
+<color name="mint" rgb="3eb489"/> 
+<color name="sky magenta" rgb="cf71af"/> 
+<color name="light French beige" rgb="c8ad7f"/> 
+<color name="turtle green" rgb="75b84f"/> 
+<color name="zomp" rgb="39a78e"/> 
+<color name="dull purple" rgb="84597e"/> 
+<color name="purpley gray" rgb="947e94"/> 
+<color name="ube" rgb="8878c3"/> 
+<color name="liver chestnut" rgb="987456"/> 
+<color name="dark erin" rgb="3b7861"/> 
+<color name="pastel taupe" rgb="af9e89"/> 
+<color name="light violent violet" rgb="7b4bab"/> 
+<color name="medium raspberry" rgb="c077a6"/> 
+<color name="ocean green" rgb="3d9973"/> 
+<color name="purplish gray" rgb="7a687f"/> 
+<color name="hot pink" rgb="ff69b4"/> 
+<color name="muted green" rgb="5fa052"/> 
+<color name="dull green" rgb="74a662"/> 
+<color name="meadow mauve" rgb="a55790"/> 
+<color name="mulberry" rgb="c54b8c"/> 
+<color name="plaza taupe" rgb="a79e8b"/> 
+<color name="asparagus" rgb="87a96b"/> 
+<color name="gainsboro" rgb="dcdcdc"/> 
+<color name="Chinese violet" rgb="856088"/> 
+<color name="opera mauve" rgb="b784a7"/> 
+<color name="peach bisque" rgb="a87c6d"/> 
+<color name="shadow blue" rgb="778ba5"/> 
+<color name="silver sand" rgb="bfc1c2"/> 
+<color name="wild blue yonder" rgb="a2add0"/> 
+<color name="lavender brown" rgb="aa8a9e"/> 
+<color name="smoke" rgb="738276"/> 
+<color name="green sheen" rgb="6eaea1"/> 
+<color name="striking purple" rgb="98508e"/> 
+<color name="antique fuchsia" rgb="915c83"/> 
+<color name="fortune" rgb="7e73b8"/> 
+<color name="greyish purple" rgb="887191"/> 
+<color name="light plum" rgb="9d5783"/> 
+<color name="dusty teal" rgb="4c9085"/> 
+<color name="bluey gray" rgb="89a0b0"/> 
+<color name="simply taupe" rgb="aba092"/> 
+<color name="moonlite mauve" rgb="d290b5"/> 
+<color name="dull blue" rgb="49759c"/> 
+<color name="dollar bill" rgb="85bb65"/> 
+<color name="greeny blue" rgb="42b395"/> 
+<color name="light pastel purple" rgb="b19cd9"/> 
+<color name="agate blue" rgb="44719b"/> 
+<color name="faded green" rgb="7bb274"/> 
+<color name="purpleish" rgb="98568d"/> 
+<color name="lilac bush" rgb="9874d3"/> 
+<color name="taupe gray" rgb="8b8589"/> 
+<color name="mogul" rgb="8c82b6"/> 
+<color name="desert taupe" rgb="a18178"/> 
+<color name="purple gray" rgb="866f85"/> 
+<color name="metallic blue" rgb="4f738e"/> 
+<color name="deep lavender blue-gray" rgb="b2a4d4"/> 
+<color name="dusty purple" rgb="825f87"/> 
+<color name="lavender lustre" rgb="8a9cc4"/> 
+<color name="pearly purple" rgb="b768a2"/> 
+<color name="greenish gray" rgb="96ae8d"/> 
+<color name="dusty green" rgb="76a973"/> 
+<color name="flat green" rgb="699d4c"/> 
+<color name="gray teal" rgb="5e9b8a"/> 
+<color name="steel blue" rgb="4682b4"/> 
+<color name="silver lake blue" rgb="5d89ba"/> 
+<color name="off blue" rgb="5684ae"/> 
+<color name="cerulean frost" rgb="6d9bc3"/> 
+<color name="stormcloud" rgb="4f666a"/> 
+<color name="dusty lavender" rgb="ac86a8"/> 
+<color name="bright raspberry rose" rgb="c7458b"/> 
+<color name="medium periwinkle" rgb="7a83bf"/> 
+<color name="deep aquamarine" rgb="40826d"/> 
+<color name="off green" rgb="6ba353"/> 
+<color name="illuminating emerald" rgb="319177"/> 
+<color name="california gold" rgb="a98f64"/> 
+<color name="cyan azure" rgb="4e82b4"/> 
+<color name="lapis lazuli" rgb="26619c"/> 
+<color name="medium carmine pink" rgb="c08181"/> 
+<color name="slate" rgb="516572"/> 
+<color name="royal purple" rgb="7851a9"/> 
+<color name="green gray" rgb="77926f"/> 
+<color name="gray-blue" rgb="8c92ac"/> 
+<color name="greyblue" rgb="77a1b5"/> 
+<color name="dull deep lavender" rgb="9c87cd"/> 
+<color name="lichen" rgb="8fb67b"/> 
+<color name="deep space sparkle" rgb="4a646c"/> 
+<color name="stormy blue" rgb="507b9c"/> 
+<color name="dark pastel purple" rgb="966fd6"/> 
+<color name="lilac luster" rgb="ae98aa"/> 
+<color name="water" rgb="96aba5"/> 
+<color name="mountbatten pink" rgb="997a8d"/> 
+<color name="greyish blue" rgb="5e819d"/> 
+<color name="greeny gray" rgb="7ea07a"/> 
+<color name="steel" rgb="738595"/> 
+<color name="rhythm" rgb="777696"/> 
+<color name="mauve orchid" rgb="b37e9a"/> 
+<color name="russian green" rgb="679267"/> 
+<color name="slate grayish" rgb="59656d"/> 
+<color name="light silver chalice" rgb="dadada"/> 
+<color name="moss" rgb="769958"/> 
+<color name="dark electric blue" rgb="536878"/> 
+<color name="light gray" rgb="d3d3d3"/> 
+<color name="brown yellow" rgb="cc9966"/> 
+<color name="camouflage green" rgb="78866b"/> 
+<color name="greyish green" rgb="82a67d"/> 
+<color name="amethyst" rgb="9966cc"/> 
+<color name="polished pine" rgb="5da493"/> 
+<color name="acapulco" rgb="7cb0a1"/> 
+<color name="gray blue" rgb="6b8ba4"/> 
+<color name="air superiority blue" rgb="72a0c1"/> 
+<color name="pearl violet" rgb="8683a1"/> 
+<color name="manatee" rgb="979aaa"/> 
+<color name="dusty blue" rgb="5a86ad"/> 
+<color name="wintergreen dream" rgb="56887d"/> 
+<color name="steel teal" rgb="5f8a8b"/> 
+<color name="medium gray" rgb="7d7f7c"/> 
+<color name="amethyst smoke" rgb="a397b4"/> 
+<color name="xanadu" rgb="738678"/> 
+<color name="desaturated cyan" rgb="669999"/> 
+<color name="greyish teal" rgb="719f91"/> 
+<color name="gray/green" rgb="86a17d"/> 
+<color name="cadet gray" rgb="91a3b0"/> 
+<color name="lavender purple" rgb="967bb6"/> 
+<color name="Air Force blue (RAF)" rgb="5d8aa8"/> 
+<color name="steel gray" rgb="6f828a"/> 
+<color name="roman silver" rgb="838996"/> 
+<color name="dull teal" rgb="5f9e8f"/> 
+<color name="bluegrey" rgb="85a3b2"/> 
+<color name="battleship gray" rgb="6b7c85"/> 
+<color name="patina" rgb="639a8f"/> 
+<color name="cool gray" rgb="95a3a6"/> 
+<color name="blue-gray" rgb="6699cc"/> 
+<color name="bluish gray" rgb="748b97"/> 
+<color name="gray/blue" rgb="647d8e"/> 
+<color name="sirocco" rgb="718080"/> 
+<color name="blue/gray" rgb="758da3"/> 
+<color name="purple mountain majesty" rgb="9678b6"/> 
+<color name="aurometalsaurus" rgb="6e7f80"/> 
+<color name="anti-flash white" rgb="f2f3f4"/> 
+<color name="slate gray" rgb="708090"/> 
+<color name="davy's gray" rgb="555555"/> 
+<color name="light slate gray" rgb="778899"/> 
+<color name="silver" rgb="c0c0c0"/> 
+<color name="x11 gray" rgb="bebebe"/> 
+<color name="dim gray" rgb="696969"/> 
+<color name="silver chalice" rgb="acacac"/> 
+<color name="quicksilver" rgb="a6a6a6"/> 
+<color name="sonic silver" rgb="757575"/> 
+<color name="Spanish gray" rgb="989898"/> 
+<color name="dark medium gray" rgb="a9a9a9"/> 
+<color name="gray" rgb="808080"/> 
+<color name="lavender blush" rgb="fff0f5"/> 
+<color name="beige" rgb="f5f5dc"/> 
+<color name="sunny yellow" rgb="fff917"/> 
+<color name="light watusi" rgb="fff1eb"/> 
+<color name="primary blue" rgb="0804f9"/> 
+<color name="light light blue" rgb="cafffb"/> 
+<color name="strong blue" rgb="0c06f7"/> 
+<color name="dark red" rgb="8b0000"/> 
+<color name="prince fan purple" rgb="6600b7"/> 
+<color name="pale blue" rgb="d0fefe"/> 
+<color name="Cal Poly green" rgb="1e4d2b"/> 
+<color name="light starship" rgb="f7fa97"/> 
+<color name="pineapple" rgb="563c5c"/> 
+<color name="byzantium" rgb="702963"/> 
+<color name="English green" rgb="1b4d3e"/> 
+<color name="French plum" rgb="811453"/> 
+<color name="dark teal" rgb="014d4e"/> 
+<color name="purple taupe" rgb="50404d"/> 
+<color name="dark byzantium" rgb="5d3954"/> 
+<color name="violet blue" rgb="510ac9"/> 
+<color name="magnolia" rgb="f8f4ff"/> 
+<color name="falu red" rgb="801818"/> 
+<color name="deep dark indigo" rgb="503e5c"/> 
+<color name="dark liver (horses)" rgb="543d37"/> 
+<color name="red devil" rgb="860111"/> 
+<color name="darkish purple" rgb="751973"/> 
+<color name="light lavender mist" rgb="f5f5fd"/> 
+<color name="claret" rgb="7f1734"/> 
+<color name="old mauve" rgb="673147"/> 
+<color name="dark cerulean" rgb="08457e"/> 
+<color name="old lace" rgb="fdf5e6"/> 
+<color name="kenyan copper" rgb="7c1c05"/> 
+<color name="red purple" rgb="820747"/> 
+<color name="liver (organ)" rgb="6c2e1f"/> 
+<color name="deep red" rgb="850101"/> 
+<color name="pale rose light" rgb="fff3fa"/> 
+<color name="imperial" rgb="602f6b"/> 
+<color name="very light pink" rgb="fff4f2"/> 
+<color name="dotcom" rgb="41415d"/> 
+<color name="dark gray blue" rgb="29465b"/> 
+<color name="deep jungle green" rgb="004b49"/> 
+<color name="dark copper" rgb="71291d"/> 
+<color name="charcoal" rgb="36454f"/> 
+<color name="white smoke" rgb="f5f5f5"/> 
+<color name="royal maroon" rgb="5a3839"/> 
+<color name="manilla" rgb="fffa86"/> 
+<color name="arsenic" rgb="3b444b"/> 
+<color name="royal azure" rgb="0038a8"/> 
+<color name="midnight green" rgb="004953"/> 
+<color name="bottle green" rgb="044a05"/> 
+<color name="medium burgundy" rgb="63313a"/> 
+<color name="bright yellow" rgb="fffd01"/> 
+<color name="lilac shadow" rgb="56365c"/> 
+<color name="really light blue" rgb="d4ffff"/> 
+<color name="deep maroon" rgb="820000"/> 
+<color name="twilight blue" rgb="0a437a"/> 
+<color name="pure blue" rgb="0203e2"/> 
+<color name="pansy purple" rgb="78184a"/> 
+<color name="seashell" rgb="fff5ee"/> 
+<color name="darkish blue" rgb="014182"/> 
+<color name="ice" rgb="d6fffa"/> 
+<color name="palatinate purple" rgb="682860"/> 
+<color name="burgundy" rgb="800020"/> 
+<color name="dark puce" rgb="4f3a3c"/> 
+<color name="sunshine yellow" rgb="fffd37"/> 
+<color name="purple rain" rgb="4b308d"/> 
+<color name="alice blue" rgb="f0f8ff"/> 
+<color name="Japanese violet" rgb="5b3256"/> 
+<color name="generic purple" rgb="660099"/> 
+<color name="up maroon" rgb="7b1113"/> 
+<color name="very pale blue" rgb="d6fffe"/> 
+<color name="quite dark green" rgb="054907"/> 
+<color name="blue (pigment)" rgb="333399"/> 
+<color name="maroon (HTML/CSS)" rgb="800000"/> 
+<color name="taupe" rgb="483c32"/> 
+<color name="barn red" rgb="7c0a02"/> 
+<color name="ice blue" rgb="d7fffe"/> 
+<color name="charcoal gray" rgb="3c4142"/> 
+<color name="Egyptian blue" rgb="1034a6"/> 
+<color name="kombu green" rgb="354230"/> 
+<color name="UA blue" rgb="0033aa"/> 
+<color name="regalia" rgb="522d80"/> 
+<color name="yellowish tan" rgb="fcfc81"/> 
+<color name="evergreen" rgb="05472a"/> 
+<color name="laser lemon" rgb="fefe22"/> 
+<color name="forest green" rgb="06470c"/> 
+<color name="Japanese indigo" rgb="264348"/> 
+<color name="bordeaux" rgb="7b002c"/> 
+<color name="wine red" rgb="7b0323"/> 
+<color name="frosted mint" rgb="dbfff8"/> 
+<color name="dark imperial blue" rgb="00416a"/> 
+<color name="MSU green" rgb="18453b"/> 
+<color name="rose white" rgb="fff6f5"/> 
+<color name="racing green" rgb="014600"/> 
+<color name="amour light" rgb="fdf6fa"/> 
+<color name="velvet" rgb="750851"/> 
+<color name="claret violet" rgb="6e1c34"/> 
+<color name="yellow (RYB)" rgb="fefe33"/> 
+<color name="deep burgundy" rgb="770f05"/> 
+<color name="lemon glacier" rgb="fdff00"/> 
+<color name="dark olive" rgb="373e02"/> 
+<color name="persian plum" rgb="701c1c"/> 
+<color name="light goldenrod yellow" rgb="fafad2"/> 
+<color name="forrest green" rgb="154406"/> 
+<color name="black olive" rgb="3b3c36"/> 
+<color name="cornsilk" rgb="fff8dc"/> 
+<color name="café noir" rgb="4b3621"/> 
+<color name="canary yellow" rgb="fffe40"/> 
+<color name="myrtle" rgb="21421e"/> 
+<color name="yellow" rgb="ffff00"/> 
+<color name="light mindaro" rgb="f3fdc6"/> 
+<color name="dark powder blue" rgb="003399"/> 
+<color name="forest green (traditional)" rgb="014421"/> 
+<color name="butter yellow" rgb="fffd74"/> 
+<color name="indigo blue" rgb="3a18b1"/> 
+<color name="international Klein blue" rgb="002fa7"/> 
+<color name="pale" rgb="fff9d0"/> 
+<color name="vulgar purple" rgb="3e2f84"/> 
+<color name="rich purple" rgb="720058"/> 
+<color name="warm black" rgb="004242"/> 
+<color name="custard" rgb="fffd78"/> 
+<color name="ghost white" rgb="f8f8ff"/> 
+<color name="merlot" rgb="730039"/> 
+<color name="Spanish violet" rgb="4c2882"/> 
+<color name="nyanza" rgb="e9ffdb"/> 
+<color name="cosmic latte" rgb="fff8e7"/> 
+<color name="daffodil" rgb="ffff31"/> 
+<color name="light cyan" rgb="e0ffff"/> 
+<color name="pastel yellow" rgb="fdfd96"/> 
+<color name="electric yellow" rgb="ffff33"/> 
+<color name="internet puce" rgb="681c23"/> 
+<color name="light selago" rgb="f9f8fe"/> 
+<color name="medium blue" rgb="0000cd"/> 
+<color name="reddy brown" rgb="6e1005"/> 
+<color name="parchment" rgb="fefcaf"/> 
+<color name="canary" rgb="fdff63"/> 
+<color name="British racing green" rgb="004225"/> 
+<color name="light papaya whip" rgb="fff8ed"/> 
+<color name="hunter green" rgb="0b4008"/> 
+<color name="rich black" rgb="004040"/> 
+<color name="lemon chiffon" rgb="fffacd"/> 
+<color name="caput mortuum" rgb="592720"/> 
+<color name="zydeco" rgb="02402c"/> 
+<color name="mandarin red" rgb="0f3f00"/> 
+<color name="cherrywood" rgb="651a14"/> 
+<color name="deep koamaru" rgb="333366"/> 
+<color name="dark blueish gray" rgb="1f3b4d"/> 
+<color name="Air Force blue (USAF)" rgb="00308f"/> 
+<color name="bubbles" rgb="e7feff"/> 
+<color name="onyx" rgb="353839"/> 
+<color name="unmellow yellow" rgb="ffff66"/> 
+<color name="olive drab #7" rgb="3c341f"/> 
+<color name="marine blue" rgb="01386a"/> 
+<color name="japanese purple" rgb="4f284b"/> 
+<color name="old burgundy" rgb="43302e"/> 
+<color name="crimson lake" rgb="670f25"/> 
+<color name="dark gray" rgb="363737"/> 
+<color name="faded yellow" rgb="feff7f"/> 
+<color name="Pullman green" rgb="3b331c"/> 
+<color name="egg shell-ish" rgb="fffcc4"/> 
+<color name="grape purple" rgb="5d1451"/> 
+<color name="black rose" rgb="67032d"/> 
+<color name="banana" rgb="ffff7e"/> 
+<color name="nightclub" rgb="660045"/> 
+<color name="butter" rgb="ffff81"/> 
+<color name="light lavender blush" rgb="fff9fb"/> 
+<color name="pale yellow" rgb="ffff84"/> 
+<color name="tyrian purple" rgb="66023c"/> 
+<color name="floral white" rgb="fffaf0"/> 
+<color name="rosewood" rgb="65000b"/> 
+<color name="blue (Pantone)" rgb="0018a8"/> 
+<color name="black leather jacket" rgb="253529"/> 
+<color name="rainshower" rgb="edfeff"/> 
+<color name="dark midnight blue" rgb="003366"/> 
+<color name="St. Patrick's blue" rgb="23297a"/> 
+<color name="indigo (web)" rgb="4b0082"/> 
+<color name="imperial blue" rgb="002395"/> 
+<color name="pale canary yellow" rgb="ffff99"/> 
+<color name="bistre" rgb="3d2b1f"/> 
+<color name="snow" rgb="fffafa"/> 
+<color name="light beige" rgb="fffeb6"/> 
+<color name="honeydew" rgb="f0fff0"/> 
+<color name="zaffre" rgb="0014a8"/> 
+<color name="Catalina blue" rgb="062a78"/> 
+<color name="medium jungle green" rgb="1c352d"/> 
+<color name="cream" rgb="fffdd0"/> 
+<color name="phthalo green" rgb="123524"/> 
+<color name="Prussian blue" rgb="003153"/> 
+<color name="indigo dye" rgb="091f92"/> 
+<color name="jet" rgb="343434"/> 
+<color name="resolution blue" rgb="002387"/> 
+<color name="royal blue" rgb="0504aa"/> 
+<color name="cool black" rgb="002e63"/> 
+<color name="tokyo purple" rgb="5a004a"/> 
+<color name="marine" rgb="042e60"/> 
+<color name="French puce" rgb="4e1609"/> 
+<color name="rose white light" rgb="fffbfb"/> 
+<color name="black currant" rgb="32293a"/> 
+<color name="creme" rgb="ffffb6"/> 
+<color name="light frosted mint" rgb="f0fffc"/> 
+<color name="royal" rgb="0c1793"/> 
+<color name="dark scarlet" rgb="560319"/> 
+<color name="very pale yellow" rgb="ffffbf"/> 
+<color name="azure mist" rgb="f0ffff"/> 
+<color name="space cadet" rgb="1d2951"/> 
+<color name="very dark green" rgb="062e03"/> 
+<color name="plum purple" rgb="4e0550"/> 
+<color name="Persian indigo" rgb="32127a"/> 
+<color name="chocolate" rgb="3d1c02"/> 
+<color name="dark sapphire" rgb="082567"/> 
+<color name="duke blue" rgb="00009c"/> 
+<color name="Charleston green" rgb="232b2b"/> 
+<color name="victoria plum" rgb="002c39"/> 
+<color name="clairvoyant" rgb="480656"/> 
+<color name="dark forest green" rgb="002d04"/> 
+<color name="chocolate brown" rgb="411900"/> 
+<color name="Yankees blue" rgb="1c2841"/> 
+<color name="blackberry" rgb="4d0135"/> 
+<color name="ultramarine" rgb="120a8f"/> 
+<color name="royal blue 1" rgb="002366"/> 
+<color name="phthalo blue" rgb="000f89"/> 
+<color name="dried blood" rgb="4b0101"/> 
+<color name="russian violet" rgb="32174d"/> 
+<color name="midnight blue" rgb="191970"/> 
+<color name="light bubbles" rgb="f5ffff"/> 
+<color name="dark brown" rgb="341c02"/> 
+<color name="light yellow" rgb="ffffe0"/> 
+<color name="pale gray" rgb="fdfdfe"/> 
+<color name="mint cream" rgb="f5fffa"/> 
+<color name="dark sienna" rgb="3c1414"/> 
+<color name="Bulgarian rose" rgb="480607"/> 
+<color name="dark" rgb="1b2431"/> 
+<color name="eggplant purple" rgb="430541"/> 
+<color name="deep violet" rgb="330066"/> 
+<color name="dark blue" rgb="00008b"/> 
+<color name="off white" rgb="ffffe4"/> 
+<color name="black bean" rgb="3d0c02"/> 
+<color name="dark jungle green" rgb="1a2421"/> 
+<color name="baby powder" rgb="fefefa"/> 
+<color name="Oxford blue" rgb="002147"/> 
+<color name="jagger" rgb="350e47"/> 
+<color name="deep brown" rgb="410200"/> 
+<color name="seal brown" rgb="321414"/> 
+<color name="aubergine" rgb="3d0734"/> 
+<color name="Zinnwaldite brown" rgb="2c1608"/> 
+<color name="forget-me-not" rgb="000181"/> 
+<color name="ivory" rgb="fffff0"/> 
+<color name="violent violet" rgb="290c5e"/> 
+<color name="dark plum" rgb="3f012c"/> 
+<color name="dark maroon" rgb="3c0008"/> 
+<color name="dark purple" rgb="35063e"/> 
+<color name="gulf blue" rgb="051657"/> 
+<color name="dark royal blue" rgb="02066f"/> 
+<color name="deep purple" rgb="36013f"/> 
+<color name="deep blue" rgb="040273"/> 
+<color name="dark mardi gras" rgb="350036"/> 
+<color name="licorice" rgb="1a1110"/> 
+<color name="dark indigo" rgb="1f0954"/> 
+<color name="quite dark blue" rgb="030764"/> 
+<color name="navy blue" rgb="001146"/> 
+<color name="very dark purple" rgb="2a0134"/> 
+<color name="midnight purple" rgb="280137"/> 
+<color name="very dark brown" rgb="1d0200"/> 
+<color name="smoky black" rgb="100c08"/> 
+<color name="orchid mauve" rgb="000251"/> 
+<color name="eerie black" rgb="1b1b1b"/> 
+<color name="night blue" rgb="040348"/> 
+<color name="dark navy" rgb="000435"/> 
+<color name="almost black" rgb="070d0d"/> 
+<color name="dark navy blue" rgb="00022e"/> 
+<color name="very dark blue" rgb="000133"/> 
+<color name="midnight" rgb="03012d"/> 
+</colorPalette>
