@@ -1,6 +1,7 @@
 ##
 ## Build with Wercker
 ##
+## https://app.wercker.com/#applications/567cdedf1e29124443101992
 #
 box: maven:3.3.3-jdk-8
 #
