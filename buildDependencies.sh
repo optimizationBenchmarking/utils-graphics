@@ -21,7 +21,7 @@ do
 	wget -nv -O "master.tar.gz" "https://codeload.github.com/optimizationBenchmarking/$project/tar.gz/master"
 	tar -xf "master.tar.gz"
 	cd "$project-master"
-	mvn -Dmaven.test.skip=true -Dmaven.test.skip=true -Dmaven.javadoc.skip=true compile package install
+	mvn -Dmaven.javadoc.skip=true -Dmaven.test.skip.exec=true compile package install
 done
 
 cd "/tmp/"
