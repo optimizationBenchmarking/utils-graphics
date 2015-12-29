@@ -18,12 +18,12 @@ before_install:
   - if [[ $SHIPPABLE_JDK_VERSION == "openjdk6" ]] ; then export JAVA_HOME="/usr/lib/jvm/java-6-openjdk-amd64"; export PATH="$PATH:/usr/lib/jvm/java-6-openjdk-amd64/bin"; export java_path="/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java"; fi
   - if [[ $SHIPPABLE_JDK_VERSION == "oraclejdk8" ]] ; then export JAVA_HOME="/usr/lib/jvm/java-8-oracle"; export PATH="$PATH:/usr/lib/jvm/java-8-oracle/bin"; export java_path="/usr/lib/jvm/java-8-oracle/jre/bin/java"; fi
   - update-alternatives --set java $java_path
-  - java -version
-  - shippable_retry sudo apt-get -y install maven
+  - java -version  
 # Install the required Ant version
   - shippable_retry wget "https://raw.githubusercontent.com/optimizationBenchmarking/utils-build/master/antWebInstallerLinuxSudo.sh"
   - chmod 755 antWebInstallerLinuxSudo.sh
   - shippable_retry sudo ./antWebInstallerLinuxSudo.sh
+  - shippable_retry sudo apt-get -y install maven
   
 # install override
 install:
