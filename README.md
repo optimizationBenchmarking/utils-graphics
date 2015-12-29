@@ -8,5 +8,6 @@
 [<img alt="Wercker Build Status" src="https://img.shields.io/wercker/ci/567cdedf1e29124443101992.svg" height="20"/>](https://app.wercker.com/#applications/567cdedf1e29124443101992)
 [<img alt="Shippable Build Status" src="https://img.shields.io/shippable/567cde0f1895ca447466ea67.svg" height="20"/>](https://app.shippable.com/projects/567cde0f1895ca447466ea67)
 [<img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/ci/thomasWeise/utils-graphics.svg" height="20"/>](https://ci.appveyor.com/project/thomasWeise/utils-graphics)
+[<img alt="Drone IO Build Status" src="https://drone.io/github.com/optimizationBenchmarking/utils-graphics/status.png" height="20"/>](https://drone.io/github.com/optimizationBenchmarking/utils-graphics/latest)
 
 This library provides the graphics utility classes used by the [optimizationBenchmarking](http://www.github.com/optimizationBenchmarking/) tool suite. Details about the licensing of this project and the projects it depends on are given in [LICENSE.md](https://github.com/optimizationBenchmarking/utils-graphics/blob/master/LICENSE.md).
