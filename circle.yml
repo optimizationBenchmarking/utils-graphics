@@ -9,7 +9,6 @@ machine:
   pre:
     - sudo apt-get -y remove ant
     - sudo apt-get -y update
-    - sudo apt-get -y upgrade
     - sudo apt-get -y install ant
   environment:
 # We set the environment variable JAVA_OPTS to reduce

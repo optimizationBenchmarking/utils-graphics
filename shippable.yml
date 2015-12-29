@@ -19,8 +19,10 @@ before_install:
   - if [[ $SHIPPABLE_JDK_VERSION == "oraclejdk8" ]] ; then export JAVA_HOME="/usr/lib/jvm/java-8-oracle"; export PATH="$PATH:/usr/lib/jvm/java-8-oracle/bin"; export java_path="/usr/lib/jvm/java-8-oracle/jre/bin/java"; fi
   - update-alternatives --set java $java_path
   - java -version
-  - shippable_retry sudo apt-get update
-  - shippable_retry sudo apt-get install -y maven
+  - shippable_retry sudo apt-get -y remove ant
+  - shippable_retry sudo apt-get -y update
+  - shippable_retry sudo apt-get -y install ant
+  - shippable_retry sudo apt-get -y install maven
   
 # install override
 install:

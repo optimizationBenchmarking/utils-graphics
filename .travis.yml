@@ -24,6 +24,9 @@ script: ant
 # fix for buffer overflows in getLocalHostName
 # https://github.com/travis-ci/travis-ci/issues/5227
 before_install:
+  - sudo apt-get -y remove ant
+  - sudo apt-get -y update
+  - sudo apt-get -y install ant
   - cat /etc/hosts # optionally check the content *before*
   - sudo hostname "$(hostname | cut -c1-63)"
   - sed -e "s/^\\(127\\.0\\.0\\.1.*\\)/\\1 $(hostname | cut -c1-63)/" /etc/hosts | sudo tee /etc/hosts
