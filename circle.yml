@@ -8,9 +8,9 @@ machine:
 # Install the newest version of ant.
   pre:
 # Install the required Ant version
-  - wget "https://raw.githubusercontent.com/optimizationBenchmarking/utils-build/master/antWebInstallerLinuxSudo.sh"
-  - chmod 755 antWebInstallerLinuxSudo.sh
-  - sudo ./antWebInstallerLinuxSudo.sh
+  - wget "https://raw.githubusercontent.com/optimizationBenchmarking/utils-build/master/antWebInstallerLinux.sh"
+  - chmod 755 antWebInstallerLinux.sh
+  - sudo ./antWebInstallerLinux.sh
   environment:
 # We set the environment variable JAVA_OPTS to reduce
 # the memory footprint in order to prevent unexpected

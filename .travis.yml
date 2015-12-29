@@ -23,9 +23,9 @@ script: ant
 
 before_install:
 # Install the required Ant version
-  - wget "https://raw.githubusercontent.com/optimizationBenchmarking/utils-build/master/antWebInstallerLinuxSudo.sh"
-  - chmod 755 antWebInstallerLinuxSudo.sh
-  - sudo ./antWebInstallerLinuxSudo.sh  
+  - wget "https://raw.githubusercontent.com/optimizationBenchmarking/utils-build/master/antWebInstallerLinux.sh"
+  - chmod 755 antWebInstallerLinux.sh
+  - sudo ./antWebInstallerLinux.sh  
 # fix for buffer overflows in getLocalHostName
 # https://github.com/travis-ci/travis-ci/issues/5227
   - cat /etc/hosts # optionally check the content *before*
