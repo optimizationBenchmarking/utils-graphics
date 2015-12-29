@@ -16,16 +16,13 @@ machine:
 # We download the latest version of the main project,
 # build it, and install it.
 dependencies:
-  override:  
-    - chmod 755 "buildDependencies.sh"
-    - "./buildDependencies.sh" 
-    - mvn dependency:resolve
-    
+  override:
+      
 # We set a high timeout to prevent the test from being
 # terminated unexpectedly.
 test:
   override:
-    - mvn test compile package install --fail-at-end:
+    - ant:
         timeout: 10000
         
 # The branches to be ignored

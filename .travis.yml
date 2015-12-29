@@ -19,7 +19,7 @@ cache:
   - $HOME/.m2
 
 # custom build step
-script: mvn -C -B test compile install package
+script: ant
 
 # fix for buffer overflows in getLocalHostName
 # https://github.com/travis-ci/travis-ci/issues/5227
@@ -28,5 +28,3 @@ before_install:
   - sudo hostname "$(hostname | cut -c1-63)"
   - sed -e "s/^\\(127\\.0\\.0\\.1.*\\)/\\1 $(hostname | cut -c1-63)/" /etc/hosts | sudo tee /etc/hosts
   - cat /etc/hosts # optionally check the content *after*
-  - chmod 755 "buildDependencies.sh"
-  - "./buildDependencies.sh" 
