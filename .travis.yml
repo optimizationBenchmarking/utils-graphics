@@ -25,10 +25,10 @@ before_install:
 # Install ant 1.9.6 as described at
 # http://www.askubuntu.com/questions/674328/
   - sudo apt-get -y purge ant
-  - cd /tmp/
   - wget http://archive.apache.org/dist/ant/binaries/apache-ant-1.9.6-bin.tar.gz
   - tar -xvzf apache-ant-1.9.6-bin.tar.gz
   - sudo mv apache-ant-1.9.6 /opt/
+  - rm -f apache-ant-1.9.6-bin.tar.gz
   - sudo ln -s /opt/apache-ant-1.9.6/bin/ant /usr/bin/ant
   - echo "export ANT_HOME=\"/opt/apache-ant-1.9.6\"" >> ~/.bashrc
   - echo "export ANT_OPTS=\"-Xmx2048m -XX:MaxPermSize=1024m\"" >> ~/.bashrc
