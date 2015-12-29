@@ -28,7 +28,7 @@ configuration:
   - Release
     
 build_script:
-  - ant -Dmaven="C:\bin\apache-maven-3.2.5\bin\mvn.cmd"
+  - ant
   
 test_script:
   - echo "Nothing."
