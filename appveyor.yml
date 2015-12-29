@@ -15,6 +15,7 @@ install:
   # so we do it manually, like
   # https://github.com/abelsromero/asciidoctor-maven-plugin/blob/master/appveyor.yml
   - cmd: SET PATH=C:\bin\apache-ant-1.9.6\bin;C:\bin\apache-maven-3.2.5\bin;%JAVA_HOME%\bin;%PATH%
+  - cmd: echo "%PATH%"
   
 cache:
   - C:\bin\apache-maven-3.2.5\
