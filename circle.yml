@@ -3,18 +3,23 @@
 ##
 ## https://circleci.com/gh/optimizationBenchmarking/utils-graphics
 #
+
+machine:
+# Install the newest version of ant.
+  pre:
+    - sudo apt-get remove ant
+    - sudo apt-get update
+    - sudo apt-get install ant
+  environment:
 # We set the environment variable JAVA_OPTS to reduce
 # the memory footprint in order to prevent unexpected
 # test termination.
-machine:
-  environment:
     JAVA_OPTS: -Xms1536m -Xmx1536m
     MAVEN_OPTS: -Xms1536m -Xmx1536m
     _JAVA_OPTIONS: -Xms1536m -Xmx1536m
     
     
-# We download the latest version of the main project,
-# build it, and install it.
+# We do nothing here.
 dependencies:
   override:
       
