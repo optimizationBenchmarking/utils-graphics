@@ -31,3 +31,4 @@ before_install:
   
 # prevent Maven from running
 install:
+  - echo "Nothing."

@@ -7,9 +7,10 @@
 machine:
 # Install the newest version of ant.
   pre:
-    - sudo apt-get remove ant
-    - sudo apt-get update
-    - sudo apt-get install ant
+    - sudo apt-get -y remove ant
+    - sudo apt-get -y update
+    - sudo apt-get -y upgrade
+    - sudo apt-get -y install ant
   environment:
 # We set the environment variable JAVA_OPTS to reduce
 # the memory footprint in order to prevent unexpected
