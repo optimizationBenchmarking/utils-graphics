@@ -21,12 +21,19 @@ cache:
 # custom build step
 script: ant
 
+before_install:
+# Install ant 1.9.6 as described at
+# http://www.askubuntu.com/questions/674328/
+  - sudo apt-get -y purge ant
+  - cd /tmp/
+  - wget http://archive.apache.org/dist/ant/binaries/apache-ant-1.9.6-bin.tar.gz
+  - tar -xvzf apache-ant-1.9.6-bin.tar.gz
+  - sudo mv apache-ant-1.9.6 /opt/
+  - sudo ln -s /opt/apache-ant-1.9.6/bin/ant /usr/bin/ant
+  - echo "export ANT_HOME=\"/opt/apache-ant-1.9.6\"" >> ~/.bashrc
+  - echo "export ANT_OPTS=\"-Xmx2048m -XX:MaxPermSize=1024m\"" >> ~/.bashrc
 # fix for buffer overflows in getLocalHostName
 # https://github.com/travis-ci/travis-ci/issues/5227
-before_install:
-  - sudo apt-get -y remove ant
-  - sudo apt-get -y update
-  - sudo apt-get -y install ant
   - cat /etc/hosts # optionally check the content *before*
   - sudo hostname "$(hostname | cut -c1-63)"
   - sed -e "s/^\\(127\\.0\\.0\\.1.*\\)/\\1 $(hostname | cut -c1-63)/" /etc/hosts | sudo tee /etc/hosts
