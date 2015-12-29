@@ -7,18 +7,10 @@
 machine:
 # Install the newest version of ant.
   pre:
-# Install ant 1.9.6 as described at
-# http://www.askubuntu.com/questions/674328/
-  - sudo apt-get -y purge ant
-  - wget http://archive.apache.org/dist/ant/binaries/apache-ant-1.9.6-bin.tar.gz
-  - tar -xvzf apache-ant-1.9.6-bin.tar.gz
-  - sudo mv apache-ant-1.9.6 /opt/
-  - rm -f apache-ant-1.9.6-bin.tar.gz
-  - sudo ln -s /opt/apache-ant-1.9.6/bin/ant /usr/bin/ant
-  - echo "export ANT_HOME=\"/opt/apache-ant-1.9.6\"" >> ~/.bashrc
-  - echo "export ANT_OPTS=\"-Xmx2048m -XX:MaxPermSize=1024m\"" >> ~/.bashrc
-  - export ANT_HOME="/opt/apache-ant-1.9.6"
-  - export ANT_OPTS="-Xmx2048m -XX:MaxPermSize=1024m"
+# Install the required Ant version
+  - wget "https://raw.githubusercontent.com/optimizationBenchmarking/utils-build/master/antWebInstallerLinuxSudo.sh"
+  - chmod 755 antWebInstallerLinuxSudo.sh
+  - sudo ./antWebInstallerLinuxSudo.sh
   environment:
 # We set the environment variable JAVA_OPTS to reduce
 # the memory footprint in order to prevent unexpected
