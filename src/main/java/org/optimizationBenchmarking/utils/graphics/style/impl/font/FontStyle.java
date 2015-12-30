@@ -1,7 +1,7 @@
 package org.optimizationBenchmarking.utils.graphics.style.impl.font;
 
 import java.awt.Font;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 
 import org.optimizationBenchmarking.utils.collections.lists.ArrayListView;
 import org.optimizationBenchmarking.utils.comparison.Compare;
@@ -231,7 +231,7 @@ public final class FontStyle extends FontProperties implements IFontStyle {
 
   /** {@inheritDoc} */
   @Override
-  public final StyleApplication applyTo(final Graphics2D g) {
+  public final StyleApplication applyTo(final Graphics g) {
     return new _FontApplication(g, this.m_font);
   }
 

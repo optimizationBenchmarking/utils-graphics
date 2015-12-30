@@ -1,6 +1,6 @@
 package org.optimizationBenchmarking.utils.graphics.style.impl;
 
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 
 import org.optimizationBenchmarking.utils.IScope;
 
@@ -8,7 +8,7 @@ import org.optimizationBenchmarking.utils.IScope;
 public class StyleApplication implements IScope {
 
   /** the graphic used */
-  private final Graphics2D m_g;
+  private final Graphics m_g;
 
   /**
    * the style
@@ -16,7 +16,7 @@ public class StyleApplication implements IScope {
    * @param g
    *          the graphic
    */
-  protected StyleApplication(final Graphics2D g) {
+  protected StyleApplication(final Graphics g) {
     super();
     if (g == null) {
       throw new IllegalArgumentException(//
@@ -31,7 +31,7 @@ public class StyleApplication implements IScope {
    * @param g
    *          the graphic
    */
-  protected void cleanUp(final Graphics2D g) {
+  protected void cleanUp(final Graphics g) {
     //
   }
 

@@ -1,7 +1,7 @@
 package org.optimizationBenchmarking.utils.graphics.style.impl.color;
 
 import java.awt.Color;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 
 import org.optimizationBenchmarking.utils.graphics.style.impl.StyleApplication;
 
@@ -9,7 +9,7 @@ import org.optimizationBenchmarking.utils.graphics.style.impl.StyleApplication;
 final class _ColorApplication extends StyleApplication {
 
   /** the color */
-  private final Color m_c;
+  private final Color m_oldColor;
 
   /**
    * the style
@@ -19,15 +19,15 @@ final class _ColorApplication extends StyleApplication {
    * @param c
    *          the color
    */
-  _ColorApplication(final Graphics2D g, final Color c) {
+  _ColorApplication(final Graphics g, final Color c) {
     super(g);
-    this.m_c = g.getColor();
+    this.m_oldColor = g.getColor();
     g.setColor(c);
   }
 
   /** {@inheritDoc} */
   @Override
-  protected final void cleanUp(final Graphics2D g) {
-    g.setColor(this.m_c);
+  protected final void cleanUp(final Graphics g) {
+    g.setColor(this.m_oldColor);
   }
 }

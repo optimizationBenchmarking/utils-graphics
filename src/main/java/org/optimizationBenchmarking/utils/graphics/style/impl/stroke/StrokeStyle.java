@@ -1,7 +1,7 @@
 package org.optimizationBenchmarking.utils.graphics.style.impl.stroke;
 
 import java.awt.BasicStroke;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 import java.awt.Stroke;
 
 import org.optimizationBenchmarking.utils.graphics.style.impl.StyleApplication;
@@ -102,7 +102,7 @@ public final class StrokeStyle extends BasicStroke
 
   /** {@inheritDoc} */
   @Override
-  public final StyleApplication applyTo(final Graphics2D g) {
+  public final StyleApplication applyTo(final Graphics g) {
     return new _StrokeApplication(g, this);
   }
 

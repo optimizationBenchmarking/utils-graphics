@@ -1,7 +1,7 @@
 package org.optimizationBenchmarking.utils.graphics.style.impl.color;
 
 import java.awt.Color;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 
 import org.optimizationBenchmarking.utils.graphics.style.impl.StyleApplication;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorStyle;
@@ -83,7 +83,7 @@ public class ColorStyle extends Color implements IColorStyle {
 
   /** {@inheritDoc} */
   @Override
-  public final StyleApplication applyTo(final Graphics2D g) {
+  public final StyleApplication applyTo(final Graphics g) {
     return new _ColorApplication(g, this);
   }
 
