@@ -4,7 +4,7 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 
 import org.optimizationBenchmarking.utils.collections.lists.ArrayListView;
-import org.optimizationBenchmarking.utils.comparison.EComparison;
+import org.optimizationBenchmarking.utils.comparison.Compare;
 import org.optimizationBenchmarking.utils.graphics.EFontFamily;
 import org.optimizationBenchmarking.utils.graphics.EFontType;
 import org.optimizationBenchmarking.utils.graphics.FontProperties;
@@ -189,7 +189,7 @@ public final class FontStyle extends FontProperties implements IFontStyle {
       t = ((FontStyle) o);
       return ((this.m_flags == t.m_flags) && //
           (this.m_size == t.m_size) && //
-          (EComparison.equals(this.m_font, t.m_font)));
+          (Compare.equals(this.m_font, t.m_font)));
     }
     return false;
   }

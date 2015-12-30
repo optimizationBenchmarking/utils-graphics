@@ -3,7 +3,7 @@ package org.optimizationBenchmarking.utils.graphics.style.impl.stroke;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-import org.optimizationBenchmarking.utils.comparison.EComparison;
+import org.optimizationBenchmarking.utils.comparison.Compare;
 import org.optimizationBenchmarking.utils.graphics.style.impl.StylePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IStrokePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IStrokeStyle;
@@ -178,10 +178,9 @@ public class StrokePalette extends StylePalette<IStrokeStyle>
     }
     if (o instanceof StrokePalette) {
       other = ((StrokePalette) o);
-      return (EComparison.equals(this.m_default, other.m_default) && //
-          EComparison.equals(this.m_thick, other.m_thick) && //
-          EComparison.equals(this.m_thin, other.m_thin)
-          && super.equals(o));
+      return (Compare.equals(this.m_default, other.m_default) && //
+          Compare.equals(this.m_thick, other.m_thick) && //
+          Compare.equals(this.m_thin, other.m_thin) && super.equals(o));
     }
     return false;
   }

@@ -5,7 +5,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 
-import org.optimizationBenchmarking.utils.comparison.EComparison;
+import org.optimizationBenchmarking.utils.comparison.Compare;
 import org.optimizationBenchmarking.utils.graphics.style.impl.StylePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorStyle;
@@ -214,8 +214,8 @@ public class ColorPalette extends StylePalette<IColorStyle>
     }
     if (o instanceof ColorPalette) {
       other = ((ColorPalette) o);
-      return (EComparison.equals(this.getBlack(), other.getBlack()) && //
-          EComparison.equals(this.getWhite(), other.getWhite()) && //
+      return (Compare.equals(this.getBlack(), other.getBlack()) && //
+          Compare.equals(this.getWhite(), other.getWhite()) && //
           super.equals(o));
     }
     return false;

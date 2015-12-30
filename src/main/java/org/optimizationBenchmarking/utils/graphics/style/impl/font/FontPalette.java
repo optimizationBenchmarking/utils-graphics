@@ -2,7 +2,7 @@ package org.optimizationBenchmarking.utils.graphics.style.impl.font;
 
 import java.awt.Graphics;
 
-import org.optimizationBenchmarking.utils.comparison.EComparison;
+import org.optimizationBenchmarking.utils.comparison.Compare;
 import org.optimizationBenchmarking.utils.graphics.EFontFamily;
 import org.optimizationBenchmarking.utils.graphics.style.impl.StylePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IFontPalette;
@@ -202,9 +202,9 @@ public class FontPalette extends StylePalette<IFontStyle>
     }
     if (o instanceof FontPalette) {
       other = ((FontPalette) o);
-      return (EComparison.equals(this.m_default, other.m_default) && //
-          EComparison.equals(this.m_emph, other.m_emph) && //
-          EComparison.equals(this.m_code, other.m_code) && //
+      return (Compare.equals(this.m_default, other.m_default) && //
+          Compare.equals(this.m_emph, other.m_emph) && //
+          Compare.equals(this.m_code, other.m_code) && //
           super.equals(o));
     }
     return false;

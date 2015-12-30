@@ -3,7 +3,7 @@ package org.optimizationBenchmarking.utils.graphics.style.impl;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.optimizationBenchmarking.utils.comparison.EComparison;
+import org.optimizationBenchmarking.utils.comparison.Compare;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IStyle;
 import org.optimizationBenchmarking.utils.hierarchy.BuilderFSM;
 import org.optimizationBenchmarking.utils.hierarchy.FSM;
@@ -88,7 +88,7 @@ public abstract class StylePaletteBuilder<ET extends IStyle, PT extends StylePal
     this.beforeAdd(element);
 
     for (final ET x : this.m_elements) {
-      if (EComparison.equals(x, t)) {
+      if (Compare.equals(x, t)) {
         throw new IllegalArgumentException(
             "Cannot add the same element twice to a palette, but '" + //$NON-NLS-1$
                 t + "' equals the element '" + //$NON-NLS-1$
