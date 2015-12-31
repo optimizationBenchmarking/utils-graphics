@@ -7,6 +7,7 @@ import java.util.logging.Logger;
 
 import javax.imageio.spi.ImageWriterSpi;
 
+import org.optimizationBenchmarking.utils.graphics.EColorModel;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
 import org.optimizationBenchmarking.utils.tools.spec.IFileProducerListener;
 
@@ -55,6 +56,22 @@ public final class ImageIOBMPGraphicDriver
       final double yDPI, final double quality) {
     return new _ImageIOBMPGraphic(path, logger, listener, img, g, w, h,
         xDPI, yDPI);
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  final EColorModel _processColorModel(final EColorModel model) {
+    switch (model) {
+      case ARGB_32_BIT: {
+        return EColorModel.RGB_24_BIT;
+      }
+      case GRAY_16_BIT: {
+        return EColorModel.GRAY_8_BIT;
+      }
+      default: {
+        return model;
+      }
+    }
   }
 
   /** the loader for the BMP SPI */

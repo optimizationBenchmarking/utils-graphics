@@ -6,6 +6,7 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 
 import org.optimizationBenchmarking.utils.comparison.Compare;
+import org.optimizationBenchmarking.utils.graphics.graphic.spec.Graphic;
 import org.optimizationBenchmarking.utils.graphics.style.impl.StylePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorStyle;
@@ -102,15 +103,13 @@ public class ColorPalette extends StylePalette<IColorStyle>
     fillWidth = (Integer.MAX_VALUE - 1);
     fillOffset = (-(fillWidth >>> 1));
 
-    // TODO
-
     if (g2d != null) {
-      // if (graphics instanceof Graphic) {
-      // r = ((Graphic) graphics).getBounds();
-      // } else {
-      r = new Rectangle2D.Double(-Integer.MAX_VALUE, -Integer.MAX_VALUE,
-          (2d * Integer.MAX_VALUE), (2d * Integer.MAX_VALUE));
-      // }
+      if (graphics instanceof Graphic) {
+        r = ((Graphic) graphics).getBounds();
+      } else {
+        r = new Rectangle2D.Double(fillOffset, fillOffset, fillWidth,
+            fillWidth);
+      }
       g2d.fill(r);
     } else {
       graphics.fillRect(fillOffset, fillOffset, fillWidth, fillWidth);
