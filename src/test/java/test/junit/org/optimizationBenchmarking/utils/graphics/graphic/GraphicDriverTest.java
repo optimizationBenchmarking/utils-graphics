@@ -5,7 +5,9 @@ import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultColor
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultGrayPalette;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.JavaDefaultColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorPalette;
+import org.optimizationBenchmarking.utils.graphics.style.spec.IFontPalette;
 
+import examples.org.optimizationBenchmarking.utils.graphics.ExampleFontPalette;
 import shared.junit.org.optimizationBenchmarking.utils.graphics.graphic.AbstractGraphicDriverTest;
 
 /** The base class for graphic driver tests. */
@@ -33,5 +35,11 @@ public abstract class GraphicDriverTest extends AbstractGraphicDriverTest {
   @Override
   protected IColorPalette getSmallColorPalette() {
     return JavaDefaultColorPalette.getInstance();
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  protected IFontPalette getFontPalette() {
+    return ExampleFontPalette.EXAMPLE_FONT_PALETTE;
   }
 }

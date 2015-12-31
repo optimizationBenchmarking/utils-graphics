@@ -8,24 +8,16 @@ import java.nio.file.Paths;
 import org.optimizationBenchmarking.utils.MemoryUtils;
 import org.optimizationBenchmarking.utils.collections.lists.ArrayListView;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.GraphicConfiguration;
-import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultColorPalette;
-import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultGrayPalette;
-import org.optimizationBenchmarking.utils.graphics.style.impl.color.HTML401ColorPalette;
-import org.optimizationBenchmarking.utils.graphics.style.impl.color.JavaDefaultColorPalette;
-import org.optimizationBenchmarking.utils.graphics.style.spec.IColorPalette;
+import org.optimizationBenchmarking.utils.graphics.style.spec.IFontPalette;
 
 /**
- * An example used to illustrate the available color palettes.
+ * An example used to illustrate the available font palettes.
  */
-public class ColorPaletteExamples {
+public class FontPaletteExamples {
 
   /** the palettes to print */
-  public static final ArrayListView<IColorPalette> PALETTES = new ArrayListView<>(
-      new IColorPalette[] { //
-          DefaultColorPalette.getInstance(),
-          JavaDefaultColorPalette.getInstance(),
-          DefaultGrayPalette.getInstance(),
-          HTML401ColorPalette.getInstance() });
+  public static final ArrayListView<IFontPalette> PALETTES = new ArrayListView<>(
+      new IFontPalette[] { ExampleFontPalette.EXAMPLE_FONT_PALETTE });
 
   /**
    * run the examples
@@ -46,9 +38,9 @@ public class ColorPaletteExamples {
 
     for (final GraphicConfiguration config : ExampleGraphicConfigurations.CONFIGURATIONS) {
       Thread.yield();
-      for (final IColorPalette palette : ColorPaletteExamples.PALETTES) {
+      for (final IFontPalette palette : FontPaletteExamples.PALETTES) {
         Thread.yield();
-        new ColorPaletteExample(null, dir, //
+        new FontPaletteExample(null, dir, //
             config.getGraphicDriver(), //
             null, config.getColorModel(), config.getDotsPerInch(),
             config.getQuality(), palette).run();
