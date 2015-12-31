@@ -1,6 +1,8 @@
 package org.optimizationBenchmarking.utils.graphics.graphic.impl.text;
 
 import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -19,7 +21,9 @@ import java.util.logging.Logger;
 
 import org.optimizationBenchmarking.utils.error.ErrorUtils;
 import org.optimizationBenchmarking.utils.error.RethrowMode;
+import org.optimizationBenchmarking.utils.graphics.DoubleDimension;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
+import org.optimizationBenchmarking.utils.graphics.graphic.impl.NullGraphic;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.SimpleGraphic;
 import org.optimizationBenchmarking.utils.io.paths.PathUtils;
 import org.optimizationBenchmarking.utils.text.textOutput.AbstractTextOutput;
@@ -461,9 +465,7 @@ final class _TextGraphic extends SimpleGraphic implements ITextOutput {
     return false;
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  /** {@inheritDoc} */
   @Override
   protected final boolean doDrawImage(final Image img,
       final AffineTransform xform, final ImageObserver obs) {
@@ -471,4 +473,17 @@ final class _TextGraphic extends SimpleGraphic implements ITextOutput {
     return false;
   }
 
+  /** {@inheritDoc} */
+  @Override
+  protected final Graphics doCreate(final double x, final double y,
+      final double width, final double height) {
+    return new NullGraphic(new DoubleDimension(width, height));
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  protected final Graphics doCreate(final int x, final int y,
+      final int width, final int height) {
+    return new NullGraphic(new Dimension(width, height));
+  }
 }

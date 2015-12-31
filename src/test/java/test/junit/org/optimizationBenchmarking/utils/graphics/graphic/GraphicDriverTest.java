@@ -4,8 +4,10 @@ import org.junit.Ignore;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultGrayPalette;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.JavaDefaultColorPalette;
+import org.optimizationBenchmarking.utils.graphics.style.impl.stroke.DefaultStrokePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IFontPalette;
+import org.optimizationBenchmarking.utils.graphics.style.spec.IStrokePalette;
 
 import examples.org.optimizationBenchmarking.utils.graphics.ExampleFontPalette;
 import shared.junit.org.optimizationBenchmarking.utils.graphics.graphic.AbstractGraphicDriverTest;
@@ -41,5 +43,11 @@ public abstract class GraphicDriverTest extends AbstractGraphicDriverTest {
   @Override
   protected IFontPalette getFontPalette() {
     return ExampleFontPalette.EXAMPLE_FONT_PALETTE;
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  protected IStrokePalette getStrokePalette() {
+    return DefaultStrokePalette.getInstance();
   }
 }

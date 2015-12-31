@@ -32,7 +32,7 @@ public final class NullGraphicDriver extends AbstractGraphicDriver {
   /** {@inheritDoc} */
   @Override
   protected final Graphic createGraphic(final GraphicBuilder builder) {
-    return new _NullGraphic(builder.getLogger(),
+    return new NullGraphic(builder.getLogger(),
         builder.getFileProducerListener(), builder.getSize());
   }
 

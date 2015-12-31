@@ -2456,7 +2456,7 @@ public abstract class AbstractGraphic extends Graphic {
       final double width, final double height) {
     try (final __TranslatedAndScaled t = new __TranslatedAndScaled(x, y,
         width, height)) {
-      return this.create(t.m_x, t.m_y, t.m_w, t.m_h);
+      return super.create(t.m_x, t.m_y, t.m_w, t.m_h);
     }
   }
 

@@ -23,7 +23,17 @@ import org.optimizationBenchmarking.utils.tools.spec.IFileProducerListener;
  * A graphic which simply discards all of its output. This object is
  * designed for high-throughput and low memory footprint.
  */
-final class _NullGraphic extends SimpleGraphic {
+public final class NullGraphic extends SimpleGraphic {
+
+  /**
+   * Create the null graphic.
+   *
+   * @param size
+   *          the size
+   */
+  public NullGraphic(final Dimension2D size) {
+    this(null, null, size);
+  }
 
   /**
    * create the null graphic
@@ -35,7 +45,7 @@ final class _NullGraphic extends SimpleGraphic {
    * @param size
    *          the size
    */
-  _NullGraphic(final Logger logger, final IFileProducerListener listener,
+  NullGraphic(final Logger logger, final IFileProducerListener listener,
       final Dimension2D size) {
     super(logger, listener, null, //
         Math.max(1, ((int) (0.5d + size.getWidth()))), //
@@ -302,7 +312,7 @@ final class _NullGraphic extends SimpleGraphic {
   @Override
   protected final Graphics doCreate(final double x, final double y,
       final double width, final double height) {
-    return new _NullGraphic(this.getLogger(), null, //
+    return new NullGraphic(this.getLogger(), null, //
         new DoubleDimension(width, height));
   }
 
