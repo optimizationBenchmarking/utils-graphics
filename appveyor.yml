@@ -1,7 +1,7 @@
 ##
 ## Build with appveyor
 ##
-## https://ci.appveyor.com/project/thomasWeise/utils-base
+## https://ci.appveyor.com/project/thomasWeise/utils-graphics
 #  
 environment:
   matrix:

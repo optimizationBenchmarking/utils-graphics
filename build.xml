@@ -1,7 +1,9 @@
 <project basedir="." default="build">
 	<description>
-		Build the utils-graphics projects, includings its
-		dependencies of group "org.optimizationBenchmarking".
+	Build the utils-graphics project, i.e., the project
+	of the optimizationBenchmarking tool chain responsible
+	for painting graphics, includings its dependencies of
+	group "org.optimizationBenchmarking".
 	</description>
 
 	<import>
