@@ -95,6 +95,12 @@ The following libraries are needed by *the library*:
     - Status: freely available in the internet
     - Source: [repo.maven.apache.org](http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar)
 
+* `jdom-1.0.jar`
+    - License: ?
+    - Version: 1.0
+    - Status: freely available in the internet
+    - Source: [repo.maven.apache.org](http://repo.maven.apache.org/maven2/jdom/jdom/1.0/jdom-1.0.jar)
+
 * `junit-4.11.jar`
     - License: [Common Public License Version 1.0](http://www.opensource.org/licenses/cpl1.0.txt) (see file "[meta/licenses/cpl-1.0.txt](http://github.com/optimizationBenchmarking/optimizationBenchmarking/tree/master/meta/licenses/cpl-1.0.txt)")
     - Version: 4.11
