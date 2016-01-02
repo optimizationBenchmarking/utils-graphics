@@ -4,6 +4,7 @@ import java.awt.BasicStroke;
 import java.awt.Graphics;
 import java.awt.Stroke;
 
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.style.impl.StyleApplication;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IStrokeStyle;
 import org.optimizationBenchmarking.utils.text.ETextCase;
@@ -42,8 +43,10 @@ public final class StrokeStyle extends BasicStroke
    */
   StrokeStyle(final float width, final float dash[], final String name,
       final String id) {
-    this(width, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND,
-        Math.max(1f, (3 * width)), dash, 0f, name, id);
+    this(width, GraphicUtils.getDefaultStrokeEndCap(),
+        GraphicUtils.getDefaultStrokeJoin(),
+        GraphicUtils.getDefaultStrokeMiterLimit(width), dash, 0f, name,
+        id);
   }
 
   /**

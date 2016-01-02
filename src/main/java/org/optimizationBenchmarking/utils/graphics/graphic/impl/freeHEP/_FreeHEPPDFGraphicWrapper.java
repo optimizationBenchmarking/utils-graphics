@@ -46,7 +46,7 @@ final class _FreeHEPPDFGraphicWrapper
 
     synchronized (PageConstants.class) {
       mess = FreeHEPPDFGraphicDriver.s_messWith;
-      mess.setSize(this.m_w, this.m_h);
+      mess.setSize(this.m_width, this.m_height);
       try {
         try {
           this.m_out.endExport();

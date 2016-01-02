@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 
 import org.optimizationBenchmarking.utils.error.RethrowMode;
-import org.optimizationBenchmarking.utils.graphics.graphic.GraphicUtils;
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.AbstractGraphicDriver;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.GraphicBuilder;
@@ -158,7 +158,7 @@ public final class FreeHEPSVGGraphicDriver extends AbstractGraphicDriver {
       g = new _FreeHEPSVGGraphic(stream, dim, logger);
       g.setProperties(up);
       g.setClip(0, 0, dim.width, dim.height);
-      GraphicUtils.setDefaultRenderingHints(g);
+      GraphicUtils.applyDefaultRenderingHints(g);
       g.startExport();
     }
 

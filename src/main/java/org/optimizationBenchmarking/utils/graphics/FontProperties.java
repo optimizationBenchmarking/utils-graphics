@@ -1,7 +1,6 @@
 package org.optimizationBenchmarking.utils.graphics;
 
 import java.awt.Font;
-import java.awt.font.TextAttribute;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -335,7 +334,7 @@ public class FontProperties extends HashObject {
       style |= FontProperties.FONT_FLAG_ITALIC;
     }
 
-    if (FontProperties.isFontUnderlined(font)) {
+    if (GraphicUtils.isFontUnderlined(font)) {
       style |= FontProperties.FONT_FLAG_UNDERLINED;
     }
 
@@ -378,26 +377,6 @@ public class FontProperties extends HashObject {
     }
 
     return new FontProperties(style);
-  }
-
-  /**
-   * Check whether a font is underlined or not. This method bases its
-   * result solely on the properties of the font, it does not perform a
-   * resource-based lookup. If you want this, use
-   * <code>{@link #getFontProperties(Font, boolean) getFontProperties(Font, false)}.{@link #isUnderlined()}</code>
-   * instead.
-   *
-   * @param font
-   *          the font
-   * @return {@code true} if the font is underlined, {@code false}
-   *         otherwise
-   */
-  public static final boolean isFontUnderlined(final Font font) {
-    final Number underlineAtt;
-
-    underlineAtt = ((Number) (font.getAttributes()
-        .get(TextAttribute.UNDERLINE)));
-    return ((underlineAtt != null) && (underlineAtt.intValue() >= 0));
   }
 
   /**

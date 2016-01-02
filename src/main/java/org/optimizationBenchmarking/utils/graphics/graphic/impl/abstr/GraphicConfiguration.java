@@ -5,8 +5,8 @@ import java.util.logging.Logger;
 
 import org.optimizationBenchmarking.utils.comparison.Compare;
 import org.optimizationBenchmarking.utils.graphics.EColorModel;
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.PhysicalDimension;
-import org.optimizationBenchmarking.utils.graphics.graphic.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.graphic.spec.Graphic;
 import org.optimizationBenchmarking.utils.graphics.graphic.spec.IGraphicBuilder;
 import org.optimizationBenchmarking.utils.graphics.graphic.spec.IGraphicDriver;

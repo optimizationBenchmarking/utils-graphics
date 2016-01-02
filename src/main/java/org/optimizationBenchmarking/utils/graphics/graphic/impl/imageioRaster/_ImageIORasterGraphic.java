@@ -29,10 +29,10 @@ import org.optimizationBenchmarking.utils.tools.spec.IFileProducerListener;
 abstract class _ImageIORasterGraphic extends GraphicProxy<Graphics2D> {
 
   /** the width */
-  final int m_w;
+  final int m_width;
 
   /** the height */
-  final int m_h;
+  final int m_height;
 
   /** the dpi along the x-axis */
   final double m_xDPI;
@@ -41,7 +41,7 @@ abstract class _ImageIORasterGraphic extends GraphicProxy<Graphics2D> {
   final double m_yDPI;
 
   /** the image */
-  private final BufferedImage m_img;
+  private final BufferedImage m_image;
 
   /**
    * instantiate
@@ -72,17 +72,17 @@ abstract class _ImageIORasterGraphic extends GraphicProxy<Graphics2D> {
       final double yDPI) {
     super(g, logger, listener, path);
 
-    this.m_w = w;
-    this.m_h = h;
+    this.m_width = w;
+    this.m_height = h;
     this.m_xDPI = xDPI;
     this.m_yDPI = yDPI;
-    this.m_img = img;
+    this.m_image = img;
   }
 
   /** {@inheritDoc} */
   @Override
   public final Rectangle getBounds() {
-    return new Rectangle(0, 0, this.m_w, this.m_h);
+    return new Rectangle(0, 0, this.m_width, this.m_height);
   }
 
   /**
@@ -167,7 +167,7 @@ abstract class _ImageIORasterGraphic extends GraphicProxy<Graphics2D> {
             if (canUseMeta && (imageWriterParams != null)
                 && ((typeSpecifier = ImageTypeSpecifier
                     .createFromBufferedImageType(//
-                        this.m_img.getType())) != null)) {
+                        this.m_image.getType())) != null)) {
               metaData = writer.getDefaultImageMetadata(typeSpecifier,
                   imageWriterParams);
               if ((metaData != null) && //
@@ -188,15 +188,15 @@ abstract class _ImageIORasterGraphic extends GraphicProxy<Graphics2D> {
 
                 if (metaData != null) {
                   writer.write(null,
-                      new IIOImage(this.m_img, null, metaData),
+                      new IIOImage(this.m_image, null, metaData),
                       imageWriterParams);
                 } else {
                   if (imageWriterParams != null) {
                     writer.write(null,
-                        new IIOImage(this.m_img, null, null),
+                        new IIOImage(this.m_image, null, null),
                         imageWriterParams);
                   } else {
-                    writer.write(this.m_img);
+                    writer.write(this.m_image);
                   }
                 }
               }

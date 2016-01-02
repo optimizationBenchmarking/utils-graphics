@@ -23,7 +23,7 @@ import java.text.AttributedCharacterIterator;
 import java.util.logging.Logger;
 
 import org.freehep.graphics2d.AbstractVectorGraphics;
-import org.optimizationBenchmarking.utils.graphics.FontProperties;
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.SimplifyingGraphicProxy;
 import org.optimizationBenchmarking.utils.tools.spec.IFileProducerListener;
@@ -58,10 +58,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   private static final float MIN_COORD_D = _FreeHEPAbstractVectorGraphicsProxy.MIN_COORD_I;
 
   /** the width */
-  final int m_w;
+  final int m_width;
 
   /** the height */
-  final int m_h;
+  final int m_height;
 
   /** the underline state */
   private transient int m_underlineState;
@@ -87,8 +87,8 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final IFileProducerListener listener, final Path path, final int w,
       final int h) {
     super(graphic, log, listener, path);
-    this.m_w = w;
-    this.m_h = h;
+    this.m_width = w;
+    this.m_height = h;
   }
 
   /** {@inheritDoc} */
@@ -204,8 +204,8 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   /** {@inheritDoc} */
   @Override
   public final Rectangle2D getBounds() {
-    if ((this.m_w > 0) && (this.m_h > 0)) {
-      return new Rectangle(0, 0, this.m_w, this.m_h);
+    if ((this.m_width > 0) && (this.m_height > 0)) {
+      return new Rectangle(0, 0, this.m_width, this.m_height);
     }
 
     return super.getBounds();
@@ -425,7 +425,7 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
     font = graph.getFont();
 
     if (this.m_underlineState == 0) {
-      this.m_underlineState = (FontProperties.isFontUnderlined(font) ? 1
+      this.m_underlineState = (GraphicUtils.isFontUnderlined(font) ? 1
           : 2);
     }
 
@@ -472,7 +472,7 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
     font = graph.getFont();
 
     if (this.m_underlineState == 0) {
-      this.m_underlineState = (FontProperties.isFontUnderlined(font) ? 1
+      this.m_underlineState = (GraphicUtils.isFontUnderlined(font) ? 1
           : 2);
     }
 

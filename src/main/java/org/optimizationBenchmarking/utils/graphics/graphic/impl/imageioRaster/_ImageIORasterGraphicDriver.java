@@ -10,8 +10,8 @@ import javax.imageio.spi.IIORegistry;
 import javax.imageio.spi.ImageWriterSpi;
 
 import org.optimizationBenchmarking.utils.graphics.EColorModel;
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.PhysicalDimension;
-import org.optimizationBenchmarking.utils.graphics.graphic.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.AbstractGraphicDriver;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.abstr.GraphicBuilder;
@@ -179,7 +179,7 @@ abstract class _ImageIORasterGraphicDriver extends AbstractGraphicDriver {
         this._processColorModel(builder.getColorModel())
             .getBufferedImageType());
     g = ((Graphics2D) (img.getGraphics()));
-    GraphicUtils.setDefaultRenderingHints(g);
+    GraphicUtils.applyDefaultRenderingHints(g);
 
     if ((wPx != wPt) || (hPx != hPt)) {
       g.scale((((double) wPx) / wPt), (((double) hPx) / hPt));
