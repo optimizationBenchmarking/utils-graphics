@@ -30,10 +30,12 @@ final class _ProtectedShape implements Shape {
     Rectangle r;
 
     r = this.m_s.getBounds();
-    r.height = _FreeHEPAbstractVectorGraphicsProxy._f(r.height);
-    r.width = _FreeHEPAbstractVectorGraphicsProxy._f(r.width);
-    r.x = _FreeHEPAbstractVectorGraphicsProxy._f(r.x);
-    r.y = _FreeHEPAbstractVectorGraphicsProxy._f(r.y);
+    r.height = _FreeHEPAbstractVectorGraphicsProxy
+        .__formatToValidMinMax(r.height);
+    r.width = _FreeHEPAbstractVectorGraphicsProxy
+        .__formatToValidMinMax(r.width);
+    r.x = _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(r.x);
+    r.y = _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(r.y);
 
     return r;
   }
@@ -46,10 +48,14 @@ final class _ProtectedShape implements Shape {
     r = this.m_s.getBounds2D();
 
     return new Rectangle2D.Double(//
-        _FreeHEPAbstractVectorGraphicsProxy._f(r.getX()), //
-        _FreeHEPAbstractVectorGraphicsProxy._f(r.getY()), //
-        _FreeHEPAbstractVectorGraphicsProxy._f(r.getWidth()), //
-        _FreeHEPAbstractVectorGraphicsProxy._f(r.getHeight()));
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(r.getX()), //
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(r.getY()), //
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(r.getWidth()), //
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(r.getHeight()));
   }
 
   /** {@inheritDoc} */

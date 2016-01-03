@@ -42,6 +42,7 @@ import org.optimizationBenchmarking.utils.collections.lists.ArrayListView;
 import org.optimizationBenchmarking.utils.collections.lists.ArraySetView;
 import org.optimizationBenchmarking.utils.error.ErrorUtils;
 import org.optimizationBenchmarking.utils.error.RethrowMode;
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
 import org.optimizationBenchmarking.utils.graphics.graphic.spec.Graphic;
 import org.optimizationBenchmarking.utils.io.encoding.StreamEncoding;
@@ -203,37 +204,7 @@ public abstract class AbstractGraphic extends Graphic {
   /** {@inheritDoc} */
   @Override
   public Rectangle2D getBounds() {
-    Rectangle2D r;
-    Point2D.Double a, b;
-    AffineTransform at;
-
-    r = this.getClipBounds();
-    if (r != null) {
-      return r;
-    }
-
-    at = this.getTransform();
-    try {
-      at.invert();
-    } catch (final Throwable t) {
-      RethrowMode.AS_RUNTIME_EXCEPTION.rethrow(((((//
-      "Error while inverting transform ") + at)//$NON-NLS-1$
-          + " in graphic ") + this.__name()), //$NON-NLS-1$
-          true, t);
-    }
-
-    r = this.getDeviceConfiguration().getBounds();
-    a = new Point2D.Double(r.getMinX(), r.getMinY());
-
-    b = new Point2D.Double();
-    at.transform(a, b);
-
-    a.x += r.getWidth();
-    a.y += r.getHeight();
-    at.transform(a, b);
-    r.setFrameFromDiagonal(b, a);
-
-    return r;
+    return GraphicUtils.getBounds(this, false);
   }
 
   /**

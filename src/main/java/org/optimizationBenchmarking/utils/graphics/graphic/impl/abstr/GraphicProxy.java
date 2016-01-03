@@ -29,6 +29,7 @@ import java.text.AttributedCharacterIterator;
 import java.util.Map;
 import java.util.logging.Logger;
 
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.graphic.impl.EGraphicFormat;
 import org.optimizationBenchmarking.utils.graphics.graphic.spec.Graphic;
 import org.optimizationBenchmarking.utils.tools.spec.IFileProducerListener;
@@ -76,10 +77,7 @@ public abstract class GraphicProxy<GT extends Graphics2D>
   @Override
   public Rectangle2D getBounds() {
     this.checkClosed();
-    if (this.m_out instanceof Graphic) {
-      return ((Graphic) (this.m_out)).getBounds();
-    }
-    return super.getBounds();
+    return GraphicUtils.getBounds(this.m_out);
   }
 
   /** {@inheritDoc} */

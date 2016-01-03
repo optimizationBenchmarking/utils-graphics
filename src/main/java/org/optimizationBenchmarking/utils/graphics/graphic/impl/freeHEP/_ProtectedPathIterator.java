@@ -46,7 +46,8 @@ final class _ProtectedPathIterator implements PathIterator {
     z = this.m_p.currentSegment(coords);
 
     for (i = coords.length; (--i) >= 0;) {
-      coords[i] = _FreeHEPAbstractVectorGraphicsProxy._f(coords[i]);
+      coords[i] = _FreeHEPAbstractVectorGraphicsProxy
+          .__formatToValidMinMax(coords[i]);
     }
 
     return z;
@@ -61,7 +62,8 @@ final class _ProtectedPathIterator implements PathIterator {
     z = this.m_p.currentSegment(coords);
 
     for (i = coords.length; (--i) >= 0;) {
-      coords[i] = _FreeHEPAbstractVectorGraphicsProxy._f(coords[i]);
+      coords[i] = _FreeHEPAbstractVectorGraphicsProxy
+          .__formatToValidMinMax(coords[i]);
     }
 
     return z;

@@ -114,7 +114,7 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
    *          the value
    * @return the formatted value
    */
-  static final int _f(final int v) {
+  static final int __formatToValidMinMax(final int v) {
     return Math.max(_FreeHEPAbstractVectorGraphicsProxy.MIN_COORD_I,
         Math.min(_FreeHEPAbstractVectorGraphicsProxy.MAX_COORD_I, v));
   }
@@ -126,7 +126,7 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
    *          the value
    * @return the formatted value
    */
-  static final float _f(final float v) {
+  static final float __formatToValidMinMax(final float v) {
     return Math.max(_FreeHEPAbstractVectorGraphicsProxy.MIN_COORD_F,
         Math.min(_FreeHEPAbstractVectorGraphicsProxy.MAX_COORD_F, v));
   }
@@ -138,7 +138,7 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
    *          the value
    * @return the formatted value
    */
-  static final double _f(final double v) {
+  static final double __formatToValidMinMax(final double v) {
     return Math.max(_FreeHEPAbstractVectorGraphicsProxy.MIN_COORD_D,
         Math.min(_FreeHEPAbstractVectorGraphicsProxy.MAX_COORD_D, v));
   }
@@ -152,14 +152,16 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
    *          the number of points
    * @return the new array
    */
-  private static final double[] __f(final double[] v, final int nPoints) {
+  private static final double[] __formatToValidMinMax(final double[] v,
+      final int nPoints) {
     double[] d;
     double o, z;
     int i;
 
     d = v;
     for (i = nPoints; (--i) >= 0;) {
-      z = _FreeHEPAbstractVectorGraphicsProxy._f(o = d[i]);
+      z = _FreeHEPAbstractVectorGraphicsProxy
+          .__formatToValidMinMax(o = d[i]);
       if (z != o) {
         if (d == v) {
           d = new double[nPoints];
@@ -181,14 +183,16 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
    *          the number of points
    * @return the new array
    */
-  private static final int[] __f(final int[] v, final int nPoints) {
+  private static final int[] __formatToValidMinMax(final int[] v,
+      final int nPoints) {
     int[] d;
     int o, z;
     int i;
 
     d = v;
     for (i = nPoints; (--i) >= 0;) {
-      z = _FreeHEPAbstractVectorGraphicsProxy._f(o = d[i]);
+      z = _FreeHEPAbstractVectorGraphicsProxy
+          .__formatToValidMinMax(o = d[i]);
       if (z != o) {
         if (d == v) {
           d = new int[nPoints];
@@ -224,70 +228,77 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   @Override
   protected final Graphics doCreate(final double x, final double y,
       final double width, final double height) {
-    return this.m_out.create(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    return this.m_out.create(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doClipRect(final double x, final double y,
       final double width, final double height) {
-    this.m_out.clipRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.clipRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doSetClip(final double x, final double y,
       final double width, final double height) {
-    this.m_out.setClip(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.setClip(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void flushDrawLine(final double x1, final double y1,
       final double x2, final double y2) {
-    this.m_out.drawLine(_FreeHEPAbstractVectorGraphicsProxy._f(x1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(x2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y2));
+    this.m_out.drawLine(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y2));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFillRect(final double x, final double y,
       final double width, final double height) {
-    this.m_out.fillRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.fillRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void flushDrawRect(final double x, final double y,
       final double width, final double height) {
-    this.m_out.drawRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.drawRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doClearRect(final double x, final double y,
       final double width, final double height) {
-    this.m_out.clearRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.clearRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
@@ -295,12 +306,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawRoundRect(final double x, final double y,
       final double width, final double height, final double arcWidth,
       final double arcHeight) {
-    this.m_out.drawRoundRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcWidth),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcHeight));
+    this.m_out.drawRoundRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcWidth),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcHeight));
   }
 
   /** {@inheritDoc} */
@@ -308,32 +322,37 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doFillRoundRect(final double x, final double y,
       final double width, final double height, final double arcWidth,
       final double arcHeight) {
-    this.m_out.fillRoundRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcWidth),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcHeight));
+    this.m_out.fillRoundRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcWidth),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcHeight));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doDrawOval(final double x, final double y,
       final double width, final double height) {
-    this.m_out.drawOval(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.drawOval(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFillOval(final double x, final double y,
       final double width, final double height) {
-    this.m_out.fillOval(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.fillOval(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
@@ -341,12 +360,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawArc(final double x, final double y,
       final double width, final double height, final double startAngle,
       final double arcAngle) {
-    this.m_out.drawArc(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(startAngle),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcAngle));
+    this.m_out.drawArc(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(startAngle),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcAngle));
   }
 
   /** {@inheritDoc} */
@@ -354,12 +376,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doFillArc(final double x, final double y,
       final double width, final double height, final double startAngle,
       final double arcAngle) {
-    this.m_out.fillArc(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(startAngle),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcAngle));
+    this.m_out.fillArc(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(startAngle),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcAngle));
   }
 
   /** {@inheritDoc} */
@@ -367,8 +392,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void flushDrawPolyline(final double[] xPoints,
       final double[] yPoints, final int nPoints) {
     this.m_out.drawPolyline(
-        _FreeHEPAbstractVectorGraphicsProxy.__f(xPoints, nPoints),
-        _FreeHEPAbstractVectorGraphicsProxy.__f(yPoints, nPoints),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(xPoints,
+            nPoints),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(yPoints,
+            nPoints),
         nPoints);
   }
 
@@ -377,8 +404,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doFillPolygon(final double[] xPoints,
       final double[] yPoints, final int nPoints) {
     this.m_out.fillPolygon(
-        _FreeHEPAbstractVectorGraphicsProxy.__f(xPoints, nPoints),
-        _FreeHEPAbstractVectorGraphicsProxy.__f(yPoints, nPoints),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(xPoints,
+            nPoints),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(yPoints,
+            nPoints),
         nPoints);
   }
 
@@ -387,8 +416,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawString(final String str, final int x,
       final int y) {
     this.doDrawString(str,
-        ((double) _FreeHEPAbstractVectorGraphicsProxy._f(x)),
-        ((double) _FreeHEPAbstractVectorGraphicsProxy._f(y)));
+        ((double) _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(x)),
+        ((double) _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(y)));
   }
 
   /** {@inheritDoc} */
@@ -396,8 +427,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawString(final String str, final float x,
       final float y) {
     this.doDrawString(str,
-        ((double) _FreeHEPAbstractVectorGraphicsProxy._f(x)),
-        ((double) _FreeHEPAbstractVectorGraphicsProxy._f(y)));
+        ((double) _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(x)),
+        ((double) _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(y)));
   }
 
   /** {@inheritDoc} */
@@ -405,8 +438,8 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawChars(final char data[], final int offset,
       final int length, final double x, final double y) {
     this.doDrawString(new String(data, offset, length),
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
@@ -442,17 +475,22 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
         this.setStroke(new BasicStroke(lineMetrics.getUnderlineThickness(),
             BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND, 10f));
 
-        graph.drawLine(_FreeHEPAbstractVectorGraphicsProxy._f(startX),
-            _FreeHEPAbstractVectorGraphicsProxy._f(yCoord),
+        graph.drawLine(
             _FreeHEPAbstractVectorGraphicsProxy
-                ._f(startX + bounds.getWidth()),
-            _FreeHEPAbstractVectorGraphicsProxy._f(yCoord));
+                .__formatToValidMinMax(startX),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax(yCoord),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax(startX + bounds.getWidth()),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax(yCoord));
       } finally {
         this.setStroke(old);
       }
     }
-    graph.drawString(str, _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    graph.drawString(str,
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
@@ -491,17 +529,22 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
         this.setStroke(new BasicStroke(lineMetrics.getUnderlineThickness(),
             BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND, 10f));
 
-        graph.drawLine(_FreeHEPAbstractVectorGraphicsProxy._f(startX),
-            _FreeHEPAbstractVectorGraphicsProxy._f(yCoord),
+        graph.drawLine(
             _FreeHEPAbstractVectorGraphicsProxy
-                ._f(startX + bounds.getWidth()),
-            _FreeHEPAbstractVectorGraphicsProxy._f(yCoord));
+                .__formatToValidMinMax(startX),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax(yCoord),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax(startX + bounds.getWidth()),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax(yCoord));
       } finally {
         this.setStroke(old);
       }
     }
-    graph.drawString(iterator, _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    graph.drawString(iterator,
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
@@ -510,8 +553,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final AttributedCharacterIterator iterator, final int x,
       final int y) {
     this.drawString(iterator,
-        ((float) _FreeHEPAbstractVectorGraphicsProxy._f(x)),
-        ((float) _FreeHEPAbstractVectorGraphicsProxy._f(y)));
+        ((float) _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(x)),
+        ((float) _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(y)));
   }
 
   /** {@inheritDoc} */
@@ -525,20 +570,24 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   @Override
   protected final void doDraw3DRect(final int x, final int y,
       final int width, final int height, final boolean raised) {
-    this.m_out.draw3DRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), raised);
+    this.m_out.draw3DRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        raised);
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFill3DRect(final int x, final int y,
       final int width, final int height, final boolean raised) {
-    this.m_out.fill3DRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), raised);
+    this.m_out.fill3DRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        raised);
   }
 
   /** {@inheritDoc} */
@@ -546,133 +595,147 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawImage(final BufferedImage img,
       final BufferedImageOp op, final int x, final int y) {
     this.m_out.drawImage(img, op,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doTranslate(final int x, final int y) {
-    this.m_out.translate(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    this.m_out.translate(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doTranslate(final double tx, final double ty) {
-    this.m_out.translate(_FreeHEPAbstractVectorGraphicsProxy._f(tx),
-        _FreeHEPAbstractVectorGraphicsProxy._f(ty));
+    this.m_out.translate(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(tx),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(ty));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doRotate(final double theta) {
-    this.m_out.rotate(_FreeHEPAbstractVectorGraphicsProxy._f(theta));
+    this.m_out.rotate(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(theta));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doRotate(final double theta, final double x,
       final double y) {
-    this.m_out.rotate(_FreeHEPAbstractVectorGraphicsProxy._f(theta),
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    this.m_out.rotate(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(theta),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doScale(final double sx, final double sy) {
-    this.m_out.scale(_FreeHEPAbstractVectorGraphicsProxy._f(sx),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy));
+    this.m_out.scale(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doShear(final double shx, final double shy) {
-    this.m_out.shear(_FreeHEPAbstractVectorGraphicsProxy._f(shx),
-        _FreeHEPAbstractVectorGraphicsProxy._f(shy));
+    this.m_out.shear(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(shx),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(shy));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final Graphics doCreate(final int x, final int y,
       final int width, final int height) {
-    return this.m_out.create(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    return this.m_out.create(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doClipRect(final int x, final int y,
       final int width, final int height) {
-    this.m_out.clipRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.clipRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doSetClip(final int x, final int y, final int width,
       final int height) {
-    this.m_out.setClip(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.setClip(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doCopyArea(final int x, final int y,
       final int width, final int height, final int dx, final int dy) {
-    this.m_out.copyArea(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy));
+    this.m_out.copyArea(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void flushDrawLine(final int x1, final int y1,
       final int x2, final int y2) {
-    this.m_out.drawLine(_FreeHEPAbstractVectorGraphicsProxy._f(x1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(x2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y2));
+    this.m_out.drawLine(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y2));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFillRect(final int x, final int y,
       final int width, final int height) {
-    this.m_out.fillRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.fillRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void flushDrawRect(final int x, final int y,
       final int width, final int height) {
-    this.m_out.drawRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.drawRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doClearRect(final int x, final int y,
       final int width, final int height) {
-    this.m_out.clearRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.clearRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
@@ -680,12 +743,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawRoundRect(final int x, final int y,
       final int width, final int height, final int arcWidth,
       final int arcHeight) {
-    this.m_out.drawRoundRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcWidth),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcHeight));
+    this.m_out.drawRoundRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcWidth),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcHeight));
   }
 
   /** {@inheritDoc} */
@@ -693,56 +759,67 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doFillRoundRect(final int x, final int y,
       final int width, final int height, final int arcWidth,
       final int arcHeight) {
-    this.m_out.fillRoundRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcWidth),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcHeight));
+    this.m_out.fillRoundRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcWidth),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcHeight));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doDrawOval(final int x, final int y,
       final int width, final int height) {
-    this.m_out.drawOval(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.drawOval(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFillOval(final int x, final int y,
       final int width, final int height) {
-    this.m_out.fillOval(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    this.m_out.fillOval(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doDrawArc(final int x, final int y, final int width,
       final int height, final int startAngle, final int arcAngle) {
-    this.m_out.drawArc(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(startAngle),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcAngle));
+    this.m_out.drawArc(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(startAngle),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcAngle));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFillArc(final int x, final int y, final int width,
       final int height, final int startAngle, final int arcAngle) {
-    this.m_out.fillArc(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(startAngle),
-        _FreeHEPAbstractVectorGraphicsProxy._f(arcAngle));
+    this.m_out.fillArc(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(startAngle),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(arcAngle));
   }
 
   /** {@inheritDoc} */
@@ -750,8 +827,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void flushDrawPolyline(final int xPoints[],
       final int yPoints[], final int nPoints) {
     this.m_out.drawPolyline(
-        _FreeHEPAbstractVectorGraphicsProxy.__f(xPoints, nPoints),
-        _FreeHEPAbstractVectorGraphicsProxy.__f(yPoints, nPoints),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(xPoints,
+            nPoints),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(yPoints,
+            nPoints),
         nPoints);
   }
 
@@ -760,8 +839,9 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final boolean doDrawImage(final Image img, final int x,
       final int y, final ImageObserver observer) {
     return this.m_out.drawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y), observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        observer);
   }
 
   /** {@inheritDoc} */
@@ -770,10 +850,11 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final int y, final int width, final int height,
       final ImageObserver observer) {
     return this.m_out.drawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        observer);
   }
 
   /** {@inheritDoc} */
@@ -781,8 +862,9 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final boolean doDrawImage(final Image img, final int x,
       final int y, final Color bgcolor, final ImageObserver observer) {
     return this.m_out.drawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y), bgcolor, observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        bgcolor, observer);
   }
 
   /** {@inheritDoc} */
@@ -791,10 +873,11 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final int y, final int width, final int height, final Color bgcolor,
       final ImageObserver observer) {
     return this.m_out.drawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), bgcolor, observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        bgcolor, observer);
   }
 
   /** {@inheritDoc} */
@@ -804,14 +887,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final int sy1, final int sx2, final int sy2,
       final ImageObserver observer) {
     return this.m_out.drawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy2), observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy2),
+        observer);
   }
 
   /** {@inheritDoc} */
@@ -821,14 +905,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final int sy1, final int sx2, final int sy2, final Color bgcolor,
       final ImageObserver observer) {
     return this.m_out.drawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy2), bgcolor, observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy2),
+        bgcolor, observer);
   }
 
   /** {@inheritDoc} */
@@ -836,10 +921,11 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   public final boolean hitClip(final int x, final int y, final int width,
       final int height) {
     this.checkClosed();
-    return this.m_out.hitClip(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height));
+    return this.m_out.hitClip(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height));
   }
 
   // new functionality
@@ -848,28 +934,33 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   @Override
   protected final void doDraw3DRect(final double x, final double y,
       final double width, final double height, final boolean raised) {
-    super.doDraw3DRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), raised);
+    super.doDraw3DRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        raised);
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doFill3DRect(final double x, final double y,
       final double width, final double height, final boolean raised) {
-    super.doFill3DRect(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), raised);
+    super.doFill3DRect(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        raised);
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doDrawImage(final BufferedImage img,
       final BufferedImageOp op, final double x, final double y) {
-    super.doDrawImage(img, op, _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    super.doDrawImage(img, op,
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
@@ -877,16 +968,18 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doDrawString(
       final AttributedCharacterIterator iterator, final double x,
       final double y) {
-    super.doDrawString(iterator, _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    super.doDrawString(iterator,
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
   @Override
   protected final void doDrawGlyphVector(final GlyphVector g,
       final double x, final double y) {
-    super.doDrawGlyphVector(g, _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y));
+    super.doDrawGlyphVector(g,
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y));
   }
 
   /** {@inheritDoc} */
@@ -894,12 +987,13 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final void doCopyArea(final double x, final double y,
       final double width, final double height, final double dx,
       final double dy) {
-    super.doCopyArea(_FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy));
+    super.doCopyArea(
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy));
   }
 
   /** {@inheritDoc} */
@@ -907,8 +1001,9 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final boolean doDrawImage(final Image img, final double x,
       final double y, final ImageObserver observer) {
     return super.doDrawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y), observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        observer);
   }
 
   /** {@inheritDoc} */
@@ -917,10 +1012,11 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final double y, final double width, final double height,
       final ImageObserver observer) {
     return super.doDrawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        observer);
   }
 
   /** {@inheritDoc} */
@@ -928,8 +1024,9 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   protected final boolean doDrawImage(final Image img, final double x,
       final double y, final Color bgcolor, final ImageObserver observer) {
     return super.doDrawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y), bgcolor, observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        bgcolor, observer);
   }
 
   /** {@inheritDoc} */
@@ -938,10 +1035,11 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final double y, final double width, final double height,
       final Color bgcolor, final ImageObserver observer) {
     return super.doDrawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(x),
-        _FreeHEPAbstractVectorGraphicsProxy._f(y),
-        _FreeHEPAbstractVectorGraphicsProxy._f(width),
-        _FreeHEPAbstractVectorGraphicsProxy._f(height), bgcolor, observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(x),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(y),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(width),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(height),
+        bgcolor, observer);
   }
 
   /** {@inheritDoc} */
@@ -951,14 +1049,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final double sx1, final double sy1, final double sx2,
       final double sy2, final ImageObserver observer) {
     return super.doDrawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy2), observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy2),
+        observer);
   }
 
   /** {@inheritDoc} */
@@ -969,14 +1068,15 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
       final double sy2, final Color bgcolor,
       final ImageObserver observer) {
     return super.doDrawImage(img,
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(dy2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy1),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sx2),
-        _FreeHEPAbstractVectorGraphicsProxy._f(sy2), bgcolor, observer);
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(dy2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy1),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sx2),
+        _FreeHEPAbstractVectorGraphicsProxy.__formatToValidMinMax(sy2),
+        bgcolor, observer);
   }
 
   /** {@inheritDoc} */
@@ -989,12 +1089,16 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
     path = new GeneralPath(Path2D.WIND_EVEN_ODD);
     if (nPoints > 0) {
       path.moveTo(
-          _FreeHEPAbstractVectorGraphicsProxy._f((float) (xPoints[0])),
-          _FreeHEPAbstractVectorGraphicsProxy._f((float) (yPoints[0])));
+          _FreeHEPAbstractVectorGraphicsProxy
+              .__formatToValidMinMax((float) (xPoints[0])),
+          _FreeHEPAbstractVectorGraphicsProxy
+              .__formatToValidMinMax((float) (yPoints[0])));
       for (int i = 1; i < nPoints; i++) {
         path.lineTo(
-            _FreeHEPAbstractVectorGraphicsProxy._f((float) (xPoints[i])),
-            _FreeHEPAbstractVectorGraphicsProxy._f((float) (yPoints[i])));
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax((float) (xPoints[i])),
+            _FreeHEPAbstractVectorGraphicsProxy
+                .__formatToValidMinMax((float) (yPoints[i])));
       }
       if (close) {
         path.closePath();
@@ -1031,8 +1135,10 @@ abstract class _FreeHEPAbstractVectorGraphicsProxy<T extends AbstractVectorGraph
   @Override
   protected final void doFillPolygon(final Polygon p) {
     this.m_out.fillPolygon(new Polygon(
-        _FreeHEPAbstractVectorGraphicsProxy.__f(p.xpoints, p.npoints),
-        _FreeHEPAbstractVectorGraphicsProxy.__f(p.ypoints, p.npoints),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(p.xpoints, p.npoints),
+        _FreeHEPAbstractVectorGraphicsProxy
+            .__formatToValidMinMax(p.ypoints, p.npoints),
         p.npoints));
   }
 

@@ -3,10 +3,11 @@ package org.optimizationBenchmarking.utils.graphics.style.impl.color;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 
 import org.optimizationBenchmarking.utils.comparison.Compare;
-import org.optimizationBenchmarking.utils.graphics.graphic.spec.Graphic;
+import org.optimizationBenchmarking.utils.graphics.GraphicUtils;
 import org.optimizationBenchmarking.utils.graphics.style.impl.StylePalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.spec.IColorStyle;
@@ -84,41 +85,53 @@ public class ColorPalette extends StylePalette<IColorStyle>
   /** {@inheritDoc} */
   @Override
   public final void initializeWithDefaults(final Graphics graphics) {
-    final Rectangle2D r;
-    final Graphics2D g2d;
-    final int fillWidth, fillOffset;
-    final Color w, b;
+    final Rectangle2D boundingRectangle;
+    final Rectangle rectangle;
+    final Graphics2D graphics2D;
+    final int negOffset, posOffset, size;
+    final Color white, black;
 
-    w = this.getWhite().getColor();
+    white = this.getWhite().getColor();
 
     if (graphics instanceof Graphics2D) {
-      g2d = ((Graphics2D) graphics);
-      g2d.setBackground(w);
-      g2d.setPaint(w);
+      graphics2D = ((Graphics2D) graphics);
+      graphics2D.setBackground(white);
+      graphics2D.setPaint(white);
     } else {
-      g2d = null;
+      graphics2D = null;
     }
-    graphics.setColor(w);
+    graphics.setColor(white);
 
-    fillWidth = (Integer.MAX_VALUE - 1);
-    fillOffset = (-(fillWidth >>> 1));
+    boundingRectangle = GraphicUtils.getBounds(graphics);
 
-    if (g2d != null) {
-      if (graphics instanceof Graphic) {
-        r = ((Graphic) graphics).getBounds();
+    if (graphics2D != null) {
+      graphics2D.fill(boundingRectangle);
+    } else {
+      if (boundingRectangle instanceof Rectangle) {
+        rectangle = ((Rectangle) boundingRectangle);
       } else {
-        r = new Rectangle2D.Double(fillOffset, fillOffset, fillWidth,
-            fillWidth);
+        size = ((Integer.MAX_VALUE - 4) | 1);
+        posOffset = (size >>> 1);
+        negOffset = (-posOffset);
+        rectangle = new Rectangle(//
+            ((int) (Math.max(negOffset,
+                Math.min(posOffset, boundingRectangle.getX())))), //
+            ((int) (Math.max(negOffset,
+                Math.min(posOffset, boundingRectangle.getY())))), //
+            ((int) (Math.max(0,
+                Math.min(Integer.MAX_VALUE,
+                    boundingRectangle.getWidth())))), //
+            ((int) (Math.max(0, Math.min(Integer.MAX_VALUE,
+                boundingRectangle.getHeight())))));
       }
-      g2d.fill(r);
-    } else {
-      graphics.fillRect(fillOffset, fillOffset, fillWidth, fillWidth);
+      graphics.fillRect(rectangle.x, rectangle.y, rectangle.width,
+          rectangle.height);
     }
 
-    b = this.getBlack().getColor();
-    graphics.setColor(b);
-    if (g2d != null) {
-      g2d.setPaint(b);
+    black = this.getBlack().getColor();
+    graphics.setColor(black);
+    if (graphics2D != null) {
+      graphics2D.setPaint(black);
     }
   }
 
