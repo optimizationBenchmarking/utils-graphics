@@ -220,8 +220,8 @@ public final class FontStyle extends FontProperties implements IFontStyle {
 
   /** {@inheritDoc} */
   @Override
-  public final StyleApplication applyTo(final Graphics g) {
-    return new _FontApplication(g, this.m_font);
+  public final StyleApplication applyTo(final Graphics graphics) {
+    return new _FontApplication(graphics, this.m_font);
   }
 
   /** {@inheritDoc} */

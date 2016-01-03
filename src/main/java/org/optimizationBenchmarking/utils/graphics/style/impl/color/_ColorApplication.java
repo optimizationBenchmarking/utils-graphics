@@ -14,20 +14,20 @@ final class _ColorApplication extends StyleApplication {
   /**
    * the style
    *
-   * @param g
+   * @param graphics
    *          the graphic
-   * @param c
+   * @param color
    *          the color
    */
-  _ColorApplication(final Graphics g, final Color c) {
-    super(g);
-    this.m_oldColor = g.getColor();
-    g.setColor(c);
+  _ColorApplication(final Graphics graphics, final Color color) {
+    super(graphics);
+    this.m_oldColor = graphics.getColor();
+    graphics.setColor(color);
   }
 
   /** {@inheritDoc} */
   @Override
-  protected final void cleanUp(final Graphics g) {
-    g.setColor(this.m_oldColor);
+  protected final void cleanUp(final Graphics graphics) {
+    graphics.setColor(this.m_oldColor);
   }
 }

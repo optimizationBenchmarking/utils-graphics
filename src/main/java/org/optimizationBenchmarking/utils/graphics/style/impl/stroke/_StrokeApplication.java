@@ -15,20 +15,20 @@ final class _StrokeApplication extends StyleApplication {
   /**
    * the style
    *
-   * @param g
+   * @param graphics
    *          the graphic
-   * @param c
+   * @param stroke
    *          the stroke
    */
-  _StrokeApplication(final Graphics g, final Stroke c) {
-    super(g);
+  _StrokeApplication(final Graphics graphics, final Stroke stroke) {
+    super(graphics);
 
     final Graphics2D g2d;
 
-    if (g instanceof Graphics2D) {
-      g2d = ((Graphics2D) g);
+    if (graphics instanceof Graphics2D) {
+      g2d = ((Graphics2D) graphics);
       this.m_oldStroke = g2d.getStroke();
-      g2d.setStroke(c);
+      g2d.setStroke(stroke);
     } else {
       this.m_oldStroke = null;
     }
@@ -36,9 +36,9 @@ final class _StrokeApplication extends StyleApplication {
 
   /** {@inheritDoc} */
   @Override
-  protected final void cleanUp(final Graphics g) {
-    if ((this.m_oldStroke != null) && (g instanceof Graphics2D)) {
-      ((Graphics2D) g).setStroke(this.m_oldStroke);
+  protected final void cleanUp(final Graphics graphics) {
+    if ((this.m_oldStroke != null) && (graphics instanceof Graphics2D)) {
+      ((Graphics2D) graphics).setStroke(this.m_oldStroke);
     }
   }
 }

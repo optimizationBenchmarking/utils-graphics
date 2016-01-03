@@ -4,40 +4,53 @@ import java.awt.Graphics;
 
 import org.optimizationBenchmarking.utils.IScope;
 
-/** application of a style */
-public class StyleApplication implements IScope {
+/**
+ * A scoped application of a style. In their constructor, sub-classes will
+ * setup the provided {@link java.awt.Graphics} with their style-specific
+ * settings after storing the corresponding current setup. In the
+ * {@link #cleanUp(Graphics)} method, they restore of saved state.
+ */
+public abstract class StyleApplication implements IScope {
 
   /** the graphic used */
-  private final Graphics m_g;
+  private final Graphics m_graphics;
+
+  /** has the {@link #close()} method already been called? */
+  private boolean m_closed;
 
   /**
    * the style
    *
-   * @param g
-   *          the graphic
+   * @param graphics
+   *          the graphics
    */
-  protected StyleApplication(final Graphics g) {
+  protected StyleApplication(final Graphics graphics) {
     super();
-    if (g == null) {
+    if (graphics == null) {
       throw new IllegalArgumentException(//
-          "The graphic cannot be null."); //$NON-NLS-1$
+          "The graphics cannot be null."); //$NON-NLS-1$
     }
-    this.m_g = g;
+    this.m_graphics = graphics;
   }
 
   /**
    * clean up the graphic object
    *
-   * @param g
-   *          the graphic
+   * @param graphics
+   *          the graphics
    */
-  protected void cleanUp(final Graphics g) {
-    //
+  protected void cleanUp(final Graphics graphics) {
+    // nothing
   }
 
   /** {@inheritDoc} */
   @Override
   public final void close() {
-    this.cleanUp(this.m_g);
+    final boolean done;
+    done = this.m_closed;
+    this.m_closed = true;
+    if (!done) {
+      this.cleanUp(this.m_graphics);
+    }
   }
 }

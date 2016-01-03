@@ -14,20 +14,20 @@ final class _FontApplication extends StyleApplication {
   /**
    * the style
    *
-   * @param g
+   * @param graphics
    *          the graphic
-   * @param c
+   * @param font
    *          the font
    */
-  _FontApplication(final Graphics g, final Font c) {
-    super(g);
-    this.m_oldFont = g.getFont();
-    g.setFont(c);
+  _FontApplication(final Graphics graphics, final Font font) {
+    super(graphics);
+    this.m_oldFont = graphics.getFont();
+    graphics.setFont(font);
   }
 
   /** {@inheritDoc} */
   @Override
-  protected final void cleanUp(final Graphics g) {
-    g.setFont(this.m_oldFont);
+  protected final void cleanUp(final Graphics graphics) {
+    graphics.setFont(this.m_oldFont);
   }
 }

@@ -83,8 +83,8 @@ public class ColorStyle extends Color implements IColorStyle {
 
   /** {@inheritDoc} */
   @Override
-  public final StyleApplication applyTo(final Graphics g) {
-    return new _ColorApplication(g, this);
+  public final StyleApplication applyTo(final Graphics graphics) {
+    return new _ColorApplication(graphics, this);
   }
 
   /** {@inheritDoc} */

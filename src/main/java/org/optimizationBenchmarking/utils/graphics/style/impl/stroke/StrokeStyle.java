@@ -105,8 +105,8 @@ public final class StrokeStyle extends BasicStroke
 
   /** {@inheritDoc} */
   @Override
-  public final StyleApplication applyTo(final Graphics g) {
-    return new _StrokeApplication(g, this);
+  public final StyleApplication applyTo(final Graphics graphics) {
+    return new _StrokeApplication(graphics, this);
   }
 
   /** {@inheritDoc} */
