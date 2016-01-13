@@ -116,21 +116,8 @@ public final class Styles implements IStyles {
     return this.m_def.m_strokes.get(index);
   }
 
-  /**
-   * Obtain the color of a given name. If {@code allocateIfUndefined} is
-   * {@code true} and no color is defined for the given name yet, then one
-   * will be allocated. If {@code allocateIfUndefined} is {@code false} and
-   * no color is defined for the given name yet, {@code null} will be
-   * returned.
-   *
-   * @param name
-   *          the name
-   * @param allocateIfUndefined
-   *          should the color be allocated if it is still undefined?
-   * @return the color for the given name, or {@code null} if none was
-   *         allocated for the name and {@code allocateIfUndefined} is
-   *         {@code false}
-   */
+  /** {@inheritDoc} */
+  @Override
   @SuppressWarnings({ "rawtypes", "unchecked" })
   public synchronized final IColorStyle getColor(final String name,
       final boolean allocateIfUndefined) {
@@ -173,21 +160,8 @@ public final class Styles implements IStyles {
     return null;
   }
 
-  /**
-   * Obtain the font of a given name. If {@code allocateIfUndefined} is
-   * {@code true} and no font is defined for the given name yet, then one
-   * will be allocated. If {@code allocateIfUndefined} is {@code false} and
-   * no font is defined for the given name yet, {@code null} will be
-   * returned.
-   *
-   * @param name
-   *          the name
-   * @param allocateIfUndefined
-   *          should the font be allocated if it is still undefined?
-   * @return the font for the given name, or {@code null} if none was
-   *         allocated for the name and {@code allocateIfUndefined} is
-   *         {@code false}
-   */
+  /** {@inheritDoc} */
+  @Override
   @SuppressWarnings({ "rawtypes", "unchecked" })
   public synchronized final IFontStyle getFont(final String name,
       final boolean allocateIfUndefined) {
@@ -230,21 +204,8 @@ public final class Styles implements IStyles {
     return null;
   }
 
-  /**
-   * Obtain the stroke of a given name. If {@code allocateIfUndefined} is
-   * {@code true} and no stroke is defined for the given name yet, then one
-   * will be allocated. If {@code allocateIfUndefined} is {@code false} and
-   * no stroke is defined for the given name yet, {@code null} will be
-   * returned.
-   *
-   * @param name
-   *          the name
-   * @param allocateIfUndefined
-   *          should the stroke be allocated if it is still undefined?
-   * @return the stroke for the given name, or {@code null} if none was
-   *         allocated for the name and {@code allocateIfUndefined} is
-   *         {@code false}
-   */
+  /** {@inheritDoc} */
+  @Override
   @SuppressWarnings({ "rawtypes", "unchecked" })
   public synchronized final IStrokeStyle getStroke(final String name,
       final boolean allocateIfUndefined) {
