@@ -1,6 +1,7 @@
 package test.junit.org.optimizationBenchmarking.utils.graphics.graphic;
 
 import org.junit.Ignore;
+import org.optimizationBenchmarking.utils.graphics.graphic.spec.IGraphicDriver;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultColorPalette;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.DefaultGrayPalette;
 import org.optimizationBenchmarking.utils.graphics.style.impl.color.JavaDefaultColorPalette;
@@ -16,9 +17,14 @@ import shared.junit.org.optimizationBenchmarking.utils.graphics.graphic.Abstract
 @Ignore
 public abstract class GraphicDriverTest extends AbstractGraphicDriverTest {
 
-  /** create the graphic driver test */
-  protected GraphicDriverTest() {
-    super();
+  /**
+   * create the graphic driver test
+   *
+   * @param driver
+   *          the graphic driver
+   */
+  protected GraphicDriverTest(final IGraphicDriver driver) {
+    super(driver);
   }
 
   /** {@inheritDoc} */
