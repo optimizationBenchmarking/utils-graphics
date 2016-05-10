@@ -4,7 +4,7 @@
 
 	<groupId>org.optimizationBenchmarking</groupId>
 	<artifactId>utils-graphics</artifactId>
-	<version>0.8.5-SNAPSHOT</version>
+	<version>0.8.5</version>
 	<packaging>jar</packaging>
 	<name>Graphics Utilities</name>
 	<description>This project holds the graphics utilities used in the projects of the Optimization Benchmarking Tool Suite.</description>
