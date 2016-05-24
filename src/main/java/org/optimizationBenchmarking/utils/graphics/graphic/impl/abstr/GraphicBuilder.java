@@ -60,48 +60,53 @@ public final class GraphicBuilder
   /** {@inheritDoc} */
   @Override
   public final GraphicBuilder setSize(final PhysicalDimension size) {
-    final double w, h;
-    final ELength sizeUnit;
-    double r;
-
-    if ((size == null) || ((h = size.getHeight()) <= 0d)
-        || ((w = size.getWidth()) <= 0d)) {
-      throw new IllegalArgumentException(//
-          "Invalid graphic size: " + size);//$NON-NLS-1$
-    }
-
-    sizeUnit = size.getUnit();
-    r = sizeUnit.convertToAsDouble(w, ELength.M);
-    if ((r <= GraphicBuilder.MIN_SIZE_M)
-        || (r >= GraphicBuilder.MAX_SIZE_M)) {
-      throw new IllegalArgumentException(//
-          "A graphic width cannot be smaller than 0.1mm or larger than 10m, but "//$NON-NLS-1$
-              + w + " specified in " + sizeUnit + //$NON-NLS-1$
-              " equals " + r + //$NON-NLS-1$
-              "m.");//$NON-NLS-1$
-    }
-
-    r = sizeUnit.convertToAsDouble(h, ELength.M);
-    if ((r <= GraphicBuilder.MIN_SIZE_M)
-        || (r >= GraphicBuilder.MAX_SIZE_M)) {
-      throw new IllegalArgumentException(//
-          "A graphic height cannot be smaller than 0.1mm or larger than 10m, but "//$NON-NLS-1$
-              + h + " specified in " + sizeUnit + //$NON-NLS-1$
-              " equals " + r + //$NON-NLS-1$
-              "m.");//$NON-NLS-1$
-    }
-
+    GraphicBuilder._checkSize(size);
     this.m_size = size;
     return this;
   }
 
-  /** {@inheritDoc} */
-  @Override
-  protected void validate() {
-    super.validate();
-    if (this.m_size == null) {
+  /**
+   * Check a size for a graphic.
+   *
+   * @param size
+   *          the physical size to check
+   */
+  static final void _checkSize(final PhysicalDimension size) {
+    final double width, height;
+    final ELength sizeUnit;
+    double inMeters;
+
+    if (size == null) {
       throw new IllegalArgumentException(//
-          "The size of the graphic must be set."); //$NON-NLS-1$
+          "Size of graphic cannot be set to null.");//$NON-NLS-1$
+    }
+
+    if (((height = size.getHeight()) <= 0d)
+        || ((width = size.getWidth()) <= 0d)) {
+      throw new IllegalArgumentException(//
+          "Invalid graphic size: " + size + //$NON-NLS-1$
+              " - width or height cannot be zero or negative.");//$NON-NLS-1$
+    }
+
+    sizeUnit = size.getUnit();
+    inMeters = sizeUnit.convertToAsDouble(width, ELength.M);
+    if ((inMeters <= GraphicBuilder.MIN_SIZE_M)
+        || (inMeters >= GraphicBuilder.MAX_SIZE_M)) {
+      throw new IllegalArgumentException(//
+          "A graphic width cannot be smaller than 0.1mm or larger than 10m, but "//$NON-NLS-1$
+              + width + " specified in " + sizeUnit + //$NON-NLS-1$
+              " equals " + inMeters + //$NON-NLS-1$
+              "m.");//$NON-NLS-1$
+    }
+
+    inMeters = sizeUnit.convertToAsDouble(height, ELength.M);
+    if ((inMeters <= GraphicBuilder.MIN_SIZE_M)
+        || (inMeters >= GraphicBuilder.MAX_SIZE_M)) {
+      throw new IllegalArgumentException(//
+          "A graphic height cannot be smaller than 0.1mm or larger than 10m, but "//$NON-NLS-1$
+              + height + " specified in " + sizeUnit + //$NON-NLS-1$
+              " equals " + inMeters + //$NON-NLS-1$
+              "m.");//$NON-NLS-1$
     }
   }
 
@@ -167,7 +172,7 @@ public final class GraphicBuilder
   /** {@inheritDoc} */
   @Override
   public final Graphic create() {
-    this.validate();
+    GraphicBuilder._checkSize(this.m_size);
     return ((AbstractGraphicDriver) (this.m_config.getGraphicDriver()))
         .createGraphic(this);
   }

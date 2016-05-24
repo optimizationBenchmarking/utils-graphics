@@ -138,7 +138,6 @@ public final class FreeHEPEMFGraphicDriver extends AbstractGraphicDriver {
   @SuppressWarnings("resource")
   @Override
   protected final Graphic createGraphic(final GraphicBuilder builder) {
-
     final org.freehep.util.UserProperties up;
     final _FreeHEPEMFGraphic g;
     final Dimension dim;
