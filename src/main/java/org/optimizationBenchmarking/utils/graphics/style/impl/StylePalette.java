@@ -25,7 +25,7 @@ public class StylePalette<T extends IStyle> extends ArrayListView<T>
    *          the palette data
    */
   protected StylePalette(final T[] data) {
-    super(data);
+    super(data, false);
     if (data.length < 1) {
       throw new IllegalArgumentException(
           "A palette must have at least one element, but only " //$NON-NLS-1$

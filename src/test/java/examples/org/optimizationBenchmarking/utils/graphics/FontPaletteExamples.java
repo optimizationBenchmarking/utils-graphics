@@ -17,7 +17,8 @@ public class FontPaletteExamples {
 
   /** the palettes to print */
   public static final ArrayListView<IFontPalette> PALETTES = new ArrayListView<>(
-      new IFontPalette[] { ExampleFontPalette.EXAMPLE_FONT_PALETTE });
+      new IFontPalette[] { ExampleFontPalette.EXAMPLE_FONT_PALETTE },
+      false);
 
   /**
    * run the examples

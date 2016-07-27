@@ -222,7 +222,7 @@ public enum EGraphicFormat implements IGraphicFormat {
 
   /** The set of graphic formats. */
   public static final ArraySetView<EGraphicFormat> INSTANCES = //
-  new ArraySetView<>(EGraphicFormat.values());
+  new ArraySetView<>(EGraphicFormat.values(), false);
 
   /** is this a vector graphic format? */
   private final boolean m_isVector;

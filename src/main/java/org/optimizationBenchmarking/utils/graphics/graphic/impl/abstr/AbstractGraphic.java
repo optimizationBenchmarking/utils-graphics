@@ -262,7 +262,8 @@ public abstract class AbstractGraphic extends Graphic {
         if (this.m_path != null) {
           v = new ArrayListView<>(
               new ImmutableAssociation[] { new ImmutableAssociation(
-                  this.m_path, this.getGraphicFormat()) });
+                  this.m_path, this.getGraphicFormat()) },
+              false);
         } else {
           v = ArraySetView.EMPTY_SET_VIEW;
         }

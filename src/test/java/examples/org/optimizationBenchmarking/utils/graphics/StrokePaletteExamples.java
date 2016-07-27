@@ -19,7 +19,8 @@ public class StrokePaletteExamples {
   /** the palettes to print */
   public static final ArrayListView<IStrokePalette> PALETTES = new ArrayListView<>(
       new IStrokePalette[] { //
-          DefaultStrokePalette.getInstance() });
+          DefaultStrokePalette.getInstance() },
+      false);
 
   /**
    * run the examples

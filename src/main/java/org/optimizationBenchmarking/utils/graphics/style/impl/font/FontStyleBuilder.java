@@ -670,7 +670,8 @@ public final class FontStyleBuilder
     return new FontStyle(((fam2 != null) ? fam2 : fam1), this.m_size,
         this.m_italic, this.m_bold, this.m_underlined,
         this.__makeFont(font),
-        new ArrayListView<>(choices.toArray(new String[choices.size()])),
+        new ArrayListView<>(choices.toArray(new String[choices.size()]),
+            false),
         resource, type, this.m_id);
   }
 

@@ -25,7 +25,8 @@ public class ColorPaletteExamples {
           DefaultColorPalette.getInstance(),
           JavaDefaultColorPalette.getInstance(),
           DefaultGrayPalette.getInstance(),
-          HTML401ColorPalette.getInstance() });
+          HTML401ColorPalette.getInstance() },
+      false);
 
   /**
    * run the examples
