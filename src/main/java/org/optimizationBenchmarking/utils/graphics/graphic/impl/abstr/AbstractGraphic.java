@@ -228,7 +228,7 @@ public abstract class AbstractGraphic extends Graphic {
    * @return the name
    */
   private final String __name() {
-    return (((((((((TextUtils.className(this.getClass())) + //
+    return (((((((((TextUtils.className(this)) + //
         '#') + System.identityHashCode(this)) + ' ') + '(') + //
         this.getGraphicFormat()) + '@') + this.m_path) + ')');
   }

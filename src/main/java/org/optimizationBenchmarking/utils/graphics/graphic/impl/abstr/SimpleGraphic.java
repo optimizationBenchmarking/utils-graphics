@@ -102,7 +102,7 @@ public abstract class SimpleGraphic extends AbstractGraphic {
 
     if ((width <= 0) || (height <= 0)) {
       throw new IllegalArgumentException(((((((//
-      TextUtils.className(this.getClass())
+      TextUtils.className(this)
           + " must have non-empty dimensions, but has (") + width) //$NON-NLS-1$
           + ',') + ' ') + height) + ')') + '.');
     }
@@ -609,7 +609,7 @@ public abstract class SimpleGraphic extends AbstractGraphic {
       @Override
       public final String getIDstring() {
 
-        return (TextUtils.className(SimpleGraphic.this.getClass()) + //
+        return (TextUtils.className(SimpleGraphic.this) + //
             System.identityHashCode(SimpleGraphic.this) + //
             "Device"); //$NON-NLS-1$
       }
